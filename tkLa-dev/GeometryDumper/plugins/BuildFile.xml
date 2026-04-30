@@ -1,0 +1,6 @@
+<use name="FWCore/Framework"/>
+<use name="FWCore/ParameterSet"/>
+<use name="Geometry/TrackerGeometryBuilder"/>
+<use name="Geometry/Records"/>
+<use name="DataFormats/DetId"/>
+<flags EDM_PLUGIN="1"/>
