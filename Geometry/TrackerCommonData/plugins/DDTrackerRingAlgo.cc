@@ -208,6 +208,9 @@ void DDTrackerRingAlgo::execute(DDCompactView& cpv) {
         phiRot = DDrot(DDName(phiRotstr, idNameSpace), theta, phix, theta, phiy, 0., 0.);
       }
       phiRotMatrix = phiRot.matrix();
+    } else {
+      // Explicitly reset to identity if phi is 0
+      phiRotMatrix = DDRotationMatrix();
     }
 
     // globalRot def

@@ -84,12 +84,17 @@ namespace {
                                 << "\t90., " << convertRadToDeg(phix_ownaxis) << ", 90.,"
                                 << convertRadToDeg(phiy_ownaxis) << ", 0., 0.";
         phiOwnAxisRotMatrix = makeRotation3D(theta, phix_ownaxis, theta, phiy_ownaxis, 0., 0.);
+      } else {
+        // Explicitly reset to identity if yaw is 0
+        phiOwnAxisRotMatrix = Rotation3D();
       }
       if (phix != 0.) {
         edm::LogVerbatim("TrackerGeom") << "DDTrackerIrregularRingAlgo test: Creating a new rotation: "
                                         << "\t90., " << convertRadToDeg(phix) << ", 90.," << convertRadToDeg(phiy)
                                         << ", 0., 0.";
         phiRotMatrix = makeRotation3D(theta, phix, theta, phiy, 0., 0.);
+      } else {
+        phiRotMatrix = Rotation3D();
       }
 
       globalRotMatrix = phiOwnAxisRotMatrix * phiRotMatrix * tiltMatrix;

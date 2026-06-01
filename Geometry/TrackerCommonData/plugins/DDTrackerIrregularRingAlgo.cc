@@ -197,6 +197,9 @@ void DDTrackerIrregularRingAlgo::execute(DDCompactView& cpv) {
         phiOwnAxisRot = DDrot(DDName(phiOwnAxisRotstr, idNameSpace), theta, phix_ownaxis, theta, phiy_ownaxis, 0., 0.);
       }
       phiOwnAxisRotMatrix = phiOwnAxisRot.matrix();
+    } else {
+      // Explicitly reset to identity if yaw is 0
+      phiOwnAxisRotMatrix = DDRotationMatrix();
     }
     if (phideg != 0) {
       string phiRotstr = rotstr + "Phi" + to_string(phideg * 10.);
@@ -208,10 +211,14 @@ void DDTrackerIrregularRingAlgo::execute(DDCompactView& cpv) {
         phiRot = DDrot(DDName(phiRotstr, idNameSpace), theta, phix, theta, phiy, 0., 0.);
       }
       phiRotMatrix = phiRot.matrix();
+    } else {
+      // Explicitly reset to identity if phi is 0
+      phiRotMatrix = DDRotationMatrix();
     }
 
     // globalRot def
-    string globalRotstr = rotstr + "Phi" + to_string(phideg * 10.) + "Tilt" + to_string(convertRadToDeg(tiltAngle));
+    string globalRotstr = rotstr + "Phi" + to_string(phideg * 10.) + "Yaw" + to_string(phideg_ownaxis * 10.) + "Tilt" +
+                          to_string(convertRadToDeg(tiltAngle));
     if (isZPlus) {
       globalRotstr += "ZPlus";
       if (isFlipped) {

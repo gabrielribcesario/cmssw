@@ -90,6 +90,9 @@ namespace {
                                         << "\t90., " << convertRadToDeg(phix) << ", 90.," << convertRadToDeg(phiy)
                                         << ", 0., 0.";
         phiRotMatrix = makeRotation3D(theta, phix, theta, phiy, 0., 0.);
+      } else {
+        // Explicitly reset to identity if yaw is 0
+        phiRotMatrix = Rotation3D();
       }
 
       globalRotMatrix = phiRotMatrix * tiltMatrix;
