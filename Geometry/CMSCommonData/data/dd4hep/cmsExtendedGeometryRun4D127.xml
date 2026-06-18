@@ -29,12 +29,12 @@
     <Include ref='Geometry/TrackerCommonData/data/PhaseII/Tracker_DD4hep_compatible_2021_02/pixfwd.xml'/>
     <Include ref='Geometry/TrackerCommonData/data/PhaseII/Tracker_DD4hep_compatible_OT800_IT615_2022_10/pixbar.xml'/>
     <Include ref='Geometry/TrackerCommonData/data/trackermaterial.xml'/>
-    <Include ref='Geometry/TrackerCommonData/data/PhaseII/Tracker_DD4hep_compatible_OT806_IT742_2026_04/v1/tracker.xml'/>
+    <Include ref='Geometry/TrackerCommonData/data/PhaseII/Tracker_DD4hep_compatible_OT807_IT744_2026_04/v1/tracker.xml'/>
     <Include ref='Geometry/TrackerCommonData/data/PhaseII/OuterTracker616_2020_04/otst.xml'/>
-    <Include ref='Geometry/TrackerCommonData/data/PhaseII/Tracker_DD4hep_compatible_OT806_IT742_2026_04/v1/pixel.xml'/>
+    <Include ref='Geometry/TrackerCommonData/data/PhaseII/Tracker_DD4hep_compatible_OT806_IT744_2026_04/v1/pixel.xml'/>
     <Include ref='Geometry/TrackerCommonData/data/PhaseII/TiltedTracker404/trackerbar.xml'/>
     <Include ref='Geometry/TrackerCommonData/data/PhaseII/TiltedTracker404/trackerfwd.xml'/>
-    <Include ref='Geometry/TrackerCommonData/data/PhaseII/Tracker_DD4hep_compatible_2021_02/trackerStructureTopology.xml'/>
+    <Include ref='Geometry/TrackerCommonData/data/PhaseII/Tracker_DD4hep_compatible_2026_06/trackerStructureTopology.xml'/>
     <Include ref='Geometry/TrackerCommonData/data/PhaseII/Tracker_DD4hep_compatible_OT806_IT742_2026_04/v1/pixelStructureTopology.xml'/>
     <Include ref='Geometry/TrackerSimData/data/PhaseII/Tracker_DD4hep_compatible_2021_02/trackersens.xml'/>
     <Include ref='Geometry/TrackerSimData/data/PhaseII/Tracker_DD4hep_compatible_OT806_IT742_2026_04/pixelsens.xml'/>
