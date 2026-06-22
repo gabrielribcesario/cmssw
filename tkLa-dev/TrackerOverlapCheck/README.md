@@ -63,13 +63,33 @@ gGeoManager->CheckOverlaps(0.01);
 gGeoManager->PrintOverlaps();
 ```
 
+For an isolated 3D view of just the offending volumes, use the `overlap_check.C`
+macro in `../macro/`:
+
+```bash
+root -l '../macro/overlap_check.C("Tracker.gdml", 0.01, false)'
+```
+
+By default it runs ROOT's mesh-based `CheckOverlaps`, which covers both overlaps
+and extrusions. Pass an optional fourth argument of the form `"s[n samples]"`
+(e.g. `"s50000"`) to switch to a sampling-based check with that many sample
+points per volume instead:
+
+```bash
+root -l '../macro/overlap_check.C("Tracker.gdml", 0.01, false, "s50000")'
+```
+
+> **Note:** The sampling-based check skips extrusions, so it will miss
+> mother/daughter (container) overlaps that the default mesh-based check
+> catches.
+
 ## Output Files
 
 The base name of output files is `tracker<geometry>DDD`:
 
 * `Geometry_tracker<geometry>DDD.txt` — Full geometry hierarchy and volume definitions
 * `Materials_tracker<geometry>DDD.txt` — Material composition and properties
-* `Overlaps_tracker<geometry>DDD.txt` — **Overlap report** (key validation output)
+* `Overlaps_tracker<geometry>DDD.txt` — Overlap report
 * `Tracker.gdml`, `Phase2OTBarrel.gdml`, `Phase2OTForward.gdml`, `Phase2PixelBarrel.gdml`, `Phase2PixelEndcap.gdml` — one GDML file per matched tracker envelope physical volume (only if `gdml=1`)
 
 ## Known Issues
@@ -77,8 +97,8 @@ The base name of output files is `tracker<geometry>DDD`:
 ### Fatal exception when running with `gdml=1` a second time
 
 `G4GDMLWrite::Write()` raises a fatal exception and aborts the process if the output
-file already exists — it will not overwrite it. Delete all GDML files in `pwd` before
-re-running with `gdml=1`:
+file already exists — it will not overwrite it. Delete all GDML files in the working
+directory before re-running with `gdml=1`:
 
 ```bash
 rm -f *.gdml
@@ -87,8 +107,15 @@ cmsRun g4OverlapCheckRun4Tracker_cfg.py gdml=1
 
 ## Related Scripts
 
-| Script | Scope | Format |
-|--------|-------|--------|
-| `g4OverlapCheckRun4DDD_cfg.py` | Full detector | DDD |
-| `g4OverlapCheckRun4DD4hep_cfg.py` | Full detector | DD4hep |
-| `g4OverlapCheckRun4Tracker_cfg.py` | Tracker | DDD |
+`g4OverlapCheckRun4Tracker_cfg.py` is adapted from the full-detector overlap
+checkers in `SimG4Core/PrintGeomInfo/test/python/`, reusing the same
+`checkOverlap`/`G4CheckOverlap` PSet and output-file conventions, but scoped
+down to the tracker envelope G4Regions (see [Tracker Envelopes](#tracker-envelopes))
+instead of checking the whole detector. It also adds the `resolution` and
+`gdml` options, which the originals don't have.
+
+| Script | Package | Scope | Format |
+|--------|---------|-------|--------|
+| `g4OverlapCheckRun4DDD_cfg.py` | `SimG4Core/PrintGeomInfo/test/python/` | Full detector | DDD |
+| `g4OverlapCheckRun4DD4hep_cfg.py` | `SimG4Core/PrintGeomInfo/test/python/` | Full detector | DD4hep |
+| `g4OverlapCheckRun4Tracker_cfg.py` | `tkLa-dev/TrackerOverlapCheck/python/` | Tracker | DDD |
