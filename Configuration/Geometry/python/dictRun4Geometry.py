@@ -277,7 +277,7 @@ trackerDict = {
         1 : [
             'Geometry/TrackerCommonData/data/PhaseII/TFPXTEPXReordered/trackerParameters.xml',
             'Geometry/TrackerCommonData/data/pixfwdCommon.xml',
-            'Geometry/TrackerCommonData/data/PhaseII/Tracker_DD4hep_compatible_2021_02/pixfwd.xml',
+            'Geometry/TrackerCommonData/data/PhaseII/Tracker_DD4hep_compatible_2026_06/pixfwd.xml',
             'Geometry/TrackerCommonData/data/PhaseII/Tracker_DD4hep_compatible_OT800_IT615_2022_10/pixbar.xml',
             'Geometry/TrackerCommonData/data/trackermaterial.xml',
             'Geometry/TrackerCommonData/data/PhaseII/Tracker_DD4hep_compatible_OT807_IT744_2026_06/v1/tracker.xml',
