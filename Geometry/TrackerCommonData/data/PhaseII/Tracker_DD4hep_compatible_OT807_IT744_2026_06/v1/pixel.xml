@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <!--
 ============= XML GENERATION METADATA HEADER =============
-tkLayout revision: overlaps-fix-3830-31ce28fa
+tkLayout revision: overlaps-fix-3834-d0d1083f
 tkLayout developed by https://github.com/tkLayout/tkLayout/graphs/contributors .
 Gabriel (garibeir on cmxpc1.dyndns.cern.ch) responsible for cross-check of the automatically-generated description below.
-generation date: 2026-07-01.13:05:15
-note: see OT807_IT744_2026_07_01.cfg for full config files
+generation date: 2026-07-02.02:12:29
+note: see OT807_IT744_2026_07_02.cfg for full config files
 =========== END XML GENERATION METADATA HEADER ===========
 -->
 <DDDefinition xmlns="http://www.cern.ch/cms/DDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cern.ch/cms/DDL ../../../DetectorDescription/Schema/DDLSchema.xsd">
@@ -2080,325 +2080,6 @@ note: see OT807_IT744_2026_07_01.cfg for full config files
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR256Z2697" density="1.67163*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="1">
-<rMaterial name="tracker:tkLayout_CFRP_EPX"/>
-</MaterialFraction>
-</CompositeMaterial>
-<CompositeMaterial name="servicecompositeR62Z2698" density="2.48384*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.054293">
-<rMaterial name="tracker:tkLayout_Airex"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.313229">
-<rMaterial name="tracker:tkLayout_CFRP_EPX"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.0707897">
-<rMaterial name="tracker:tkLayout_CO2"/>
-</MaterialFraction>
-<MaterialFraction fraction="1.87652e-05">
-<rMaterial name="tracker:tkLayout_CO2_fake1000factor"/>
-</MaterialFraction>
-<MaterialFraction fraction="6.72544e-05">
-<rMaterial name="tracker:tkLayout_FPIX_Al"/>
-</MaterialFraction>
-<MaterialFraction fraction="4.84141e-06">
-<rMaterial name="tracker:tkLayout_FPIX_Al_HV"/>
-</MaterialFraction>
-<MaterialFraction fraction="1.08838e-05">
-<rMaterial name="tracker:tkLayout_FPIX_Cu"/>
-</MaterialFraction>
-<MaterialFraction fraction="4.09081e-05">
-<rMaterial name="tracker:tkLayout_FPIX_PE"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.442696">
-<rMaterial name="tracker:tkLayout_PCB_panel_EPX"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.118818">
-<rMaterial name="tracker:tkLayout_StainlessSteel"/>
-</MaterialFraction>
-<MaterialFraction fraction="3.17882e-05">
-<rMaterial name="tracker:tkLayout_StainlessSteel_fake1000factor"/>
-</MaterialFraction>
-</CompositeMaterial>
-<CompositeMaterial name="servicecompositeR108Z2698" density="2.48371*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.0542957">
-<rMaterial name="tracker:tkLayout_Airex"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.313244">
-<rMaterial name="tracker:tkLayout_CFRP_EPX"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.0707933">
-<rMaterial name="tracker:tkLayout_CO2"/>
-</MaterialFraction>
-<MaterialFraction fraction="1.2768e-05">
-<rMaterial name="tracker:tkLayout_CO2_fake1000factor"/>
-</MaterialFraction>
-<MaterialFraction fraction="4.51477e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R1_4chipmodules"/>
-</MaterialFraction>
-<MaterialFraction fraction="4.57605e-05">
-<rMaterial name="tracker:tkLayout_FPIX_Al"/>
-</MaterialFraction>
-<MaterialFraction fraction="3.29415e-06">
-<rMaterial name="tracker:tkLayout_FPIX_Al_HV"/>
-</MaterialFraction>
-<MaterialFraction fraction="7.40544e-06">
-<rMaterial name="tracker:tkLayout_FPIX_Cu"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.78343e-05">
-<rMaterial name="tracker:tkLayout_FPIX_PE"/>
-</MaterialFraction>
-<MaterialFraction fraction="3.88147e-07">
-<rMaterial name="tracker:tkLayout_Kapton"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.442719">
-<rMaterial name="tracker:tkLayout_PCB_panel_EPX"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.118824">
-<rMaterial name="tracker:tkLayout_StainlessSteel"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.1629e-05">
-<rMaterial name="tracker:tkLayout_StainlessSteel_fake1000factor"/>
-</MaterialFraction>
-</CompositeMaterial>
-<CompositeMaterial name="servicecompositeR142Z2698" density="2.48368*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.0542963">
-<rMaterial name="tracker:tkLayout_Airex"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.313248">
-<rMaterial name="tracker:tkLayout_CFRP_EPX"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.0707941">
-<rMaterial name="tracker:tkLayout_CO2"/>
-</MaterialFraction>
-<MaterialFraction fraction="1.11464e-05">
-<rMaterial name="tracker:tkLayout_CO2_fake1000factor"/>
-</MaterialFraction>
-<MaterialFraction fraction="3.94136e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R1_4chipmodules"/>
-</MaterialFraction>
-<MaterialFraction fraction="3.84282e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R2_4chipmodules"/>
-</MaterialFraction>
-<MaterialFraction fraction="3.99486e-05">
-<rMaterial name="tracker:tkLayout_FPIX_Al"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.87576e-06">
-<rMaterial name="tracker:tkLayout_FPIX_Al_HV"/>
-</MaterialFraction>
-<MaterialFraction fraction="6.4649e-06">
-<rMaterial name="tracker:tkLayout_FPIX_Cu"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.42991e-05">
-<rMaterial name="tracker:tkLayout_FPIX_PE"/>
-</MaterialFraction>
-<MaterialFraction fraction="6.69228e-07">
-<rMaterial name="tracker:tkLayout_Kapton"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.442724">
-<rMaterial name="tracker:tkLayout_PCB_panel_EPX"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.118825">
-<rMaterial name="tracker:tkLayout_StainlessSteel"/>
-</MaterialFraction>
-<MaterialFraction fraction="1.8882e-05">
-<rMaterial name="tracker:tkLayout_StainlessSteel_fake1000factor"/>
-</MaterialFraction>
-</CompositeMaterial>
-<CompositeMaterial name="servicecompositeR144Z2698" density="2.48365*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.054297">
-<rMaterial name="tracker:tkLayout_Airex"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.313252">
-<rMaterial name="tracker:tkLayout_CFRP_EPX"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.0707949">
-<rMaterial name="tracker:tkLayout_CO2"/>
-</MaterialFraction>
-<MaterialFraction fraction="9.90449e-06">
-<rMaterial name="tracker:tkLayout_CO2_fake1000factor"/>
-</MaterialFraction>
-<MaterialFraction fraction="3.50223e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R1_4chipmodules"/>
-</MaterialFraction>
-<MaterialFraction fraction="3.67734e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R2_4chipmodules"/>
-</MaterialFraction>
-<MaterialFraction fraction="3.54977e-05">
-<rMaterial name="tracker:tkLayout_FPIX_Al"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.55536e-06">
-<rMaterial name="tracker:tkLayout_FPIX_Al_HV"/>
-</MaterialFraction>
-<MaterialFraction fraction="5.74461e-06">
-<rMaterial name="tracker:tkLayout_FPIX_Cu"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.15918e-05">
-<rMaterial name="tracker:tkLayout_FPIX_PE"/>
-</MaterialFraction>
-<MaterialFraction fraction="6.17248e-07">
-<rMaterial name="tracker:tkLayout_Kapton"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.442729">
-<rMaterial name="tracker:tkLayout_PCB_panel_EPX"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.118827">
-<rMaterial name="tracker:tkLayout_StainlessSteel"/>
-</MaterialFraction>
-<MaterialFraction fraction="1.67782e-05">
-<rMaterial name="tracker:tkLayout_StainlessSteel_fake1000factor"/>
-</MaterialFraction>
-</CompositeMaterial>
-<CompositeMaterial name="servicecompositeR179Z2698" density="2.48361*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.0542978">
-<rMaterial name="tracker:tkLayout_Airex"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.313257">
-<rMaterial name="tracker:tkLayout_CFRP_EPX"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.070796">
-<rMaterial name="tracker:tkLayout_CO2"/>
-</MaterialFraction>
-<MaterialFraction fraction="8.14114e-06">
-<rMaterial name="tracker:tkLayout_CO2_fake1000factor"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.87871e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R1_4chipmodules"/>
-</MaterialFraction>
-<MaterialFraction fraction="3.02264e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R2_4chipmodules"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.59084e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R3"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.91779e-05">
-<rMaterial name="tracker:tkLayout_FPIX_Al"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.10041e-06">
-<rMaterial name="tracker:tkLayout_FPIX_Al_HV"/>
-</MaterialFraction>
-<MaterialFraction fraction="4.72186e-06">
-<rMaterial name="tracker:tkLayout_FPIX_Cu"/>
-</MaterialFraction>
-<MaterialFraction fraction="1.77477e-05">
-<rMaterial name="tracker:tkLayout_FPIX_PE"/>
-</MaterialFraction>
-<MaterialFraction fraction="7.30098e-07">
-<rMaterial name="tracker:tkLayout_Kapton"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.442736">
-<rMaterial name="tracker:tkLayout_PCB_panel_EPX"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.118829">
-<rMaterial name="tracker:tkLayout_StainlessSteel"/>
-</MaterialFraction>
-<MaterialFraction fraction="1.37911e-05">
-<rMaterial name="tracker:tkLayout_StainlessSteel_fake1000factor"/>
-</MaterialFraction>
-</CompositeMaterial>
-<CompositeMaterial name="servicecompositeR214Z2698" density="2.48359*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.0542984">
-<rMaterial name="tracker:tkLayout_Airex"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.31326">
-<rMaterial name="tracker:tkLayout_CFRP_EPX"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.0707967">
-<rMaterial name="tracker:tkLayout_CO2"/>
-</MaterialFraction>
-<MaterialFraction fraction="6.89298e-06">
-<rMaterial name="tracker:tkLayout_CO2_fake1000factor"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.43736e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R1_4chipmodules"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.55923e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R2_4chipmodules"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.19362e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R3"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.68109e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R4"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.47044e-05">
-<rMaterial name="tracker:tkLayout_FPIX_Al"/>
-</MaterialFraction>
-<MaterialFraction fraction="1.77839e-06">
-<rMaterial name="tracker:tkLayout_FPIX_Al_HV"/>
-</MaterialFraction>
-<MaterialFraction fraction="3.99793e-06">
-<rMaterial name="tracker:tkLayout_FPIX_Cu"/>
-</MaterialFraction>
-<MaterialFraction fraction="1.50267e-05">
-<rMaterial name="tracker:tkLayout_FPIX_PE"/>
-</MaterialFraction>
-<MaterialFraction fraction="8.48664e-07">
-<rMaterial name="tracker:tkLayout_Kapton"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.44274">
-<rMaterial name="tracker:tkLayout_PCB_panel_EPX"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.11883">
-<rMaterial name="tracker:tkLayout_StainlessSteel"/>
-</MaterialFraction>
-<MaterialFraction fraction="1.16767e-05">
-<rMaterial name="tracker:tkLayout_StainlessSteel_fake1000factor"/>
-</MaterialFraction>
-</CompositeMaterial>
-<CompositeMaterial name="servicecompositeR250Z2698" density="2.48358*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.0542985">
-<rMaterial name="tracker:tkLayout_Airex"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.313261">
-<rMaterial name="tracker:tkLayout_CFRP_EPX"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.0707969">
-<rMaterial name="tracker:tkLayout_CO2"/>
-</MaterialFraction>
-<MaterialFraction fraction="6.32901e-06">
-<rMaterial name="tracker:tkLayout_CO2_fake1000factor"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.23794e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R1_4chipmodules"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.34984e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R2_4chipmodules"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.01414e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R3"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.46173e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R4"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.68553e-06">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R5"/>
-</MaterialFraction>
-<MaterialFraction fraction="2.26832e-05">
-<rMaterial name="tracker:tkLayout_FPIX_Al"/>
-</MaterialFraction>
-<MaterialFraction fraction="1.63288e-06">
-<rMaterial name="tracker:tkLayout_FPIX_Al_HV"/>
-</MaterialFraction>
-<MaterialFraction fraction="3.67083e-06">
-<rMaterial name="tracker:tkLayout_FPIX_Cu"/>
-</MaterialFraction>
-<MaterialFraction fraction="1.37972e-05">
-<rMaterial name="tracker:tkLayout_FPIX_PE"/>
-</MaterialFraction>
-<MaterialFraction fraction="1.01011e-06">
-<rMaterial name="tracker:tkLayout_Kapton"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.442742">
-<rMaterial name="tracker:tkLayout_PCB_panel_EPX"/>
-</MaterialFraction>
-<MaterialFraction fraction="0.11883">
-<rMaterial name="tracker:tkLayout_StainlessSteel"/>
-</MaterialFraction>
-<MaterialFraction fraction="1.07213e-05">
-<rMaterial name="tracker:tkLayout_StainlessSteel_fake1000factor"/>
-</MaterialFraction>
-</CompositeMaterial>
 <CompositeMaterial name="servicecompositeR169Z272" density="0.151335*g/cm3" method="mixture by weight">
 <MaterialFraction fraction="0.301108">
 <rMaterial name="tracker:tkLayout_Al"/>
@@ -3321,12 +3002,12 @@ note: see OT807_IT744_2026_07_01.cfg for full config files
 <rMaterial name="tracker:tkLayout_CFRP_ITST"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="supportcompositeR172Z916" density="0.811*g/cm3" method="mixture by weight">
+<CompositeMaterial name="supportcompositeR174Z916" density="0.811*g/cm3" method="mixture by weight">
 <MaterialFraction fraction="1">
 <rMaterial name="tracker:tkLayout_CFRP_ITST"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="supportcompositeR170Z237" density="1.622*g/cm3" method="mixture by weight">
+<CompositeMaterial name="supportcompositeR167Z237" density="1.622*g/cm3" method="mixture by weight">
 <MaterialFraction fraction="1">
 <rMaterial name="tracker:tkLayout_CFRP_ITST"/>
 </MaterialFraction>
@@ -9347,37 +9028,37 @@ note: see OT807_IT744_2026_07_01.cfg for full config files
 <rSolid name="pixel:serviceR258Z2708"/>
 <rMaterial name="pixel:servicecompositeR258Z2708"/>
 </LogicalPart>
-<LogicalPart name="serviceR256Z2697" category="unspecified">
-<rSolid name="pixel:serviceR256Z2697"/>
-<rMaterial name="pixel:servicecompositeR256Z2697"/>
+<LogicalPart name="serviceR253Z2697" category="unspecified">
+<rSolid name="pixel:serviceR253Z2697"/>
+<rMaterial name="pixel:servicecompositeR253Z1777"/>
 </LogicalPart>
 <LogicalPart name="serviceR62Z2698" category="unspecified">
 <rSolid name="pixel:serviceR62Z2698"/>
-<rMaterial name="pixel:servicecompositeR62Z2698"/>
+<rMaterial name="pixel:servicecompositeR62Z1778"/>
 </LogicalPart>
 <LogicalPart name="serviceR108Z2698" category="unspecified">
 <rSolid name="pixel:serviceR108Z2698"/>
-<rMaterial name="pixel:servicecompositeR108Z2698"/>
+<rMaterial name="pixel:servicecompositeR108Z1778"/>
 </LogicalPart>
 <LogicalPart name="serviceR142Z2698" category="unspecified">
 <rSolid name="pixel:serviceR142Z2698"/>
-<rMaterial name="pixel:servicecompositeR142Z2698"/>
+<rMaterial name="pixel:servicecompositeR142Z1778"/>
 </LogicalPart>
 <LogicalPart name="serviceR144Z2698" category="unspecified">
 <rSolid name="pixel:serviceR144Z2698"/>
-<rMaterial name="pixel:servicecompositeR144Z2698"/>
+<rMaterial name="pixel:servicecompositeR144Z1778"/>
 </LogicalPart>
 <LogicalPart name="serviceR179Z2698" category="unspecified">
 <rSolid name="pixel:serviceR179Z2698"/>
-<rMaterial name="pixel:servicecompositeR179Z2698"/>
+<rMaterial name="pixel:servicecompositeR179Z1778"/>
 </LogicalPart>
 <LogicalPart name="serviceR214Z2698" category="unspecified">
 <rSolid name="pixel:serviceR214Z2698"/>
-<rMaterial name="pixel:servicecompositeR214Z2698"/>
+<rMaterial name="pixel:servicecompositeR214Z1778"/>
 </LogicalPart>
 <LogicalPart name="serviceR250Z2698" category="unspecified">
 <rSolid name="pixel:serviceR250Z2698"/>
-<rMaterial name="pixel:servicecompositeR250Z2698"/>
+<rMaterial name="pixel:servicecompositeR250Z1778"/>
 </LogicalPart>
 <LogicalPart name="serviceR169Z272" category="unspecified">
 <rSolid name="pixel:serviceR169Z272"/>
@@ -9747,37 +9428,37 @@ note: see OT807_IT744_2026_07_01.cfg for full config files
 <rSolid name="pixel:supportR303Z2169"/>
 <rMaterial name="pixel:supportcompositeR208Z113"/>
 </LogicalPart>
-<LogicalPart name="supportR172Z916" category="unspecified">
-<rSolid name="pixel:supportR172Z916"/>
-<rMaterial name="pixel:supportcompositeR172Z916"/>
+<LogicalPart name="supportR174Z916" category="unspecified">
+<rSolid name="pixel:supportR174Z916"/>
+<rMaterial name="pixel:supportcompositeR174Z916"/>
 </LogicalPart>
 <LogicalPart name="supportR172Z1607" category="unspecified">
 <rSolid name="pixel:supportR172Z1607"/>
-<rMaterial name="pixel:supportcompositeR172Z916"/>
+<rMaterial name="pixel:supportcompositeR174Z916"/>
 </LogicalPart>
-<LogicalPart name="supportR276Z2170" category="unspecified">
-<rSolid name="pixel:supportR276Z2170"/>
-<rMaterial name="pixel:supportcompositeR172Z916"/>
+<LogicalPart name="supportR277Z2170" category="unspecified">
+<rSolid name="pixel:supportR277Z2170"/>
+<rMaterial name="pixel:supportcompositeR174Z916"/>
 </LogicalPart>
-<LogicalPart name="supportR170Z237" category="unspecified">
-<rSolid name="pixel:supportR170Z237"/>
-<rMaterial name="pixel:supportcompositeR170Z237"/>
+<LogicalPart name="supportR167Z237" category="unspecified">
+<rSolid name="pixel:supportR167Z237"/>
+<rMaterial name="pixel:supportcompositeR167Z237"/>
 </LogicalPart>
-<LogicalPart name="supportR170Z710" category="unspecified">
-<rSolid name="pixel:supportR170Z710"/>
-<rMaterial name="pixel:supportcompositeR170Z237"/>
+<LogicalPart name="supportR167Z710" category="unspecified">
+<rSolid name="pixel:supportR167Z710"/>
+<rMaterial name="pixel:supportcompositeR167Z237"/>
 </LogicalPart>
-<LogicalPart name="supportR170Z910" category="unspecified">
-<rSolid name="pixel:supportR170Z910"/>
-<rMaterial name="pixel:supportcompositeR170Z237"/>
+<LogicalPart name="supportR167Z910" category="unspecified">
+<rSolid name="pixel:supportR167Z910"/>
+<rMaterial name="pixel:supportcompositeR167Z237"/>
 </LogicalPart>
-<LogicalPart name="supportR170Z1160" category="unspecified">
-<rSolid name="pixel:supportR170Z1160"/>
-<rMaterial name="pixel:supportcompositeR170Z237"/>
+<LogicalPart name="supportR167Z1160" category="unspecified">
+<rSolid name="pixel:supportR167Z1160"/>
+<rMaterial name="pixel:supportcompositeR167Z237"/>
 </LogicalPart>
-<LogicalPart name="supportR170Z1600" category="unspecified">
-<rSolid name="pixel:supportR170Z1600"/>
-<rMaterial name="pixel:supportcompositeR170Z237"/>
+<LogicalPart name="supportR167Z1600" category="unspecified">
+<rSolid name="pixel:supportR167Z1600"/>
+<rMaterial name="pixel:supportcompositeR167Z237"/>
 </LogicalPart>
 <LogicalPart name="supportR161Z100" category="unspecified">
 <rSolid name="pixel:supportR161Z100"/>
@@ -11179,14 +10860,14 @@ note: see OT807_IT744_2026_07_01.cfg for full config files
 <Tubs name="serviceR214Z2278" rMin="214.643*mm" rMax="250.197*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR250Z2278" rMin="250.297*mm" rMax="253.866*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR258Z2708" rMin="258.066*mm" rMax="260.066*mm" dz="11.4625*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="serviceR256Z2697" rMin="256.066*mm" rMax="258.066*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="serviceR253Z2697" rMin="253.966*mm" rMax="255.966*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR62Z2698" rMin="62.774*mm" rMax="107.958*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR108Z2698" rMin="108.058*mm" rMax="142.88*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR142Z2698" rMin="142.98*mm" rMax="144.469*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR144Z2698" rMin="144.569*mm" rMax="178.926*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR179Z2698" rMin="179.026*mm" rMax="214.543*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR214Z2698" rMin="214.643*mm" rMax="250.197*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="serviceR250Z2698" rMin="250.297*mm" rMax="255.966*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="serviceR250Z2698" rMin="250.297*mm" rMax="253.866*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR169Z272" rMin="169.792*mm" rMax="171.792*mm" dz="11.4125*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR167Z261" rMin="167.792*mm" rMax="169.792*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR30Z262" rMin="30.507*mm" rMax="74.898*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
@@ -11279,14 +10960,14 @@ note: see OT807_IT744_2026_07_01.cfg for full config files
 <Tubs name="supportR208Z914" rMin="208.5*mm" rMax="210.5*mm" dz="687.245*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="supportR208Z1602" rMin="208.5*mm" rMax="303.5*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="supportR303Z2169" rMin="303.52*mm" rMax="305.52*mm" dz="565.74*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="supportR172Z916" rMin="172.1*mm" rMax="174.1*mm" dz="689.5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="supportR172Z1607" rMin="172.1*mm" rMax="276*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="supportR276Z2170" rMin="276*mm" rMax="278*mm" dz="564.49*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="supportR170Z237" rMin="170.1*mm" rMax="172.1*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="supportR170Z710" rMin="170.1*mm" rMax="172.1*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="supportR170Z910" rMin="170.1*mm" rMax="172.1*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="supportR170Z1160" rMin="170.1*mm" rMax="172.1*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
-<Tubs name="supportR170Z1600" rMin="170.1*mm" rMax="172.1*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="supportR174Z916" rMin="174*mm" rMax="176*mm" dz="689.5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="supportR172Z1607" rMin="172.1*mm" rMax="274.7*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="supportR277Z2170" rMin="277*mm" rMax="279*mm" dz="564.49*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="supportR167Z237" rMin="167.7*mm" rMax="169.7*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="supportR167Z710" rMin="167.7*mm" rMax="169.7*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="supportR167Z910" rMin="167.7*mm" rMax="169.7*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="supportR167Z1160" rMin="167.7*mm" rMax="169.7*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="supportR167Z1600" rMin="167.7*mm" rMax="169.7*mm" dz="10*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="supportR161Z100" rMin="161.685*mm" rMax="163.685*mm" dz="100.938*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="supportR45Z41" rMin="45.2079*mm" rMax="57.425*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="supportR76Z41" rMin="76.297*mm" rMax="100.425*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
@@ -17890,7 +17571,7 @@ note: see OT807_IT744_2026_07_01.cfg for full config files
 </PosPart>
 <PosPart copyNumber="1">
 <rParent name="pixfwd:Phase2PixelEndcap"/>
-<rChild name="pixel:serviceR256Z2697"/>
+<rChild name="pixel:serviceR253Z2697"/>
 <Translation x="0*mm" y="0*mm" z="2406.07*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
@@ -18396,7 +18077,7 @@ note: see OT807_IT744_2026_07_01.cfg for full config files
 </PosPart>
 <PosPart copyNumber="1">
 <rParent name="pixfwd:Phase2PixelEndcap"/>
-<rChild name="pixel:supportR172Z916"/>
+<rChild name="pixel:supportR174Z916"/>
 <Translation x="0*mm" y="0*mm" z="625.5*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
@@ -18406,32 +18087,32 @@ note: see OT807_IT744_2026_07_01.cfg for full config files
 </PosPart>
 <PosPart copyNumber="1">
 <rParent name="pixfwd:Phase2PixelEndcap"/>
-<rChild name="pixel:supportR276Z2170"/>
+<rChild name="pixel:supportR277Z2170"/>
 <Translation x="0*mm" y="0*mm" z="1879.5*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
 <rParent name="pixfwd:Phase2PixelEndcap"/>
-<rChild name="pixel:supportR170Z237"/>
+<rChild name="pixel:supportR167Z237"/>
 <Translation x="0*mm" y="0*mm" z="-54*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
 <rParent name="pixfwd:Phase2PixelEndcap"/>
-<rChild name="pixel:supportR170Z710"/>
+<rChild name="pixel:supportR167Z710"/>
 <Translation x="0*mm" y="0*mm" z="419*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
 <rParent name="pixfwd:Phase2PixelEndcap"/>
-<rChild name="pixel:supportR170Z910"/>
+<rChild name="pixel:supportR167Z910"/>
 <Translation x="0*mm" y="0*mm" z="619*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
 <rParent name="pixfwd:Phase2PixelEndcap"/>
-<rChild name="pixel:supportR170Z1160"/>
+<rChild name="pixel:supportR167Z1160"/>
 <Translation x="0*mm" y="0*mm" z="869*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
 <rParent name="pixfwd:Phase2PixelEndcap"/>
-<rChild name="pixel:supportR170Z1600"/>
+<rChild name="pixel:supportR167Z1600"/>
 <Translation x="0*mm" y="0*mm" z="1309*mm"/>
 </PosPart>
 <PosPart copyNumber="1">
