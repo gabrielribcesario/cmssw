@@ -29,6 +29,13 @@
   <flags EDM_PLUGIN="1"/>
 </library>
 
+<library file="RecoSurfaceDump.cc" name="RecoSurfaceDump">
+  <use name="DataFormats/GeometrySurface"/>
+  <use name="DataFormats/DetId"/>
+  <use name="Geometry/Records"/>
+  <flags EDM_PLUGIN="1"/>
+</library>
+
 <library file="GeoHierarchyTest.cc" name="GeoHierarchyTest">
   <use name="Geometry/Records"/>
   <flags EDM_PLUGIN="1"/>
