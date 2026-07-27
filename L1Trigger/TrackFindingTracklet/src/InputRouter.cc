@@ -75,6 +75,26 @@ void InputRouter::execute() {
       }
     }
     if (not settings_.reduced()) {
+      // Fallback for the bend-corrected phi region being unwired.
+      //
+      // Routing uses phicorr (the bend-corrected phi). For an edge stub sitting a hair from a phi-region
+      // boundary, the *legitimate* bend correction can tip the routed region just across the boundary
+      // into a region this DTC's InputRouter has no InputLink memory for (observed with OT807: a flat 2S
+      // TB2S L5 module whose bend phicorr moves an edge stub ~0.004 deg past the boundary). setDTCphirange
+      // always wires the module's *uncorrected* geometric phi span, so the raw-phi region is guaranteed to
+      // be served. Re-route there instead of dropping the stub / asserting. Only fires when the corrected
+      // region is unwired (a rare boundary case), so it cannot perturb geometries that already route cleanly.
+      if (iadd == 0) {
+        const FPGAWord& iphiUncorr = stub->phi();
+        unsigned int iphiposUncorr = iphiUncorr.value() >> (iphiUncorr.nbits() - settings_.nbitsallstubs(layerdisk));
+        std::pair<unsigned int, unsigned int> layerphiregUncorr(layerdisk, iphiposUncorr);
+        for (auto& irstubmem : irstubs_) {
+          if (layerphiregUncorr == irstubmem.first) {
+            irstubmem.second->addStub(stub);
+            iadd++;
+          }
+        }
+      }
       // Verbose error message to debug crash.
       if (iadd != 1) {
         edm::LogError("Tracklet") << "Executing " << name_ << " : region (layer,phi) = (" << layerdisk << ", "
