@@ -62,9 +62,14 @@ namespace tt {
     // layer id [1-6,11-15]
     layerId_ = layer + setup->offsetLayerId() + (barrel_ ? 0 : setup->offsetLayerDisks());
     // TTStub row needs flip of sign
-    signRow_ = signbit(deltaPhi(plane.rotation().x().phi() - pos0.phi()));
+    signRow_ = std::signbit(deltaPhi(plane.rotation().x().phi() - pos0.phi()));
+    // A 180° in-plane (yaw) flip reverses local row and column. signRow_ is geometry-derived
+    // and tracks it; on a standard barrel module signRow_ == flipped_, so a mismatch flags a yaw.
+    // signCol_ must follow, else the reversed column gives a wrong d_ = sm_->r() + y * sm_->sinTilt();
+    // and shifts the digitized phi past the tracklet tolerance on tilted modules (MatchProcessor |dphi|<1e-3).
+    const bool barrelYawFlipped = barrel_ && (signRow_ != flipped_);
     // TTStub col needs flip of sign
-    signCol_ = !barrel_ && !side_;
+    signCol_ = (!barrel_ && !side_) != barrelYawFlipped;
     // TTStub bend needs flip of sign
     signBend_ = barrel_ || (!barrel_ && side_);
     // determing sensor type
