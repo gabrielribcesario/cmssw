@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <!--
 ============= XML GENERATION METADATA HEADER =============
-tkLayout revision: xmls_dd4hep-3445-70dcfbb
+tkLayout revision: overlaps-fix-3835-7bae0df5
 tkLayout developed by https://github.com/tkLayout/tkLayout/graphs/contributors .
-Gabrielle (ghugo on localhost.localdomain) responsible for cross-check of the automatically-generated description below.
-generation date: 2021-02-08.11:54:56
-note: see OT800_IT615_2021_02_08.cfg for full config files
+Gabriel (garibeir on cmxpc1.dyndns.cern.ch) responsible for cross-check of the automatically-generated description below.
+generation date: 2026-07-27.16:53:31
+note: see OT806_IT742_2026_07_27.cfg for full config files
 =========== END XML GENERATION METADATA HEADER ===========
 -->
 <DDDefinition xmlns="http://www.cern.ch/cms/DDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cern.ch/cms/DDL ../../../DetectorDescription/Schema/DDLSchema.xsd">
@@ -61,7 +61,7 @@ note: see OT800_IT615_2021_02_08.cfg for full config files
    <ZSection z="120.9*cm"   rMin="6.23*cm" rMax="[TBPXAndTFPXOuterRadius]"/>
    <ZSection z="129.9*cm"   rMin="6.23*cm" rMax="[TBPXAndTFPXOuterRadius]"/>
    <ZSection z="129.9*cm"   rMin="6.23*cm" rMax="[TEPXOuterRadius]"/>
-   <ZSection z="247.8*cm"   rMin="6.23*cm" rMax="[TEPXOuterRadius]"/>
+   <ZSection z="251.0*cm"   rMin="6.23*cm" rMax="[TEPXOuterRadius]"/>
  </Polycone>
  <SubtractionSolid name="Phase2OTForward">
    <rSolid name="Forward"/>
