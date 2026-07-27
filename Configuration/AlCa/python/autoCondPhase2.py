@@ -72,7 +72,7 @@ allTags["TkAlignment"] = {
     'T36' : ( ','.join( [ 'TrackerAlignment_Upgrade2026_T36_design_v1' ,TkAlRecord, connectionString, "", "2024-09-12 15:37:00"] ), ),
     'T37' : ( ','.join( [ 'TrackerAlignment_Upgrade2026_T37_design_v1' ,TkAlRecord, connectionString, "", "2024-09-12 15:37:00"] ), ),
     'T38' : ( ','.join( [ 'TrackerAlignment_Upgrade2026_T38_design_v1' ,TkAlRecord, connectionString, "", "2024-09-12 15:37:00"] ), ),
-    'T40' : ( ','.join( [ 'TrackerAlignment_Upgrade2026_T38_design_v1' ,TkAlRecord, connectionString, "", "2024-09-12 15:37:00"] ), ),
+    'T40' : ( ','.join( [ 'TrackerAlignment_Upgrade2026_T40_design_v1' ,TkAlRecord, 'sqlite_file:/home/garibeir/CMSSW_16_1_2/src/tkLa-dev/DesignAlignment/data/TrackerAlignment_Upgrade2026_T40_design_v1.db', "", ""] ), ),
 }
 
 allTags["TkAPE"] = {
@@ -80,7 +80,7 @@ allTags["TkAPE"] = {
     'T36' : ( ','.join( [ 'TrackerAlignmentErrorsExtended_Upgrade2026_T36_design_v1' ,TkAPERecord, connectionString, "", "2024-09-12 15:37:00"] ), ),
     'T37' : ( ','.join( [ 'TrackerAlignmentErrorsExtended_Upgrade2026_T36_design_v1' ,TkAPERecord, connectionString, "", "2024-09-12 15:37:00"] ), ),
     'T38' : ( ','.join( [ 'TrackerAlignmentErrorsExtended_Upgrade2026_T36_design_v1' ,TkAPERecord, connectionString, "", "2024-09-12 15:37:00"] ), ),
-    'T40' : ( ','.join( [ 'TrackerAlignmentErrorsExtended_Upgrade2026_T36_design_v1' ,TkAPERecord, connectionString, "", "2024-09-12 15:37:00"] ), ),
+    'T40' : ( ','.join( [ 'TrackerAlignmentErrorsExtended_Upgrade2026_T40_design_v1' ,TkAPERecord, 'sqlite_file:/home/garibeir/CMSSW_16_1_2/src/tkLa-dev/DesignAlignment/data/TrackerAlignment_Upgrade2026_T40_design_v1.db', "", ""] ), ),
 }
 
 allTags["TkSurf"] = {
