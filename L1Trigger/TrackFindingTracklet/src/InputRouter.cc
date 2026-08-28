@@ -75,6 +75,19 @@ void InputRouter::execute() {
       }
     }
     if (not settings_.reduced()) {
+      // Fallback: If bend correction pushes a stub into an unwired phi region, route 
+      // using the uncorrected raw phi (which is always wired) to avoid dropping it
+      if (iadd == 0) {
+        const FPGAWord& iphiUncorr = stub->phi();
+        unsigned int iphiposUncorr = iphiUncorr.value() >> (iphiUncorr.nbits() - settings_.nbitsallstubs(layerdisk));
+        std::pair<unsigned int, unsigned int> layerphiregUncorr(layerdisk, iphiposUncorr);
+        for (auto& irstubmem : irstubs_) {
+          if (layerphiregUncorr == irstubmem.first) {
+            irstubmem.second->addStub(stub);
+            iadd++;
+          }
+        }
+      }
       // Verbose error message to debug crash.
       if (iadd != 1) {
         edm::LogError("Tracklet") << "Executing " << name_ << " : region (layer,phi) = (" << layerdisk << ", "

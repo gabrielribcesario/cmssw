@@ -60,8 +60,10 @@ namespace tt {
     layerId_ = layer + setup->offsetLayerId() + (barrel_ ? 0 : setup->offsetLayerDisks());
     // TTStub row needs flip of sign
     signRow_ = std::signbit(deltaPhi(plane.rotation().x().phi() - pos0.phi()));
+    // A 180° in-plane (yaw) flip reverses local row and column
+    const bool barrelYawFlipped = barrel_ && (signRow_ != flipped_);
     // TTStub col needs flip of sign
-    signCol_ = !barrel_ && !side_;
+    signCol_ = (!barrel_ && !side_) != barrelYawFlipped;
     // TTStub bend needs flip of sign
     signBend_ = barrel_ || (!barrel_ && side_);
     // determing sensor type
