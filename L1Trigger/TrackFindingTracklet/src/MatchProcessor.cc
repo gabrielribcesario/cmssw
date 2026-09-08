@@ -22,6 +22,8 @@
 
 #include <filesystem>
 
+// #define MATCH_PROCESSOR_DEBUGGING_INFO
+
 using namespace std;
 using namespace trklet;
 
@@ -516,6 +518,11 @@ bool MatchProcessor::matchCalculator(Tracklet* tracklet, const Stub* fpgastub, b
 
     if (settings_.useapprox()) {
       double dphi = reco::reducePhiRange(phi - fpgastub->phiapprox(phimin_, 0.0));
+#ifdef MATCH_PROCESSOR_DEBUGGING_INFO
+      if (std::abs(dphi) >= 0.001)
+        edm::LogError("Tracklet") << "PHIRES detId=" << stub->detId() << " dphi=" << dphi
+                                  << " tilted=" << stub->isTilted() << " flipped=" << stub->isFlipped();
+#endif
       assert(std::abs(dphi) < 0.001);
       phi = fpgastub->phiapprox(phimin_, 0.0);
       z = fpgastub->zapprox();

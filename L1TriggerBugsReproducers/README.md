@@ -86,6 +86,8 @@ OT v8.0.7 is like OT v8.0.6 but with fixed module orientation in TB2S and TBPS (
 
 Crash log at `L1TriggerBugsReproducers/SensorModule/step2_TTbar_13+Run4D112.log`.
 
+Debugging info log at `L1TriggerBugsReproducers/SensorModule/debugging_info_step2_TTbar_13+Run4D112.log`.
+
 Temporary fix:
 
 ```cpp

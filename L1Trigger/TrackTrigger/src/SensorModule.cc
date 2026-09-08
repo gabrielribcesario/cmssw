@@ -7,6 +7,12 @@
 #include <iterator>
 #include <vector>
 
+// #define SENSOR_MODULE_DEBUGGING_INFO
+
+#ifdef SENSOR_MODULE_DEBUGGING_INFO
+#include "FWCore/MessageLogger/interface/MessageLogger.h"
+#endif
+
 namespace tt {
 
   SensorModule::SensorModule(const Setup* setup, const DetId& detId, int dtcId, int modId)
@@ -121,6 +127,12 @@ namespace tt {
     dR_ = std::abs(sinTilt_) * pitchCol_;
     dPhi_ = pitchRow_ / r_;
     dZ_ = std::abs(cosTilt_) * pitchCol_ + dR_ * std::abs(z_) / r_;
+
+#ifdef SENSOR_MODULE_DEBUGGING_INFO
+    if (barrel_ && (signRow_ != flipped_))
+      edm::LogPrint("Yaw") << "YAWED detId=" << detId.rawId() << " signRow=" << signRow_ << " signCol=" << signCol_
+                           << " flipped=" << flipped_ << " sinTilt=" << sinTilt_;
+#endif
   }
 
   unsigned int SensorModule::ringId(const Setup* setup) const {
