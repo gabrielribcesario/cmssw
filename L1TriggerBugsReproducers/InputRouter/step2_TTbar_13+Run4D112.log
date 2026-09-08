@@ -1,0 +1,640 @@
+DIGI:pdigi_valid,L1TrackTrigger,L1,L1P2GT,DIGI2RAW,HLT:@relvalRun4,ENDJOB
+We have determined that this is simulation (if not, rerun cmsDriver.py with --data)
+entry file:step1.root
+Step: DIGI Spec: ['pdigi_valid']
+Step: L1TrackTrigger Spec: 
+Step: L1 Spec: 
+Step: L1P2GT Spec: 
+Loading P2GT menu from L1Trigger.Configuration.Phase2GTMenus.step1_2024
+Step: DIGI2RAW Spec: 
+Step: HLT Spec: ['@relvalRun4']
+Step: ENDJOB Spec: 
+customising the process with injectSimHitsSeed from L1TriggerBugsReproducers/InputRouter/injectSimHitsSeed
+>>> injectSimHitsSeed: Skipping seed injection.
+customising the process with customizeHLTforMC from HLTrigger/Configuration/customizeHLTforMC
+Starting  cmsRun  step2_DIGI_L1TrackTrigger_L1_L1P2GT_DIGI2RAW_HLT.py
+>>> injectSimHitsSeed: Skipping seed injection.
+%MSG-i ThreadStreamSetup:  (NoModuleName) 07-Sep-2026 14:49:01 CEST pre-events
+setting # threads 16
+setting # streams 16
+%MSG
+%MSG-i AlpakaService:  (NoModuleName) 07-Sep-2026 14:49:03 CEST pre-events
+AlpakaServiceSerialSync succesfully initialised.
+Found 1 device:
+  - 11th Gen Intel(R) Core(TM) i7-11700 @ 2.50GHz
+%MSG
+07-Sep-2026 14:49:06 CEST  Initiating request to open file file:step1.root
+07-Sep-2026 14:49:09 CEST  Successfully opened file file:step1.root
+constructing InputMakerPhase2
+ using Phase2 DT trigger primitives
+%MSG-e HLTConfigProvider:  HLTrigReport:hltTrigReport@beginRun  07-Sep-2026 14:49:57 CEST Run: 1
+Falling back to ProcessName-only init using ProcessName 'HLTX' !
+%MSG
+%MSG-e HLTConfigProvider:  HLTrigReport:hltTrigReport@beginRun  07-Sep-2026 14:49:57 CEST Run: 1
+ Process name 'HLTX' not found in registry!
+%MSG
+Begin processing the 1st record. Run 1, Event 9, LumiSection 1 on stream 5 at 07-Sep-2026 14:50:02.760 CEST
+Begin processing the 2nd record. Run 1, Event 5, LumiSection 1 on stream 7 at 07-Sep-2026 14:50:02.760 CEST
+Begin processing the 3rd record. Run 1, Event 12, LumiSection 1 on stream 6 at 07-Sep-2026 14:50:02.761 CEST
+Begin processing the 4th record. Run 1, Event 4, LumiSection 1 on stream 4 at 07-Sep-2026 14:50:02.761 CEST
+Begin processing the 5th record. Run 1, Event 13, LumiSection 1 on stream 0 at 07-Sep-2026 14:50:02.762 CEST
+Begin processing the 6th record. Run 1, Event 15, LumiSection 1 on stream 8 at 07-Sep-2026 14:50:02.762 CEST
+Begin processing the 7th record. Run 1, Event 7, LumiSection 1 on stream 13 at 07-Sep-2026 14:50:02.763 CEST
+Begin processing the 8th record. Run 1, Event 11, LumiSection 1 on stream 14 at 07-Sep-2026 14:50:02.763 CEST
+Begin processing the 9th record. Run 1, Event 2, LumiSection 1 on stream 1 at 07-Sep-2026 14:50:02.763 CEST
+Begin processing the 10th record. Run 1, Event 14, LumiSection 1 on stream 10 at 07-Sep-2026 14:50:02.763 CEST
+Begin processing the 11th record. Run 1, Event 19, LumiSection 1 on stream 11 at 07-Sep-2026 14:50:02.764 CEST
+Begin processing the 12th record. Run 1, Event 18, LumiSection 1 on stream 12 at 07-Sep-2026 14:50:02.764 CEST
+Begin processing the 13th record. Run 1, Event 3, LumiSection 1 on stream 9 at 07-Sep-2026 14:50:02.764 CEST
+Begin processing the 14th record. Run 1, Event 16, LumiSection 1 on stream 2 at 07-Sep-2026 14:50:02.765 CEST
+Begin processing the 15th record. Run 1, Event 20, LumiSection 1 on stream 3 at 07-Sep-2026 14:50:02.765 CEST
+Begin processing the 16th record. Run 1, Event 8, LumiSection 1 on stream 15 at 07-Sep-2026 14:50:02.765 CEST
+#--------------------------------------------------------------------------
+#                         FastJet release 3.4.1
+#                 M. Cacciari, G.P. Salam and G. Soyez                  
+#     A software package for jet finding and analysis at colliders      
+#                           http://fastjet.fr                           
+#	                                                                      
+# Please cite EPJC72(2012)1896 [arXiv:1111.6097] if you use this package
+# for scientific work and optionally PLB641(2006)57 [hep-ph/0512210].   
+#                                                                       
+# FastJet is provided without warranty under the GNU GPL v2 or higher.  
+# It uses T. Chan's closest pair algorithm, S. Fortune's Voronoi code
+# and 3rd party plugin jet algorithms. See COPYING file for details.
+#--------------------------------------------------------------------------
+%MSG-w GEMClusterProcessor:   CSCTriggerPrimitivesProducer:simCscTriggerPrimitiveDigis  07-Sep-2026 14:50:10 CEST Run: 1 Event: 3
+Encountered unphysical GEM pads when making a coincidence cluster, resetting cluster to empty.
+%MSG
+%MSG-w GEMClusterProcessor:   CSCTriggerPrimitivesProducer:simCscTriggerPrimitiveDigis  07-Sep-2026 14:50:10 CEST Run: 1 Event: 3
+Encountered unphysical GEM pads when making a single cluster, resetting cluster to empty.
+%MSG
+%MSG-w GEMClusterProcessor:   CSCTriggerPrimitivesProducer:simCscTriggerPrimitiveDigis  07-Sep-2026 14:50:10 CEST Run: 1 Event: 3
+Encountered unphysical GEM pads when making a single cluster, resetting cluster to empty.
+%MSG
+%MSG-w GEMClusterProcessor:   CSCTriggerPrimitivesProducer:simCscTriggerPrimitiveDigis  07-Sep-2026 14:50:10 CEST Run: 1 Event: 3
+Encountered unphysical GEM pads when making a coincidence cluster, resetting cluster to empty.
+%MSG
+%MSG-w GEMClusterProcessor:   CSCTriggerPrimitivesProducer:simCscTriggerPrimitiveDigis  07-Sep-2026 14:50:10 CEST Run: 1 Event: 3
+Encountered unphysical GEM pads when making a single cluster, resetting cluster to empty.
+%MSG
+%MSG-w GEMClusterProcessor:   CSCTriggerPrimitivesProducer:simCscTriggerPrimitiveDigis  07-Sep-2026 14:50:10 CEST Run: 1 Event: 3
+Encountered unphysical GEM pads when making a single cluster, resetting cluster to empty.
+%MSG
+Begin processing the 17th record. Run 1, Event 17, LumiSection 1 on stream 5 at 07-Sep-2026 14:50:12.021 CEST
+Begin processing the 18th record. Run 1, Event 10, LumiSection 1 on stream 7 at 07-Sep-2026 14:50:12.475 CEST
+Begin processing the 19th record. Run 1, Event 26, LumiSection 1 on stream 6 at 07-Sep-2026 14:50:13.292 CEST
+Begin processing the 20th record. Run 1, Event 6, LumiSection 1 on stream 13 at 07-Sep-2026 14:50:13.532 CEST
+Begin processing the 21st record. Run 1, Event 24, LumiSection 1 on stream 10 at 07-Sep-2026 14:50:14.213 CEST
+Begin processing the 22nd record. Run 1, Event 28, LumiSection 1 on stream 4 at 07-Sep-2026 14:50:14.650 CEST
+Begin processing the 23rd record. Run 1, Event 27, LumiSection 1 on stream 0 at 07-Sep-2026 14:50:15.232 CEST
+Begin processing the 24th record. Run 1, Event 36, LumiSection 1 on stream 2 at 07-Sep-2026 14:50:15.954 CEST
+Begin processing the 25th record. Run 1, Event 25, LumiSection 1 on stream 8 at 07-Sep-2026 14:50:16.679 CEST
+Begin processing the 26th record. Run 1, Event 22, LumiSection 1 on stream 3 at 07-Sep-2026 14:50:17.559 CEST
+Begin processing the 27th record. Run 1, Event 31, LumiSection 1 on stream 15 at 07-Sep-2026 14:50:18.052 CEST
+Begin processing the 28th record. Run 1, Event 21, LumiSection 1 on stream 11 at 07-Sep-2026 14:50:18.734 CEST
+Begin processing the 29th record. Run 1, Event 34, LumiSection 1 on stream 14 at 07-Sep-2026 14:50:19.535 CEST
+Begin processing the 30th record. Run 1, Event 32, LumiSection 1 on stream 12 at 07-Sep-2026 14:50:20.261 CEST
+Begin processing the 31st record. Run 1, Event 1, LumiSection 1 on stream 1 at 07-Sep-2026 14:50:21.021 CEST
+Begin processing the 32nd record. Run 1, Event 38, LumiSection 1 on stream 9 at 07-Sep-2026 14:50:21.803 CEST
+Begin processing the 33rd record. Run 1, Event 35, LumiSection 1 on stream 5 at 07-Sep-2026 14:50:22.716 CEST
+Begin processing the 34th record. Run 1, Event 23, LumiSection 1 on stream 7 at 07-Sep-2026 14:50:23.360 CEST
+Begin processing the 35th record. Run 1, Event 37, LumiSection 1 on stream 6 at 07-Sep-2026 14:50:24.222 CEST
+Begin processing the 36th record. Run 1, Event 41, LumiSection 1 on stream 13 at 07-Sep-2026 14:50:25.143 CEST
+Begin processing the 37th record. Run 1, Event 29, LumiSection 1 on stream 10 at 07-Sep-2026 14:50:25.620 CEST
+Begin processing the 38th record. Run 1, Event 30, LumiSection 1 on stream 4 at 07-Sep-2026 14:50:26.444 CEST
+Begin processing the 39th record. Run 1, Event 45, LumiSection 1 on stream 2 at 07-Sep-2026 14:50:27.063 CEST
+Begin processing the 40th record. Run 1, Event 33, LumiSection 1 on stream 0 at 07-Sep-2026 14:50:27.843 CEST
+%MSG-w GEMClusterProcessor:   CSCTriggerPrimitivesProducer:simCscTriggerPrimitiveDigis  07-Sep-2026 14:50:28 CEST Run: 1 Event: 23
+Encountered unphysical GEM pads when making a coincidence cluster, resetting cluster to empty.
+%MSG
+%MSG-w GEMClusterProcessor:   CSCTriggerPrimitivesProducer:simCscTriggerPrimitiveDigis  07-Sep-2026 14:50:28 CEST Run: 1 Event: 23
+Encountered unphysical GEM pads when making a single cluster, resetting cluster to empty.
+%MSG
+%MSG-w GEMClusterProcessor:   CSCTriggerPrimitivesProducer:simCscTriggerPrimitiveDigis  07-Sep-2026 14:50:28 CEST Run: 1 Event: 23
+Encountered unphysical GEM pads when making a single cluster, resetting cluster to empty.
+%MSG
+Begin processing the 41st record. Run 1, Event 44, LumiSection 1 on stream 8 at 07-Sep-2026 14:50:29.000 CEST
+Begin processing the 42nd record. Run 1, Event 51, LumiSection 1 on stream 15 at 07-Sep-2026 14:50:29.428 CEST
+Begin processing the 43rd record. Run 1, Event 43, LumiSection 1 on stream 3 at 07-Sep-2026 14:50:30.217 CEST
+%MSG-w EnergyInDeadEB_FE:  EcalRecHitProducer:hltEcalRecHit  07-Sep-2026 14:50:30 CEST Run: 1 Event: 29
+TP energy in the dead TT = 127.5 at (EcalTT subDet Barrel iz +  ieta 11 iphi 33)
+%MSG
+Begin processing the 44th record. Run 1, Event 48, LumiSection 1 on stream 11 at 07-Sep-2026 14:50:31.030 CEST
+Begin processing the 45th record. Run 1, Event 53, LumiSection 1 on stream 14 at 07-Sep-2026 14:50:31.829 CEST
+Begin processing the 46th record. Run 1, Event 39, LumiSection 1 on stream 12 at 07-Sep-2026 14:50:32.677 CEST
+WARNING: assign NaN to ap integer value
+Begin processing the 47th record. Run 1, Event 42, LumiSection 1 on stream 1 at 07-Sep-2026 14:50:33.656 CEST
+Begin processing the 48th record. Run 1, Event 60, LumiSection 1 on stream 9 at 07-Sep-2026 14:50:34.263 CEST
+Begin processing the 49th record. Run 1, Event 55, LumiSection 1 on stream 5 at 07-Sep-2026 14:50:34.915 CEST
+Begin processing the 50th record. Run 1, Event 50, LumiSection 1 on stream 7 at 07-Sep-2026 14:50:35.658 CEST
+Begin processing the 51st record. Run 1, Event 47, LumiSection 1 on stream 6 at 07-Sep-2026 14:50:36.489 CEST
+Begin processing the 52nd record. Run 1, Event 46, LumiSection 1 on stream 13 at 07-Sep-2026 14:50:36.995 CEST
+%MSG-w EnergyInDeadEB_FE:  EcalRecHitProducer:hltEcalRecHitL1Seeded  07-Sep-2026 14:50:37 CEST Run: 1 Event: 29
+TP energy in the dead TT = 127.5 at (EcalTT subDet Barrel iz +  ieta 11 iphi 33)
+%MSG
+Begin processing the 53rd record. Run 1, Event 40, LumiSection 1 on stream 10 at 07-Sep-2026 14:50:38.393 CEST
+Begin processing the 54th record. Run 1, Event 57, LumiSection 1 on stream 4 at 07-Sep-2026 14:50:38.934 CEST
+Begin processing the 55th record. Run 1, Event 56, LumiSection 1 on stream 2 at 07-Sep-2026 14:50:39.626 CEST
+%MSG-w GEMClusterProcessor:   CSCTriggerPrimitivesProducer:simCscTriggerPrimitiveDigis  07-Sep-2026 14:50:39 CEST Run: 1 Event: 50
+Encountered unphysical GEM pads when making a coincidence cluster, resetting cluster to empty.
+%MSG
+%MSG-w GEMClusterProcessor:   CSCTriggerPrimitivesProducer:simCscTriggerPrimitiveDigis  07-Sep-2026 14:50:39 CEST Run: 1 Event: 50
+Encountered unphysical GEM pads when making a single cluster, resetting cluster to empty.
+%MSG
+%MSG-w GEMClusterProcessor:   CSCTriggerPrimitivesProducer:simCscTriggerPrimitiveDigis  07-Sep-2026 14:50:39 CEST Run: 1 Event: 50
+Encountered unphysical GEM pads when making a single cluster, resetting cluster to empty.
+%MSG
+Begin processing the 56th record. Run 1, Event 59, LumiSection 1 on stream 0 at 07-Sep-2026 14:50:40.640 CEST
+Begin processing the 57th record. Run 1, Event 52, LumiSection 1 on stream 8 at 07-Sep-2026 14:50:41.457 CEST
+Begin processing the 58th record. Run 1, Event 63, LumiSection 1 on stream 15 at 07-Sep-2026 14:50:41.988 CEST
+Begin processing the 59th record. Run 1, Event 58, LumiSection 1 on stream 3 at 07-Sep-2026 14:50:42.632 CEST
+%MSG-w DTTSPhi:  DTTrigProd:simDtTriggerPrimitiveDigis  07-Sep-2026 14:50:42 CEST Run: 1 Event: 57
+addTracoT: preview not present in TRACO trigger or its code=0  trigger not added!
+%MSG
+Begin processing the 60th record. Run 1, Event 67, LumiSection 1 on stream 11 at 07-Sep-2026 14:50:43.383 CEST
+Begin processing the 61st record. Run 1, Event 75, LumiSection 1 on stream 14 at 07-Sep-2026 14:50:44.199 CEST
+WARNING: assign NaN to ap integer value
+Begin processing the 62nd record. Run 1, Event 62, LumiSection 1 on stream 12 at 07-Sep-2026 14:50:44.875 CEST
+Begin processing the 63rd record. Run 1, Event 49, LumiSection 1 on stream 1 at 07-Sep-2026 14:50:45.464 CEST
+Begin processing the 64th record. Run 1, Event 65, LumiSection 1 on stream 9 at 07-Sep-2026 14:50:46.209 CEST
+Begin processing the 65th record. Run 1, Event 69, LumiSection 1 on stream 5 at 07-Sep-2026 14:50:47.164 CEST
+Begin processing the 66th record. Run 1, Event 66, LumiSection 1 on stream 7 at 07-Sep-2026 14:50:48.076 CEST
+Begin processing the 67th record. Run 1, Event 64, LumiSection 1 on stream 6 at 07-Sep-2026 14:50:48.652 CEST
+Begin processing the 68th record. Run 1, Event 70, LumiSection 1 on stream 13 at 07-Sep-2026 14:50:49.252 CEST
+Begin processing the 69th record. Run 1, Event 54, LumiSection 1 on stream 10 at 07-Sep-2026 14:50:50.106 CEST
+Begin processing the 70th record. Run 1, Event 77, LumiSection 1 on stream 4 at 07-Sep-2026 14:50:51.446 CEST
+Begin processing the 71st record. Run 1, Event 61, LumiSection 1 on stream 2 at 07-Sep-2026 14:50:52.112 CEST
+Begin processing the 72nd record. Run 1, Event 78, LumiSection 1 on stream 0 at 07-Sep-2026 14:50:52.723 CEST
+Begin processing the 73rd record. Run 1, Event 76, LumiSection 1 on stream 8 at 07-Sep-2026 14:50:53.493 CEST
+Begin processing the 74th record. Run 1, Event 72, LumiSection 1 on stream 15 at 07-Sep-2026 14:50:54.028 CEST
+Begin processing the 75th record. Run 1, Event 68, LumiSection 1 on stream 3 at 07-Sep-2026 14:50:54.867 CEST
+Begin processing the 76th record. Run 1, Event 81, LumiSection 1 on stream 11 at 07-Sep-2026 14:50:55.582 CEST
+Begin processing the 77th record. Run 1, Event 73, LumiSection 1 on stream 14 at 07-Sep-2026 14:50:56.187 CEST
+Begin processing the 78th record. Run 1, Event 71, LumiSection 1 on stream 12 at 07-Sep-2026 14:50:56.839 CEST
+Begin processing the 79th record. Run 1, Event 79, LumiSection 1 on stream 1 at 07-Sep-2026 14:50:57.577 CEST
+%MSG-w GEMClusterProcessor:   CSCTriggerPrimitivesProducer:simCscTriggerPrimitiveDigis  07-Sep-2026 14:50:58 CEST Run: 1 Event: 76
+Encountered unphysical GEM pads when making a coincidence cluster, resetting cluster to empty.
+%MSG
+%MSG-w GEMClusterProcessor:   CSCTriggerPrimitivesProducer:simCscTriggerPrimitiveDigis  07-Sep-2026 14:50:58 CEST Run: 1 Event: 76
+Encountered unphysical GEM pads when making a single cluster, resetting cluster to empty.
+%MSG
+%MSG-w GEMClusterProcessor:   CSCTriggerPrimitivesProducer:simCscTriggerPrimitiveDigis  07-Sep-2026 14:50:58 CEST Run: 1 Event: 76
+Encountered unphysical GEM pads when making a single cluster, resetting cluster to empty.
+%MSG
+Begin processing the 80th record. Run 1, Event 83, LumiSection 1 on stream 9 at 07-Sep-2026 14:50:58.354 CEST
+Begin processing the 81st record. Run 1, Event 86, LumiSection 1 on stream 5 at 07-Sep-2026 14:50:59.226 CEST
+Begin processing the 82nd record. Run 1, Event 88, LumiSection 1 on stream 7 at 07-Sep-2026 14:50:59.882 CEST
+Begin processing the 83rd record. Run 1, Event 80, LumiSection 1 on stream 6 at 07-Sep-2026 14:51:00.725 CEST
+Begin processing the 84th record. Run 1, Event 85, LumiSection 1 on stream 13 at 07-Sep-2026 14:51:01.456 CEST
+Begin processing the 85th record. Run 1, Event 90, LumiSection 1 on stream 10 at 07-Sep-2026 14:51:02.199 CEST
+Begin processing the 86th record. Run 1, Event 89, LumiSection 1 on stream 4 at 07-Sep-2026 14:51:03.199 CEST
+Begin processing the 87th record. Run 1, Event 87, LumiSection 1 on stream 2 at 07-Sep-2026 14:51:04.079 CEST
+Begin processing the 88th record. Run 1, Event 82, LumiSection 1 on stream 0 at 07-Sep-2026 14:51:04.726 CEST
+Begin processing the 89th record. Run 1, Event 74, LumiSection 1 on stream 8 at 07-Sep-2026 14:51:05.351 CEST
+Begin processing the 90th record. Run 1, Event 92, LumiSection 1 on stream 15 at 07-Sep-2026 14:51:06.079 CEST
+%MSG-e Tracklet:  L1FPGATrackProducer:l1tTTTracksFromTrackletEmulation  07-Sep-2026 14:51:06 CEST Run: 1 Event: 90
+Executing IR_neg2S_1_B : region (layer,phi) = (4, 2) has 0 matching InputLinkMemories.
+%MSG
+cmsRun: src/L1Trigger/TrackFindingTracklet/src/InputRouter.cc:82: void trklet::InputRouter::execute(): Assertion `false' failed.
+
+
+A fatal system signal has occurred: abort signal
+The following is the call stack containing the origin of the signal.
+
+Mon Sep  7 14:51:06 CEST 2026
+Thread 20 (Thread 0x7fe1c4dff640 (LWP 3758738) "cmsRun"):
+#0  0x00007fe1ec0da38f in wait4 () from /lib64/libc.so.6
+#1  0x00007fe1e5f46318 in edm::service::cmssw_stacktrace_fork() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#2  0x00007fe1e5f47e12 in edm::service::InitRootHandlers::stacktraceHelperThread() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#3  0x00007fe1ec4e1c94 in std::execute_native_thread_routine (__p=0x7fe1c8292fe0) at ../../../../../libstdc++-v3/src/c++11/thread.cc:104
+#4  0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#5  0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 19 (Thread 0x7fe1986fb640 (LWP 3758851) "cmsRun"):
+#0  0x00007fe1ec0d5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fe1ec0da5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fe1ec0da50e in sleep () from /lib64/libc.so.6
+#3  0x00007fe1e5f461ac in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fe0c45d3828 in HGCDigitizerBase::runSimple(std::unique_ptr<edm::SortedCollection<HGCDataFrame<DetId, io_v1::HGCSample>, edm::StrictWeakOrdering<HGCDataFrame<DetId, io_v1::HGCSample> > >, std::default_delete<edm::SortedCollection<HGCDataFrame<DetId, io_v1::HGCSample>, edm::StrictWeakOrdering<HGCDataFrame<DetId, io_v1::HGCSample> > > > >&, std::unordered_map<unsigned int, hgc_digi::HGCCellInfo, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<unsigned int const, hgc_digi::HGCCellInfo> > >&, CaloSubdetectorGeometry const*, std::unordered_set<DetId, std::hash<DetId>, std::equal_to<DetId>, std::allocator<DetId> > const&, CLHEP::HepRandomEngine*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginSimCalorimetryHGCalSimProducersPlugins.so
+#6  0x00007fe0c45c3df7 in HGCDigitizer::finalizeEvent(edm::Event&, edm::EventSetup const&, CLHEP::HepRandomEngine*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginSimCalorimetryHGCalSimProducersPlugins.so
+#7  0x00007fe0c45c683c in HGCDigiProducer::finalizeEvent(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginSimCalorimetryHGCalSimProducersPlugins.so
+#8  0x00007fe0c48ababb in edm::MixingModule::finalizeEvent(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginSimGeneralMixingModulePlugins.so
+#9  0x00007fe0c4800f5e in edm::BMixingModule::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libMixingBase.so
+#10 0x00007fe1ed255512 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ActivityRegistry*, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#11 0x00007fe1ed23c3f7 in edm::WorkerT<edm::stream::EDProducerAdaptorBase>::implDo(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#12 0x00007fe1ed1ccc52 in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#13 0x00007fe1ed1cd164 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#14 0x00007fe1ececae64 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreConcurrency.so
+#15 0x00007fe1ec7d919b in tbb::detail::r1::task_dispatcher::local_wait_for_all<false, tbb::detail::r1::outermost_worker_waiter> (t=<optimized out>, waiter=..., this=0x7fe1e630ed80) at src/tbb/task_dispatcher.h:344
+#16 tbb::detail::r1::task_dispatcher::local_wait_for_all<tbb::detail::r1::outermost_worker_waiter> (t=0x0, waiter=..., this=0x7fe1e630ed80) at src/tbb/task_dispatcher.h:487
+#17 tbb::detail::r1::arena::process (tls=..., this=<optimized out>) at src/tbb/arena.cpp:216
+#18 tbb::detail::r1::thread_dispatcher_client::process (td=..., this=<optimized out>) at src/tbb/thread_dispatcher_client.h:41
+#19 tbb::detail::r1::thread_dispatcher::process (this=<optimized out>, j=...) at src/tbb/thread_dispatcher.cpp:195
+#20 0x00007fe1ec7ccc75 in tbb::detail::r1::rml::private_worker::run (this=0x7fe1e6307080) at src/tbb/private_server.cpp:271
+#21 tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7fe1e6307080) at src/tbb/private_server.cpp:221
+#22 0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#23 0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 18 (Thread 0x7fe197cfa640 (LWP 3758852) "cmsRun"):
+#0  0x00007fe1ec0d5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fe1ec0da5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fe1ec0da50e in sleep () from /lib64/libc.so.6
+#3  0x00007fe1e5f461ac in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fe1e3b1b513 in CLHEP::MixMaxRng::MIXMAX_MOD_MERSENNE (k=4138199256383946364, this=0x7fdf6449ae00) at /data/cmsbld/jenkins/workspace/build-any-ib/w/BUILD/el9_amd64_gcc13/external/clhep/2.4.7.2-e2fcd4be043de62aca9bcd008063cdf8/build/CLHEP/Random/MixMaxRng.h:141
+#6  CLHEP::MixMaxRng::iterate (this=0x7fdf6449ae00) at /data/cmsbld/jenkins/workspace/build-any-ib/w/BUILD/el9_amd64_gcc13/external/clhep/2.4.7.2-e2fcd4be043de62aca9bcd008063cdf8/build/CLHEP/Random/MixMaxRng.h:180
+#7  0x00007fe1e3b1b665 in CLHEP::MixMaxRng::flat (this=0x7fdf6449ae00) at /data/cmsbld/jenkins/workspace/build-any-ib/w/BUILD/el9_amd64_gcc13/external/clhep/2.4.7.2-e2fcd4be043de62aca9bcd008063cdf8/build/CLHEP/Random/MixMaxRng.h:76
+#8  0x00007fe1e3b34e39 in CLHEP::RandPoissonQ::poissonDeviateSmall (mean=0.00012499999720603228, e=0x7fdf6449ae00) at /data/cmsbld/jenkins/workspace/build-any-ib/w/BUILD/el9_amd64_gcc13/external/clhep/2.4.7.2-e2fcd4be043de62aca9bcd008063cdf8/clhep-2.4.7.2/Random/src/RandPoissonQ.cc:288
+#9  CLHEP::RandPoissonQ::poissonDeviateSmall (e=0x7fdf6449ae00, mean=0.00012499999720603228) at /data/cmsbld/jenkins/workspace/build-any-ib/w/BUILD/el9_amd64_gcc13/external/clhep/2.4.7.2-e2fcd4be043de62aca9bcd008063cdf8/clhep-2.4.7.2/Random/src/RandPoissonQ.cc:266
+#10 0x00007fe0c45f80b1 in HcalSiPMHitResponse::addPEnoise(CLHEP::HepRandomEngine*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libSimCalorimetryHcalSimAlgos.so
+#11 0x00007fe0c45fa5ca in HcalSiPMHitResponse::finalizeHits(CLHEP::HepRandomEngine*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libSimCalorimetryHcalSimAlgos.so
+#12 0x00007fe0c4622e29 in CaloTDigitizer<HcalQIE11DigitizerTraits, CaloTDigitizerQIE1011Run>::run(HcalDataFrameContainer<io_v1::QIE11DataFrame>&, CLHEP::HepRandomEngine*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libSimCalorimetryHcalSimProducers.so
+#13 0x00007fe0c462ad65 in HcalDigitizer::finalizeEvent(edm::Event&, edm::EventSetup const&, CLHEP::HepRandomEngine*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libSimCalorimetryHcalSimProducers.so
+#14 0x00007fe0c461a81c in HcalDigiProducer::finalizeEvent(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libSimCalorimetryHcalSimProducers.so
+#15 0x00007fe0c48ababb in edm::MixingModule::finalizeEvent(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginSimGeneralMixingModulePlugins.so
+#16 0x00007fe0c4800f5e in edm::BMixingModule::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libMixingBase.so
+#17 0x00007fe1ed255512 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ActivityRegistry*, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#18 0x00007fe1ed23c3f7 in edm::WorkerT<edm::stream::EDProducerAdaptorBase>::implDo(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#19 0x00007fe1ed1ccc52 in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#20 0x00007fe1ed1cd164 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#21 0x00007fe1ececae64 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreConcurrency.so
+#22 0x00007fe1ec7d919b in tbb::detail::r1::task_dispatcher::local_wait_for_all<false, tbb::detail::r1::outermost_worker_waiter> (t=<optimized out>, waiter=..., this=0x7fe1e630ee80) at src/tbb/task_dispatcher.h:344
+#23 tbb::detail::r1::task_dispatcher::local_wait_for_all<tbb::detail::r1::outermost_worker_waiter> (t=0x0, waiter=..., this=0x7fe1e630ee80) at src/tbb/task_dispatcher.h:487
+#24 tbb::detail::r1::arena::process (tls=..., this=<optimized out>) at src/tbb/arena.cpp:216
+#25 tbb::detail::r1::thread_dispatcher_client::process (td=..., this=<optimized out>) at src/tbb/thread_dispatcher_client.h:41
+#26 tbb::detail::r1::thread_dispatcher::process (this=<optimized out>, j=...) at src/tbb/thread_dispatcher.cpp:195
+#27 0x00007fe1ec7ccc75 in tbb::detail::r1::rml::private_worker::run (this=0x7fe1e6307100) at src/tbb/private_server.cpp:271
+#28 tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7fe1e6307100) at src/tbb/private_server.cpp:221
+#29 0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#30 0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 17 (Thread 0x7fe1969ff640 (LWP 3758853) "cmsRun"):
+#0  0x00007fe1ec0d5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fe1ec0da5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fe1ec0da50e in sleep () from /lib64/libc.so.6
+#3  0x00007fe1e5f461ac in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fe1ec108b8d in syscall () from /lib64/libc.so.6
+#6  0x00007fe1ec7cceac in tbb::detail::r1::futex_wait (comparand=2, futex=0x7fe1e6306ea4) at src/tbb/semaphore.h:100
+#7  tbb::detail::r1::binary_semaphore::P (this=0x7fe1e6306ea4) at src/tbb/semaphore.h:261
+#8  tbb::detail::r1::rml::internal::thread_monitor::wait (this=0x7fe1e6306ea0) at src/tbb/rml_thread_monitor.h:235
+#9  tbb::detail::r1::rml::private_worker::run (this=0x7fe1e6306e80) at src/tbb/private_server.cpp:273
+#10 tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7fe1e6306e80) at src/tbb/private_server.cpp:221
+#11 0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#12 0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 16 (Thread 0x7fe1955fd640 (LWP 3758854) "cmsRun"):
+#0  0x00007fe1ec10345f in poll () from /lib64/libc.so.6
+#1  0x00007fe1e5f4803e in edm::service::InitRootHandlers::stacktraceFromThread() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#2  0x00007fe1e5f48243 in sig_dostack_then_abort () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#3  <signal handler called>
+#4  0x00007fe1ec08d38c in __pthread_kill_implementation () from /lib64/libc.so.6
+#5  0x00007fe1ec03fa86 in raise () from /lib64/libc.so.6
+#6  0x00007fe1ec029873 in abort () from /lib64/libc.so.6
+#7  0x00007fe1ec02979b in __assert_fail_base.cold () from /lib64/libc.so.6
+#8  0x00007fe1ec0387c6 in __assert_fail () from /lib64/libc.so.6
+#9  0x00007fe19c40dc00 in trklet::InputRouter::execute() () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/libL1TriggerTrackFindingTracklet.so
+#10 0x00007fe19c43cacc in trklet::Sector::executeIR() () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/libL1TriggerTrackFindingTracklet.so
+#11 0x00007fe19c4a30f3 in trklet::TrackletEventProcessor::event(trklet::SLHCEvent&, std::vector<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::allocator<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >&, std::vector<std::vector<trklet::StubStreamData, std::allocator<trklet::StubStreamData> >, std::allocator<std::vector<trklet::StubStreamData, std::allocator<trklet::StubStreamData> > > >&) () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/libL1TriggerTrackFindingTracklet.so
+#12 0x00007fe19c56a302 in L1FPGATrackProducer::produce(edm::Event&, edm::EventSetup const&) () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginTrackFindingTrackletPlugins.so
+#13 0x00007fe1ed249f48 in edm::one::EDProducerBase::doEvent(edm::EventTransitionInfo const&, edm::ActivityRegistry*, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#14 0x00007fe1ed23ae77 in edm::WorkerT<edm::one::EDProducerBase>::implDo(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#15 0x00007fe1ed1ccc52 in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#16 0x00007fe1ed1cda34 in edm::SerialTaskQueue::QueuedTask<edm::SerialTaskQueueChain::push<edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute()::{lambda()#1}&>(tbb::detail::d2::task_group&, edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute()::{lambda()#1}&)::{lambda()#1}>::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#17 0x00007fe1ececd427 in tbb::detail::d2::function_task<edm::SerialTaskQueue::spawn(edm::SerialTaskQueue::TaskBase&)::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreConcurrency.so
+#18 0x00007fe1ec7d919b in tbb::detail::r1::task_dispatcher::local_wait_for_all<false, tbb::detail::r1::outermost_worker_waiter> (t=<optimized out>, waiter=..., this=0x7fe1e630f380) at src/tbb/task_dispatcher.h:344
+#19 tbb::detail::r1::task_dispatcher::local_wait_for_all<tbb::detail::r1::outermost_worker_waiter> (t=0x0, waiter=..., this=0x7fe1e630f380) at src/tbb/task_dispatcher.h:487
+#20 tbb::detail::r1::arena::process (tls=..., this=<optimized out>) at src/tbb/arena.cpp:216
+#21 tbb::detail::r1::thread_dispatcher_client::process (td=..., this=<optimized out>) at src/tbb/thread_dispatcher_client.h:41
+#22 tbb::detail::r1::thread_dispatcher::process (this=<optimized out>, j=...) at src/tbb/thread_dispatcher.cpp:195
+#23 0x00007fe1ec7ccc75 in tbb::detail::r1::rml::private_worker::run (this=0x7fe1e6306f00) at src/tbb/private_server.cpp:271
+#24 tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7fe1e6306f00) at src/tbb/private_server.cpp:221
+#25 0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#26 0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 15 (Thread 0x7fe195ffe640 (LWP 3758855) "cmsRun"):
+#0  0x00007fe1ec0d5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fe1ec0da5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fe1ec0da50e in sleep () from /lib64/libc.so.6
+#3  0x00007fe1e5f461ac in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fe0c45d382b in HGCDigitizerBase::runSimple(std::unique_ptr<edm::SortedCollection<HGCDataFrame<DetId, io_v1::HGCSample>, edm::StrictWeakOrdering<HGCDataFrame<DetId, io_v1::HGCSample> > >, std::default_delete<edm::SortedCollection<HGCDataFrame<DetId, io_v1::HGCSample>, edm::StrictWeakOrdering<HGCDataFrame<DetId, io_v1::HGCSample> > > > >&, std::unordered_map<unsigned int, hgc_digi::HGCCellInfo, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<unsigned int const, hgc_digi::HGCCellInfo> > >&, CaloSubdetectorGeometry const*, std::unordered_set<DetId, std::hash<DetId>, std::equal_to<DetId>, std::allocator<DetId> > const&, CLHEP::HepRandomEngine*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginSimCalorimetryHGCalSimProducersPlugins.so
+#6  0x00007fe0c45c3df7 in HGCDigitizer::finalizeEvent(edm::Event&, edm::EventSetup const&, CLHEP::HepRandomEngine*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginSimCalorimetryHGCalSimProducersPlugins.so
+#7  0x00007fe0c45c683c in HGCDigiProducer::finalizeEvent(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginSimCalorimetryHGCalSimProducersPlugins.so
+#8  0x00007fe0c48ababb in edm::MixingModule::finalizeEvent(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginSimGeneralMixingModulePlugins.so
+#9  0x00007fe0c4800f5e in edm::BMixingModule::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libMixingBase.so
+#10 0x00007fe1ed255512 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ActivityRegistry*, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#11 0x00007fe1ed23c3f7 in edm::WorkerT<edm::stream::EDProducerAdaptorBase>::implDo(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#12 0x00007fe1ed1ccc52 in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#13 0x00007fe1ed1cd164 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#14 0x00007fe1ececae64 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreConcurrency.so
+#15 0x00007fe1ec7d919b in tbb::detail::r1::task_dispatcher::local_wait_for_all<false, tbb::detail::r1::outermost_worker_waiter> (t=<optimized out>, waiter=..., this=0x7fe1e630f680) at src/tbb/task_dispatcher.h:344
+#16 tbb::detail::r1::task_dispatcher::local_wait_for_all<tbb::detail::r1::outermost_worker_waiter> (t=0x0, waiter=..., this=0x7fe1e630f680) at src/tbb/task_dispatcher.h:487
+#17 tbb::detail::r1::arena::process (tls=..., this=<optimized out>) at src/tbb/arena.cpp:216
+#18 tbb::detail::r1::thread_dispatcher_client::process (td=..., this=<optimized out>) at src/tbb/thread_dispatcher_client.h:41
+#19 tbb::detail::r1::thread_dispatcher::process (this=<optimized out>, j=...) at src/tbb/thread_dispatcher.cpp:195
+#20 0x00007fe1ec7ccc75 in tbb::detail::r1::rml::private_worker::run (this=0x7fe1e6306f80) at src/tbb/private_server.cpp:271
+#21 tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7fe1e6306f80) at src/tbb/private_server.cpp:221
+#22 0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#23 0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 14 (Thread 0x7fe1945ff640 (LWP 3758856) "cmsRun"):
+#0  0x00007fe1ec0d5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fe1ec0da5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fe1ec0da50e in sleep () from /lib64/libc.so.6
+#3  0x00007fe1e5f461ac in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fe1ec16b79e in __memcmp_evex_movbe () from /lib64/libc.so.6
+#6  0x00007fe19c3dbcf2 in trklet::Settings::maxStep(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) const () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/libL1TriggerTrackFindingTracklet.so
+#7  0x00007fe19c43051d in trklet::MatchProcessor::execute(unsigned int, double) () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/libL1TriggerTrackFindingTracklet.so
+#8  0x00007fe19c43cdef in trklet::Sector::executeMP() () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/libL1TriggerTrackFindingTracklet.so
+#9  0x00007fe19c4a3232 in trklet::TrackletEventProcessor::event(trklet::SLHCEvent&, std::vector<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::allocator<std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >&, std::vector<std::vector<trklet::StubStreamData, std::allocator<trklet::StubStreamData> >, std::allocator<std::vector<trklet::StubStreamData, std::allocator<trklet::StubStreamData> > > >&) () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/libL1TriggerTrackFindingTracklet.so
+#10 0x00007fe19c56a302 in L1FPGATrackProducer::produce(edm::Event&, edm::EventSetup const&) () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginTrackFindingTrackletPlugins.so
+#11 0x00007fe1ed249f48 in edm::one::EDProducerBase::doEvent(edm::EventTransitionInfo const&, edm::ActivityRegistry*, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#12 0x00007fe1ed23ae77 in edm::WorkerT<edm::one::EDProducerBase>::implDo(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#13 0x00007fe1ed1ccc52 in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#14 0x00007fe1ed1cda34 in edm::SerialTaskQueue::QueuedTask<edm::SerialTaskQueueChain::push<edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute()::{lambda()#1}&>(tbb::detail::d2::task_group&, edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute()::{lambda()#1}&)::{lambda()#1}>::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#15 0x00007fe1ececd427 in tbb::detail::d2::function_task<edm::SerialTaskQueue::spawn(edm::SerialTaskQueue::TaskBase&)::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreConcurrency.so
+#16 0x00007fe1ec7d919b in tbb::detail::r1::task_dispatcher::local_wait_for_all<false, tbb::detail::r1::outermost_worker_waiter> (t=<optimized out>, waiter=..., this=0x7fe1e630f980) at src/tbb/task_dispatcher.h:344
+#17 tbb::detail::r1::task_dispatcher::local_wait_for_all<tbb::detail::r1::outermost_worker_waiter> (t=0x0, waiter=..., this=0x7fe1e630f980) at src/tbb/task_dispatcher.h:487
+#18 tbb::detail::r1::arena::process (tls=..., this=<optimized out>) at src/tbb/arena.cpp:216
+#19 tbb::detail::r1::thread_dispatcher_client::process (td=..., this=<optimized out>) at src/tbb/thread_dispatcher_client.h:41
+#20 tbb::detail::r1::thread_dispatcher::process (this=<optimized out>, j=...) at src/tbb/thread_dispatcher.cpp:195
+#21 0x00007fe1ec7ccc75 in tbb::detail::r1::rml::private_worker::run (this=0x7fe1e6307000) at src/tbb/private_server.cpp:271
+#22 tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7fe1e6307000) at src/tbb/private_server.cpp:221
+#23 0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#24 0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 13 (Thread 0x7fe1937ff640 (LWP 3758857) "cmsRun"):
+#0  0x00007fe1ec0d5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fe1ec0da5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fe1ec0da50e in sleep () from /lib64/libc.so.6
+#3  0x00007fe1e5f461ac in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fe1ec108b8d in syscall () from /lib64/libc.so.6
+#6  0x00007fe1ec7cceac in tbb::detail::r1::futex_wait (comparand=2, futex=0x7fe1e6306da4) at src/tbb/semaphore.h:100
+#7  tbb::detail::r1::binary_semaphore::P (this=0x7fe1e6306da4) at src/tbb/semaphore.h:261
+#8  tbb::detail::r1::rml::internal::thread_monitor::wait (this=0x7fe1e6306da0) at src/tbb/rml_thread_monitor.h:235
+#9  tbb::detail::r1::rml::private_worker::run (this=0x7fe1e6306d80) at src/tbb/private_server.cpp:273
+#10 tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7fe1e6306d80) at src/tbb/private_server.cpp:221
+#11 0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#12 0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 12 (Thread 0x7fe1929ff640 (LWP 3758858) "cmsRun"):
+#0  0x00007fe1ec0d5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fe1ec0da5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fe1ec0da50e in sleep () from /lib64/libc.so.6
+#3  0x00007fe1e5f461ac in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fe0c45d382b in HGCDigitizerBase::runSimple(std::unique_ptr<edm::SortedCollection<HGCDataFrame<DetId, io_v1::HGCSample>, edm::StrictWeakOrdering<HGCDataFrame<DetId, io_v1::HGCSample> > >, std::default_delete<edm::SortedCollection<HGCDataFrame<DetId, io_v1::HGCSample>, edm::StrictWeakOrdering<HGCDataFrame<DetId, io_v1::HGCSample> > > > >&, std::unordered_map<unsigned int, hgc_digi::HGCCellInfo, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<unsigned int const, hgc_digi::HGCCellInfo> > >&, CaloSubdetectorGeometry const*, std::unordered_set<DetId, std::hash<DetId>, std::equal_to<DetId>, std::allocator<DetId> > const&, CLHEP::HepRandomEngine*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginSimCalorimetryHGCalSimProducersPlugins.so
+#6  0x00007fe0c45c3df7 in HGCDigitizer::finalizeEvent(edm::Event&, edm::EventSetup const&, CLHEP::HepRandomEngine*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginSimCalorimetryHGCalSimProducersPlugins.so
+#7  0x00007fe0c45c683c in HGCDigiProducer::finalizeEvent(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginSimCalorimetryHGCalSimProducersPlugins.so
+#8  0x00007fe0c48ababb in edm::MixingModule::finalizeEvent(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginSimGeneralMixingModulePlugins.so
+#9  0x00007fe0c4800f5e in edm::BMixingModule::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libMixingBase.so
+#10 0x00007fe1ed255512 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ActivityRegistry*, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#11 0x00007fe1ed23c3f7 in edm::WorkerT<edm::stream::EDProducerAdaptorBase>::implDo(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#12 0x00007fe1ed1ccc52 in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#13 0x00007fe1ed1cd164 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#14 0x00007fe1ececae64 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreConcurrency.so
+#15 0x00007fe1ec7d919b in tbb::detail::r1::task_dispatcher::local_wait_for_all<false, tbb::detail::r1::outermost_worker_waiter> (t=<optimized out>, waiter=..., this=0x7fe1e630f080) at src/tbb/task_dispatcher.h:344
+#16 tbb::detail::r1::task_dispatcher::local_wait_for_all<tbb::detail::r1::outermost_worker_waiter> (t=0x0, waiter=..., this=0x7fe1e630f080) at src/tbb/task_dispatcher.h:487
+#17 tbb::detail::r1::arena::process (tls=..., this=<optimized out>) at src/tbb/arena.cpp:216
+#18 tbb::detail::r1::thread_dispatcher_client::process (td=..., this=<optimized out>) at src/tbb/thread_dispatcher_client.h:41
+#19 tbb::detail::r1::thread_dispatcher::process (this=<optimized out>, j=...) at src/tbb/thread_dispatcher.cpp:195
+#20 0x00007fe1ec7ccc75 in tbb::detail::r1::rml::private_worker::run (this=0x7fe1e6306c80) at src/tbb/private_server.cpp:271
+#21 tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7fe1e6306c80) at src/tbb/private_server.cpp:221
+#22 0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#23 0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 11 (Thread 0x7fe191bff640 (LWP 3758859) "cmsRun"):
+#0  0x00007fe1ec0d5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fe1ec0da5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fe1ec0da50e in sleep () from /lib64/libc.so.6
+#3  0x00007fe1e5f461ac in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fe1ec108b8d in syscall () from /lib64/libc.so.6
+#6  0x00007fe1ec7cceac in tbb::detail::r1::futex_wait (comparand=2, futex=0x7fe1e6306d24) at src/tbb/semaphore.h:100
+#7  tbb::detail::r1::binary_semaphore::P (this=0x7fe1e6306d24) at src/tbb/semaphore.h:261
+#8  tbb::detail::r1::rml::internal::thread_monitor::wait (this=0x7fe1e6306d20) at src/tbb/rml_thread_monitor.h:235
+#9  tbb::detail::r1::rml::private_worker::run (this=0x7fe1e6306d00) at src/tbb/private_server.cpp:273
+#10 tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7fe1e6306d00) at src/tbb/private_server.cpp:221
+#11 0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#12 0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 10 (Thread 0x7fe1911fe640 (LWP 3758860) "cmsRun"):
+#0  0x00007fe1ec0d5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fe1ec0da5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fe1ec0da50e in sleep () from /lib64/libc.so.6
+#3  0x00007fe1e5f461ac in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fe0c45d3867 in HGCDigitizerBase::runSimple(std::unique_ptr<edm::SortedCollection<HGCDataFrame<DetId, io_v1::HGCSample>, edm::StrictWeakOrdering<HGCDataFrame<DetId, io_v1::HGCSample> > >, std::default_delete<edm::SortedCollection<HGCDataFrame<DetId, io_v1::HGCSample>, edm::StrictWeakOrdering<HGCDataFrame<DetId, io_v1::HGCSample> > > > >&, std::unordered_map<unsigned int, hgc_digi::HGCCellInfo, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<unsigned int const, hgc_digi::HGCCellInfo> > >&, CaloSubdetectorGeometry const*, std::unordered_set<DetId, std::hash<DetId>, std::equal_to<DetId>, std::allocator<DetId> > const&, CLHEP::HepRandomEngine*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginSimCalorimetryHGCalSimProducersPlugins.so
+#6  0x00007fe0c45c3df7 in HGCDigitizer::finalizeEvent(edm::Event&, edm::EventSetup const&, CLHEP::HepRandomEngine*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginSimCalorimetryHGCalSimProducersPlugins.so
+#7  0x00007fe0c45c683c in HGCDigiProducer::finalizeEvent(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginSimCalorimetryHGCalSimProducersPlugins.so
+#8  0x00007fe0c48ababb in edm::MixingModule::finalizeEvent(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginSimGeneralMixingModulePlugins.so
+#9  0x00007fe0c4800f5e in edm::BMixingModule::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libMixingBase.so
+#10 0x00007fe1ed255512 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ActivityRegistry*, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#11 0x00007fe1ed23c3f7 in edm::WorkerT<edm::stream::EDProducerAdaptorBase>::implDo(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#12 0x00007fe1ed1ccc52 in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#13 0x00007fe1ed1cd164 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#14 0x00007fe1ececae64 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreConcurrency.so
+#15 0x00007fe1ec7d919b in tbb::detail::r1::task_dispatcher::local_wait_for_all<false, tbb::detail::r1::outermost_worker_waiter> (t=<optimized out>, waiter=..., this=0x7fe1e630f480) at src/tbb/task_dispatcher.h:344
+#16 tbb::detail::r1::task_dispatcher::local_wait_for_all<tbb::detail::r1::outermost_worker_waiter> (t=0x0, waiter=..., this=0x7fe1e630f480) at src/tbb/task_dispatcher.h:487
+#17 tbb::detail::r1::arena::process (tls=..., this=<optimized out>) at src/tbb/arena.cpp:216
+#18 tbb::detail::r1::thread_dispatcher_client::process (td=..., this=<optimized out>) at src/tbb/thread_dispatcher_client.h:41
+#19 tbb::detail::r1::thread_dispatcher::process (this=<optimized out>, j=...) at src/tbb/thread_dispatcher.cpp:195
+#20 0x00007fe1ec7ccc75 in tbb::detail::r1::rml::private_worker::run (this=0x7fe1e6306e00) at src/tbb/private_server.cpp:271
+#21 tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7fe1e6306e00) at src/tbb/private_server.cpp:221
+#22 0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#23 0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 9 (Thread 0x7fe1901ff640 (LWP 3758861) "cmsRun"):
+#0  0x00007fe1ec0d5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fe1ec0da5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fe1ec0da50e in sleep () from /lib64/libc.so.6
+#3  0x00007fe1e5f461ac in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fe1ec7317ad in edm::RefCore::RefCore(edm::RefCore const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libDataFormatsCommon.so
+#6  0x00007fe194b2f22d in TTClusterAssociator<edm::Ref<edm::DetSetVector<io_v1::Phase2TrackerDigi>, io_v1::Phase2TrackerDigi, edm::refhelper::FindForDetSetVector<io_v1::Phase2TrackerDigi> > >::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginTrackTriggerAssociationPlugins.so
+#7  0x00007fe1ed255512 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ActivityRegistry*, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#8  0x00007fe1ed23c3f7 in edm::WorkerT<edm::stream::EDProducerAdaptorBase>::implDo(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#9  0x00007fe1ed1ccc52 in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#10 0x00007fe1ed1cd164 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#11 0x00007fe1ececae64 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreConcurrency.so
+#12 0x00007fe1ec7d919b in tbb::detail::r1::task_dispatcher::local_wait_for_all<false, tbb::detail::r1::outermost_worker_waiter> (t=<optimized out>, waiter=..., this=0x7fe1e630f580) at src/tbb/task_dispatcher.h:344
+#13 tbb::detail::r1::task_dispatcher::local_wait_for_all<tbb::detail::r1::outermost_worker_waiter> (t=0x0, waiter=..., this=0x7fe1e630f580) at src/tbb/task_dispatcher.h:487
+#14 tbb::detail::r1::arena::process (tls=..., this=<optimized out>) at src/tbb/arena.cpp:216
+#15 tbb::detail::r1::thread_dispatcher_client::process (td=..., this=<optimized out>) at src/tbb/thread_dispatcher_client.h:41
+#16 tbb::detail::r1::thread_dispatcher::process (this=<optimized out>, j=...) at src/tbb/thread_dispatcher.cpp:195
+#17 0x00007fe1ec7ccc75 in tbb::detail::r1::rml::private_worker::run (this=0x7fe1e6306b80) at src/tbb/private_server.cpp:271
+#18 tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7fe1e6306b80) at src/tbb/private_server.cpp:221
+#19 0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#20 0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 8 (Thread 0x7fe18f3ff640 (LWP 3758862) "cmsRun"):
+#0  0x00007fe1ec0d5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fe1ec0da5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fe1ec0da50e in sleep () from /lib64/libc.so.6
+#3  0x00007fe1e5f461ac in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fe1e54bbbc2 in int TStreamerInfoActions::WriteBasicType<int>(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libRIO.so
+#6  0x00007fe1e532296e in TBufferFile::WriteClassBuffer(TClass const*, void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libRIO.so
+#7  0x00007fe1e542e2b4 in TStreamerInfoActions::WriteViaClassBuffer(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libRIO.so
+#8  0x00007fe1e532296e in TBufferFile::WriteClassBuffer(TClass const*, void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libRIO.so
+#9  0x00007fe1e542e2b4 in TStreamerInfoActions::WriteViaClassBuffer(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libRIO.so
+#10 0x00007fe1e552a8ab in int TStreamerInfoActions::GenericLooper::LoopOverCollection<&TStreamerInfoActions::WriteViaClassBuffer>(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libRIO.so
+#11 0x00007fe1e531a54c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libRIO.so
+#12 0x00007fe1e565625e in int TStreamerInfo::WriteBufferAux<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libRIO.so
+#13 0x00007fe1e5462edc in TStreamerInfoActions::VectorLooper::GenericWrite(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libRIO.so
+#14 0x00007fe1e531a54c in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libRIO.so
+#15 0x00007fe1e55261ec in int TStreamerInfoActions::WriteSTL<&TStreamerInfoActions::WriteSTLMemberWise, &TStreamerInfoActions::WriteSTLObjectWiseFastArray>(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libRIO.so
+#16 0x00007fe1e532296e in TBufferFile::WriteClassBuffer(TClass const*, void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libRIO.so
+#17 0x00007fe1e542e2b4 in TStreamerInfoActions::WriteViaClassBuffer(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libRIO.so
+#18 0x00007fe1e531b425 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libRIO.so
+#19 0x00007fe1e591b07e in TBranch::FillImpl(ROOT::Internal::TBranchIMTHelper*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libTree.so
+#20 0x00007fe1e5925efc in TBranchElement::FillImpl(ROOT::Internal::TBranchIMTHelper*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libTree.so
+#21 0x00007fe1e5925c61 in TBranchElement::FillImpl(ROOT::Internal::TBranchIMTHelper*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libTree.so
+#22 0x00007fe1e599cab9 in TTree::Fill() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libTree.so
+#23 0x00007fe119eb4ad8 in tbb::detail::d1::task_arena_function<edm::RootOutputTree::fillTree()::{lambda()#1}, void>::operator()() const () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libIOPoolOutput.so
+#24 0x00007fe1ec7c11c1 in operator() (__closure=<optimized out>) at src/tbb/arena.cpp:944
+#25 tbb::detail::d0::try_call_proxy<tbb::detail::r1::isolate_within_arena(tbb::detail::d1::delegate_base&, intptr_t)::<lambda()> >::on_completion<tbb::detail::r1::isolate_within_arena(tbb::detail::d1::delegate_base&, intptr_t)::<lambda()> > (on_completion_body=..., this=<optimized out>) at src/tbb/../../include/oneapi/tbb/detail/_template_helpers.h:234
+#26 tbb::detail::r1::isolate_within_arena (d=..., isolation=<optimized out>) at src/tbb/arena.cpp:945
+#27 0x00007fe119eb76ba in edm::RootOutputTree::fillTree() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libIOPoolOutput.so
+#28 0x00007fe119eb7da2 in edm::RootOutputFile::fillBranches(edm::BranchType const&, edm::OccurrenceForOutput const&, unsigned int, std::vector<edm::StoredProductProvenance, std::allocator<edm::StoredProductProvenance> >*, edm::ProductProvenanceRetriever const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libIOPoolOutput.so
+#29 0x00007fe119eb83ef in edm::RootOutputFile::writeOne(edm::EventForOutput const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libIOPoolOutput.so
+#30 0x00007fe119ea18c3 in edm::PoolOutputModule::write(edm::EventForOutput const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libIOPoolOutput.so
+#31 0x00007fe1ed1cc7f3 in edm::core::OutputModuleCore::doEvent_(edm::EventTransitionInfo const&, edm::ActivityRegistry*, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#32 0x00007fe1ed249571 in edm::one::OutputModuleBase::doEvent(edm::EventTransitionInfo const&, edm::ActivityRegistry*, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#33 0x00007fe1ed23b8b7 in edm::WorkerT<edm::one::OutputModuleBase>::implDo(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#34 0x00007fe1ed1ccc52 in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#35 0x00007fe1ed1cda34 in edm::SerialTaskQueue::QueuedTask<edm::SerialTaskQueueChain::push<edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute()::{lambda()#1}&>(tbb::detail::d2::task_group&, edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute()::{lambda()#1}&)::{lambda()#1}>::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#36 0x00007fe1ececd427 in tbb::detail::d2::function_task<edm::SerialTaskQueue::spawn(edm::SerialTaskQueue::TaskBase&)::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreConcurrency.so
+#37 0x00007fe1ec7d919b in tbb::detail::r1::task_dispatcher::local_wait_for_all<false, tbb::detail::r1::outermost_worker_waiter> (t=<optimized out>, waiter=..., this=0x7fe1e630f780) at src/tbb/task_dispatcher.h:344
+#38 tbb::detail::r1::task_dispatcher::local_wait_for_all<tbb::detail::r1::outermost_worker_waiter> (t=0x0, waiter=..., this=0x7fe1e630f780) at src/tbb/task_dispatcher.h:487
+#39 tbb::detail::r1::arena::process (tls=..., this=<optimized out>) at src/tbb/arena.cpp:216
+#40 tbb::detail::r1::thread_dispatcher_client::process (td=..., this=<optimized out>) at src/tbb/thread_dispatcher_client.h:41
+#41 tbb::detail::r1::thread_dispatcher::process (this=<optimized out>, j=...) at src/tbb/thread_dispatcher.cpp:195
+#42 0x00007fe1ec7ccc75 in tbb::detail::r1::rml::private_worker::run (this=0x7fe1e6306c00) at src/tbb/private_server.cpp:271
+#43 tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7fe1e6306c00) at src/tbb/private_server.cpp:221
+#44 0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#45 0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 7 (Thread 0x7fe18e9fe640 (LWP 3758863) "cmsRun"):
+#0  0x00007fe1ec0d5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fe1ec0da5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fe1ec0da50e in sleep () from /lib64/libc.so.6
+#3  0x00007fe1e5f461ac in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fe1ec108b8d in syscall () from /lib64/libc.so.6
+#6  0x00007fe1ec7cceac in tbb::detail::r1::futex_wait (comparand=2, futex=0x7fe1e6306aa4) at src/tbb/semaphore.h:100
+#7  tbb::detail::r1::binary_semaphore::P (this=0x7fe1e6306aa4) at src/tbb/semaphore.h:261
+#8  tbb::detail::r1::rml::internal::thread_monitor::wait (this=0x7fe1e6306aa0) at src/tbb/rml_thread_monitor.h:235
+#9  tbb::detail::r1::rml::private_worker::run (this=0x7fe1e6306a80) at src/tbb/private_server.cpp:273
+#10 tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7fe1e6306a80) at src/tbb/private_server.cpp:221
+#11 0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#12 0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 6 (Thread 0x7fe18dffd640 (LWP 3758864) "cmsRun"):
+#0  0x00007fe1ec0d5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fe1ec0da5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fe1ec0da50e in sleep () from /lib64/libc.so.6
+#3  0x00007fe1e5f461ac in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fe1ec4c6d98 in std::locale::~locale (this=0x7fe18dff70d0, __in_chrg=<optimized out>) at ../../../../../libstdc++-v3/src/c++98/locale.cc:95
+#6  0x00007fe1bff19615 in HGCalDDDConstants::locateCell(int, int, int, int, int, int, bool, bool, bool, bool, bool) const () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/libGeometryHGCalCommonData.so
+#7  0x00007fe1c09c8e50 in HGCalGeometry::getPosition(DetId const&, bool, bool) const () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/libGeometryHGCalGeometry.so
+#8  0x00007fe1c09c96f5 in HGCalGeometry::getPosition(DetId const&, int) const () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/libGeometryHGCalGeometry.so
+#9  0x00007fe1c09c97c3 in HGCalGeometry::getPosition(DetId const&) const () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/libGeometryHGCalGeometry.so
+#10 0x00007fdf50ee77da in HGCalTriggerGeometryV9Imp3::getModulePosition(unsigned int) const () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginL1TriggerL1THGCalPlugins_geometries.so
+#11 0x00007fe1bc7f7efb in HGCalConcentratorTrigSumImpl::doSum(unsigned int, std::vector<l1t::io_v1::HGCalTriggerCell, std::allocator<l1t::io_v1::HGCalTriggerCell> > const&, std::vector<l1t::HGCalTriggerSums, std::allocator<l1t::HGCalTriggerSums> >&) const () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/libL1TriggerL1THGCal.so
+#12 0x00007fe0c5043474 in HGCalConcentratorProcessorSelection::run(edm::Handle<BXVector<l1t::io_v1::HGCalTriggerCell> > const&, std::tuple<BXVector<l1t::io_v1::HGCalTriggerCell>, BXVector<l1t::HGCalTriggerSums>, BXVector<l1t::HGCalConcentratorData> >&) () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginL1TriggerL1THGCalPlugins_fe_be.so
+#13 0x00007fe1bc841cf5 in HGCalConcentratorProducer::produce(edm::Event&, edm::EventSetup const&) () from /home/garibeir/CMSSW_20_0_0_patch1/lib/el9_amd64_gcc13/pluginL1TriggerL1THGCalPlugins.so
+#14 0x00007fe1ed255512 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ActivityRegistry*, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#15 0x00007fe1ed23c3f7 in edm::WorkerT<edm::stream::EDProducerAdaptorBase>::implDo(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#16 0x00007fe1ed1ccc52 in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#17 0x00007fe1ed1cd164 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#18 0x00007fe1ececae64 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreConcurrency.so
+#19 0x00007fe1ec7d919b in tbb::detail::r1::task_dispatcher::local_wait_for_all<false, tbb::detail::r1::outermost_worker_waiter> (t=<optimized out>, waiter=..., this=0x7fe1e630fa80) at src/tbb/task_dispatcher.h:344
+#20 tbb::detail::r1::task_dispatcher::local_wait_for_all<tbb::detail::r1::outermost_worker_waiter> (t=0x0, waiter=..., this=0x7fe1e630fa80) at src/tbb/task_dispatcher.h:487
+#21 tbb::detail::r1::arena::process (tls=..., this=<optimized out>) at src/tbb/arena.cpp:216
+#22 tbb::detail::r1::thread_dispatcher_client::process (td=..., this=<optimized out>) at src/tbb/thread_dispatcher_client.h:41
+#23 tbb::detail::r1::thread_dispatcher::process (this=<optimized out>, j=...) at src/tbb/thread_dispatcher.cpp:195
+#24 0x00007fe1ec7ccc75 in tbb::detail::r1::rml::private_worker::run (this=0x7fe1e6306b00) at src/tbb/private_server.cpp:271
+#25 tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7fe1e6306b00) at src/tbb/private_server.cpp:221
+#26 0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#27 0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 5 (Thread 0x7fe17d9ff640 (LWP 3758949) "cmsRun"):
+#0  0x00007fe1ec0d5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fe1ec0da5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fe1ec0da50e in sleep () from /lib64/libc.so.6
+#3  0x00007fe1e5f461ac in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fe1ec108b8d in syscall () from /lib64/libc.so.6
+#6  0x00007fe1ec7cceac in tbb::detail::r1::futex_wait (comparand=2, futex=0x7fe1e6306a24) at src/tbb/semaphore.h:100
+#7  tbb::detail::r1::binary_semaphore::P (this=0x7fe1e6306a24) at src/tbb/semaphore.h:261
+#8  tbb::detail::r1::rml::internal::thread_monitor::wait (this=0x7fe1e6306a20) at src/tbb/rml_thread_monitor.h:235
+#9  tbb::detail::r1::rml::private_worker::run (this=0x7fe1e6306a00) at src/tbb/private_server.cpp:273
+#10 tbb::detail::r1::rml::private_worker::thread_routine (arg=0x7fe1e6306a00) at src/tbb/private_server.cpp:221
+#11 0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#12 0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 4 (Thread 0x7fe11a7ff640 (LWP 3759468) "cmsRun"):
+#0  0x00007fe1ec08854a in __futex_abstimed_wait_common () from /lib64/libc.so.6
+#1  0x00007fe1ec08ab32 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libc.so.6
+#2  0x00007fe1b7f7aec3 in Eigen::ThreadPoolTempl<tsl::thread::EigenEnvironment>::WaitForWork(Eigen::EventCount::Waiter*, tsl::thread::EigenEnvironment::Task*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libtensorflow_cc.so.2
+#3  0x00007fe1b7f7b4bd in Eigen::ThreadPoolTempl<tsl::thread::EigenEnvironment>::WorkerLoop(int) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libtensorflow_cc.so.2
+#4  0x00007fe1b7f793d8 in void absl::lts_20230802::internal_any_invocable::RemoteInvoker<false, void, tsl::thread::EigenEnvironment::CreateThread(std::function<void ()>)::{lambda()#1}&>(absl::lts_20230802::internal_any_invocable::TypeErasedState*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libtensorflow_cc.so.2
+#5  0x00007fe1a2aabab2 in tsl::(anonymous namespace)::PThread::ThreadFn(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libtensorflow_framework.so.2
+#6  0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#7  0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 3 (Thread 0x7fe1199ff640 (LWP 3759469) "cmsRun"):
+#0  0x00007fe1ec08854a in __futex_abstimed_wait_common () from /lib64/libc.so.6
+#1  0x00007fe1ec08ab32 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libc.so.6
+#2  0x00007fe1b7f7aec3 in Eigen::ThreadPoolTempl<tsl::thread::EigenEnvironment>::WaitForWork(Eigen::EventCount::Waiter*, tsl::thread::EigenEnvironment::Task*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libtensorflow_cc.so.2
+#3  0x00007fe1b7f7b4bd in Eigen::ThreadPoolTempl<tsl::thread::EigenEnvironment>::WorkerLoop(int) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libtensorflow_cc.so.2
+#4  0x00007fe1b7f793d8 in void absl::lts_20230802::internal_any_invocable::RemoteInvoker<false, void, tsl::thread::EigenEnvironment::CreateThread(std::function<void ()>)::{lambda()#1}&>(absl::lts_20230802::internal_any_invocable::TypeErasedState*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libtensorflow_cc.so.2
+#5  0x00007fe1a2aabab2 in tsl::(anonymous namespace)::PThread::ThreadFn(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libtensorflow_framework.so.2
+#6  0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#7  0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 2 (Thread 0x7fe118bff640 (LWP 3759470) "cmsRun"):
+#0  0x00007fe1ec08854a in __futex_abstimed_wait_common () from /lib64/libc.so.6
+#1  0x00007fe1ec08ab32 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libc.so.6
+#2  0x00007fe1b7f7aec3 in Eigen::ThreadPoolTempl<tsl::thread::EigenEnvironment>::WaitForWork(Eigen::EventCount::Waiter*, tsl::thread::EigenEnvironment::Task*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libtensorflow_cc.so.2
+#3  0x00007fe1b7f7b4bd in Eigen::ThreadPoolTempl<tsl::thread::EigenEnvironment>::WorkerLoop(int) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libtensorflow_cc.so.2
+#4  0x00007fe1b7f793d8 in void absl::lts_20230802::internal_any_invocable::RemoteInvoker<false, void, tsl::thread::EigenEnvironment::CreateThread(std::function<void ()>)::{lambda()#1}&>(absl::lts_20230802::internal_any_invocable::TypeErasedState*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libtensorflow_cc.so.2
+#5  0x00007fe1a2aabab2 in tsl::(anonymous namespace)::PThread::ThreadFn(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw-patch/CMSSW_20_0_0_patch1/external/el9_amd64_gcc13/lib/libtensorflow_framework.so.2
+#6  0x00007fe1ec08b569 in start_thread () from /lib64/libc.so.6
+#7  0x00007fe1ec110760 in clone3 () from /lib64/libc.so.6
+Thread 1 (Thread 0x7fe1ec213300 (LWP 3757644) "cmsRun"):
+#0  0x00007fe1ec0d5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fe1ec0da5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fe1ec0da50e in sleep () from /lib64/libc.so.6
+#3  0x00007fe1e5f461ac in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fe1ec108b8d in syscall () from /lib64/libc.so.6
+#6  0x00007fe1ec7d2459 in tbb::detail::r1::futex_wait (comparand=2, futex=0x7ffe5ff2a7a0) at src/tbb/semaphore.h:100
+#7  tbb::detail::r1::binary_semaphore::P (this=0x7ffe5ff2a7a0) at src/tbb/semaphore.h:261
+#8  tbb::detail::r1::sleep_node<tbb::detail::r1::market_context>::wait (this=0x7ffe5ff2a770) at src/tbb/concurrent_monitor.h:170
+#9  tbb::detail::r1::concurrent_monitor_base<tbb::detail::r1::market_context>::commit_wait (this=<optimized out>, node=...) at src/tbb/concurrent_monitor.h:232
+#10 tbb::detail::r1::concurrent_monitor_base<tbb::detail::r1::market_context>::commit_wait (node=..., this=<optimized out>) at src/tbb/concurrent_monitor.h:228
+#11 tbb::detail::r1::concurrent_monitor_base<tbb::detail::r1::market_context>::wait<tbb::detail::r1::sleep_node<tbb::detail::r1::market_context>, tbb::detail::r1::external_waiter::pause(tbb::detail::r1::arena_slot&)::{lambda()#1}&>(tbb::detail::r1::external_waiter::pause(tbb::detail::r1::arena_slot&)::{lambda()#1}&, tbb::detail::r1::sleep_node<tbb::detail::r1::market_context>&&) (node=..., pred=<synthetic pointer>..., this=<optimized out>) at src/tbb/concurrent_monitor.h:262
+#12 tbb::detail::r1::sleep_waiter::sleep<tbb::detail::r1::external_waiter::pause(tbb::detail::r1::arena_slot&)::{lambda()#1}>(unsigned long, tbb::detail::r1::external_waiter::pause(tbb::detail::r1::arena_slot&)::{lambda()#1}) (wakeup_condition=..., uniq_tag=<optimized out>, this=0x7ffe5ff2a750) at src/tbb/waiters.h:149
+#13 tbb::detail::r1::external_waiter::pause (this=0x7ffe5ff2a750) at src/tbb/waiters.h:176
+#14 tbb::detail::r1::external_waiter::pause (this=0x7ffe5ff2a750) at src/tbb/waiters.h:169
+#15 tbb::detail::r1::task_dispatcher::receive_or_steal_task<false, tbb::detail::r1::external_waiter> (ctxguard=..., critical_allowed=<optimized out>, fifo_allowed=<optimized out>, isolation=<optimized out>, waiter=..., ed=..., tls=..., this=<optimized out>) at src/tbb/task_dispatcher.h:237
+#16 tbb::detail::r1::task_dispatcher::local_wait_for_all<false, tbb::detail::r1::external_waiter> (waiter=..., t=0x0, this=<optimized out>) at src/tbb/task_dispatcher.h:373
+#17 tbb::detail::r1::task_dispatcher::local_wait_for_all<tbb::detail::r1::external_waiter> (waiter=..., t=<optimized out>, this=<optimized out>) at src/tbb/task_dispatcher.h:487
+#18 tbb::detail::r1::task_dispatcher::execute_and_wait (t=<optimized out>, wait_ctx=..., w_ctx=...) at src/tbb/task_dispatcher.cpp:169
+#19 0x00007fe1ed147ddf in edm::FinalWaitingTask::wait() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#20 0x00007fe1ed15bcab in edm::EventProcessor::processRuns() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#21 0x00007fe1ed155c51 in edm::EventProcessor::runToCompletion() () from /cvmfs/cms.cern.ch/el9_amd64_gcc13/cms/cmssw/CMSSW_20_0_0/lib/el9_amd64_gcc13/libFWCoreFramework.so
+#22 0x00000000004091b3 in tbb::detail::d1::task_arena_function<main::{lambda()#1}::operator()() const::{lambda()#1}, void>::operator()() const ()
+#23 0x00007fe1ec7c0832 in tbb::detail::r1::task_arena_impl::execute (ta=..., d=...) at src/tbb/arena.cpp:860
+#24 0x000000000040ac27 in main::{lambda()#1}::operator()() const ()
+#25 0x0000000000405288 in main ()
+
+Current Modules:
+
+Module: L1FPGATrackProducer:l1tTTTracksFromTrackletEmulation (crashed)
+Module: MixingModule:mix
+Module: none
+Module: HGCalConcentratorProducer:l1tHGCalConcentratorProducer
+Module: MixingModule:mix
+Module: TTClusterAssociator_Phase2TrackerDigi_:TTClusterAssociatorFromPixelDigis
+Module: MixingModule:mix
+Module: none
+Module: MixingModule:mix
+Module: none
+Module: MixingModule:mix
+Module: L1FPGATrackProducer:l1tTTTracksFromExtendedTrackletEmulation
+Module: none
+Module: none
+Module: none
+Module: PoolOutputModule:FEVTDEBUGHLToutput
+
+A fatal system signal has occurred: abort signal
