@@ -9,6 +9,8 @@
 #include "FWCore/MessageLogger/interface/MessageLogger.h"
 #include "FWCore/Utilities/interface/Exception.h"
 
+// #define INPUT_ROUTER_DEBUGGING_INFO
+
 using namespace std;
 using namespace trklet;
 
@@ -77,6 +79,23 @@ void InputRouter::execute() {
     if (not settings_.reduced()) {
       // Verbose error message to debug crash.
       if (iadd != 1) {
+#ifdef INPUT_ROUTER_DEBUGGING_INFO
+        {
+        const L1TStub* l1s = stub->l1tstub();
+        const FPGAWord& praw = stub->phi();
+        const unsigned int shift = praw.nbits() - settings_.nbitsallstubs(layerdisk);
+
+        edm::LogError log("Tracklet");
+        log << name_ << " layerdisk=" << layerdisk << " iadd=" << iadd 
+            << "\n  module  : detId=" << l1s->detId() << " DTC=" << l1s->DTClink() << " region=" << l1s->region()
+            << "\n  phi     = " << praw.value() << " -> region " << (praw.value() >> shift) 
+            << "\n  phicorr = " << iphi.value() << " -> region " << iphipos << "\n  wired regions:";
+
+        for (const auto& m : irstubs_)
+          if (m.first.first == layerdisk)
+            log << " " << m.first.second;
+        }
+#endif
         edm::LogError("Tracklet") << "Executing " << name_ << " : region (layer,phi) = (" << layerdisk << ", "
                                   << iphipos << ") has " << iadd << " matching InputLinkMemories.";
         assert(false);

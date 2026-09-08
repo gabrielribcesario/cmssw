@@ -40,6 +40,8 @@ TL;DR: `InputRouter` routes stubs by bend-corrected (`phicorr`), but the DTC -> 
 
 Crash log at `L1TriggerBugsReproducers/InputRouter/step2_TTbar_13+Run4D112.log`.
 
+Debugging info log at `L1TriggerBugsReproducers/InputRouter/debugging_info_step2_TTbar_13+Run4D112.log`.
+
 Temporary fix:
 
 ```cpp
