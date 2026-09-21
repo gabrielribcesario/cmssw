@@ -1,0 +1,896 @@
+RAW2DIGI,RECO,RECOSIM,PAT,VALIDATION:@phase2Validation+@miniAODValidation,DQM:@phase2+@miniAODDQM
+We have determined that this is simulation (if not, rerun cmsDriver.py with --data)
+entry file:step2.root
+Step: RAW2DIGI Spec: 
+Step: RECO Spec: 
+Step: RECOSIM Spec: 
+Step: PAT Spec: 
+scheduling Flag_BadChargedCandidateFilter as part of PAT configuration
+scheduling Flag_BadChargedCandidateSummer16Filter as part of PAT configuration
+scheduling Flag_BadPFMuonDzFilter as part of PAT configuration
+scheduling Flag_BadPFMuonFilter as part of PAT configuration
+scheduling Flag_BadPFMuonSummer16Filter as part of PAT configuration
+scheduling Flag_CSCTightHalo2015Filter as part of PAT configuration
+scheduling Flag_CSCTightHaloFilter as part of PAT configuration
+scheduling Flag_CSCTightHaloTrkMuUnvetoFilter as part of PAT configuration
+scheduling Flag_EcalDeadCellBoundaryEnergyFilter as part of PAT configuration
+scheduling Flag_EcalDeadCellTriggerPrimitiveFilter as part of PAT configuration
+scheduling Flag_HBHENoiseFilter as part of PAT configuration
+scheduling Flag_HBHENoiseIsoFilter as part of PAT configuration
+scheduling Flag_HcalStripHaloFilter as part of PAT configuration
+scheduling Flag_chargedHadronTrackResolutionFilter as part of PAT configuration
+scheduling Flag_ecalBadCalibFilter as part of PAT configuration
+scheduling Flag_ecalLaserCorrFilter as part of PAT configuration
+scheduling Flag_eeBadScFilter as part of PAT configuration
+scheduling Flag_globalSuperTightHalo2016Filter as part of PAT configuration
+scheduling Flag_globalTightHalo2016Filter as part of PAT configuration
+scheduling Flag_goodVertices as part of PAT configuration
+scheduling Flag_hcalLaserEventFilter as part of PAT configuration
+scheduling Flag_hfNoisyHitsFilter as part of PAT configuration
+scheduling Flag_muonBadTrackFilter as part of PAT configuration
+scheduling Flag_trackingFailureFilter as part of PAT configuration
+scheduling Flag_trkPOGFilters as part of PAT configuration
+scheduling Flag_trkPOG_logErrorTooManyClusters as part of PAT configuration
+scheduling Flag_trkPOG_manystripclus53X as part of PAT configuration
+scheduling Flag_trkPOG_toomanystripclus53X as part of PAT configuration
+Step: VALIDATION Spec: ['@phase2Validation', '@miniAODValidation']
+@phase2Validation+@miniAODValidation in preparing validation
+Step: DQM Spec: ['@phase2', '@miniAODDQM']
+customising the process with setCrossingFrameOn from SimGeneral/MixingModule/fullMixCustomize_cff
+customising the process with miniAOD_customizeAllMC from Configuration/StandardSequences/PAT_cff
+Starting  cmsRun  step3_RAW2DIGI_RECO_RECOSIM_PAT_VALIDATION_DQM.py
+%MSG-i ThreadStreamSetup:  (NoModuleName) 21-Sep-2026 10:20:45 CEST pre-events
+setting # threads 16
+setting # streams 16
+%MSG
+%MSG-i AlpakaService:  (NoModuleName) 21-Sep-2026 10:20:45 CEST pre-events
+AlpakaServiceSerialSync succesfully initialised.
+Found 1 device:
+  - 11th Gen Intel(R) Core(TM) i7-11700 @ 2.50GHz
+%MSG
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789978848.109813 1660679 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+21-Sep-2026 10:20:48 CEST  Initiating request to open file file:step2.root
+21-Sep-2026 10:20:59 CEST  Successfully opened file file:step2.root
+Begin processing the 1st record. Run 1, Event 5, LumiSection 1 on stream 7 at 21-Sep-2026 10:22:17.026 CEST
+Begin processing the 2nd record. Run 1, Event 3, LumiSection 1 on stream 5 at 21-Sep-2026 10:22:17.027 CEST
+Begin processing the 3rd record. Run 1, Event 18, LumiSection 1 on stream 12 at 21-Sep-2026 10:22:17.027 CEST
+Begin processing the 4th record. Run 1, Event 16, LumiSection 1 on stream 1 at 21-Sep-2026 10:22:17.028 CEST
+Begin processing the 5th record. Run 1, Event 13, LumiSection 1 on stream 8 at 21-Sep-2026 10:22:17.029 CEST
+Begin processing the 6th record. Run 1, Event 2, LumiSection 1 on stream 6 at 21-Sep-2026 10:22:17.030 CEST
+Begin processing the 7th record. Run 1, Event 12, LumiSection 1 on stream 14 at 21-Sep-2026 10:22:17.031 CEST
+Begin processing the 8th record. Run 1, Event 19, LumiSection 1 on stream 11 at 21-Sep-2026 10:22:17.032 CEST
+Begin processing the 9th record. Run 1, Event 10, LumiSection 1 on stream 13 at 21-Sep-2026 10:22:17.033 CEST
+Begin processing the 10th record. Run 1, Event 6, LumiSection 1 on stream 9 at 21-Sep-2026 10:22:17.034 CEST
+Begin processing the 11th record. Run 1, Event 14, LumiSection 1 on stream 2 at 21-Sep-2026 10:22:17.035 CEST
+Begin processing the 12th record. Run 1, Event 11, LumiSection 1 on stream 0 at 21-Sep-2026 10:22:17.035 CEST
+Begin processing the 13th record. Run 1, Event 17, LumiSection 1 on stream 3 at 21-Sep-2026 10:22:17.036 CEST
+Begin processing the 14th record. Run 1, Event 8, LumiSection 1 on stream 10 at 21-Sep-2026 10:22:17.037 CEST
+Begin processing the 15th record. Run 1, Event 4, LumiSection 1 on stream 4 at 21-Sep-2026 10:22:17.039 CEST
+Begin processing the 16th record. Run 1, Event 1, LumiSection 1 on stream 15 at 21-Sep-2026 10:22:17.039 CEST
+#--------------------------------------------------------------------------
+#                         FastJet release 3.4.1
+#                 M. Cacciari, G.P. Salam and G. Soyez                  
+#     A software package for jet finding and analysis at colliders      
+#                           http://fastjet.fr                           
+#	                                                                      
+# Please cite EPJC72(2012)1896 [arXiv:1111.6097] if you use this package
+# for scientific work and optionally PLB641(2006)57 [hep-ph/0512210].   
+#                                                                       
+# FastJet is provided without warranty under the GNU GPL v2 or higher.  
+# It uses T. Chan's closest pair algorithm, S. Fortune's Voronoi code
+# and 3rd party plugin jet algorithms. See COPYING file for details.
+#--------------------------------------------------------------------------
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:18 CEST Run: 1 Event: 18
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:18 CEST Run: 1 Event: 18
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 12
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 11
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 11
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 12
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 2
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 2
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 3
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 5
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 5
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 3
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 4
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 8
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 8
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 4
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 6
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 6
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 17
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 17
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 16
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 16
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 10
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 10
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 19
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 19
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 13
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:19 CEST Run: 1 Event: 13
+Missing TP->GsfTrack association.
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:20 CEST Run: 1 Event: 3
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:20 CEST Run: 1 Event: 3
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:20 CEST Run: 1 Event: 18
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:20 CEST Run: 1 Event: 18
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:20 CEST Run: 1 Event: 10
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:20 CEST Run: 1 Event: 10
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:20 CEST Run: 1 Event: 6
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:20 CEST Run: 1 Event: 6
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:20 CEST Run: 1 Event: 2
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:20 CEST Run: 1 Event: 2
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:20 CEST Run: 1 Event: 19
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:20 CEST Run: 1 Event: 19
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:21 CEST Run: 1 Event: 16
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:21 CEST Run: 1 Event: 16
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:21 CEST Run: 1 Event: 12
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:21 CEST Run: 1 Event: 12
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:21 CEST Run: 1 Event: 5
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:21 CEST Run: 1 Event: 5
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:21 CEST Run: 1 Event: 13
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:21 CEST Run: 1 Event: 13
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:21 CEST Run: 1 Event: 4
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:21 CEST Run: 1 Event: 4
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:21 CEST Run: 1 Event: 11
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:21 CEST Run: 1 Event: 11
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:21 CEST Run: 1 Event: 14
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:21 CEST Run: 1 Event: 14
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:21 CEST Run: 1 Event: 8
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:21 CEST Run: 1 Event: 8
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:21 CEST Run: 1 Event: 17
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:21 CEST Run: 1 Event: 17
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:21 CEST Run: 1 Event: 1
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:21 CEST Run: 1 Event: 1
+Missing TP->GsfTrack association.
+%MSG
+Begin processing the 17th record. Run 1, Event 21, LumiSection 1 on stream 12 at 21-Sep-2026 10:22:21.846 CEST
+Begin processing the 18th record. Run 1, Event 22, LumiSection 1 on stream 9 at 21-Sep-2026 10:22:21.846 CEST
+Begin processing the 19th record. Run 1, Event 24, LumiSection 1 on stream 7 at 21-Sep-2026 10:22:21.846 CEST
+Begin processing the 20th record. Run 1, Event 23, LumiSection 1 on stream 5 at 21-Sep-2026 10:22:21.846 CEST
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:22 CEST Run: 1 Event: 23
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:22 CEST Run: 1 Event: 23
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:22 CEST Run: 1 Event: 24
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:22 CEST Run: 1 Event: 24
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:22 CEST Run: 1 Event: 21
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:22 CEST Run: 1 Event: 21
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:22 CEST Run: 1 Event: 23
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:22 CEST Run: 1 Event: 23
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:22 CEST Run: 1 Event: 24
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:22 CEST Run: 1 Event: 24
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:22 CEST Run: 1 Event: 21
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:22 CEST Run: 1 Event: 21
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:22 CEST Run: 1 Event: 22
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:22 CEST Run: 1 Event: 22
+Missing TP->GsfTrack association.
+%MSG
+Begin processing the 21st record. Run 1, Event 25, LumiSection 1 on stream 4 at 21-Sep-2026 10:22:22.778 CEST
+Begin processing the 22nd record. Run 1, Event 20, LumiSection 1 on stream 6 at 21-Sep-2026 10:22:22.778 CEST
+Begin processing the 23rd record. Run 1, Event 27, LumiSection 1 on stream 0 at 21-Sep-2026 10:22:22.779 CEST
+Begin processing the 24th record. Run 1, Event 26, LumiSection 1 on stream 11 at 21-Sep-2026 10:22:22.779 CEST
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:23 CEST Run: 1 Event: 25
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:23 CEST Run: 1 Event: 25
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:23 CEST Run: 1 Event: 25
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:23 CEST Run: 1 Event: 25
+Missing TP->GsfTrack association.
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:23 CEST Run: 1 Event: 20
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:23 CEST Run: 1 Event: 20
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:23 CEST Run: 1 Event: 20
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:23 CEST Run: 1 Event: 20
+Missing TP->GsfTrack association.
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:23 CEST Run: 1 Event: 26
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:23 CEST Run: 1 Event: 26
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:23 CEST Run: 1 Event: 27
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:23 CEST Run: 1 Event: 27
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:23 CEST Run: 1 Event: 26
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:23 CEST Run: 1 Event: 27
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:23 CEST Run: 1 Event: 27
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:23 CEST Run: 1 Event: 26
+Missing TP->GsfTrack association.
+%MSG
+Begin processing the 25th record. Run 1, Event 29, LumiSection 1 on stream 13 at 21-Sep-2026 10:22:24.022 CEST
+Begin processing the 26th record. Run 1, Event 9, LumiSection 1 on stream 14 at 21-Sep-2026 10:22:24.023 CEST
+Begin processing the 27th record. Run 1, Event 32, LumiSection 1 on stream 8 at 21-Sep-2026 10:22:24.023 CEST
+Begin processing the 28th record. Run 1, Event 33, LumiSection 1 on stream 10 at 21-Sep-2026 10:22:24.023 CEST
+Begin processing the 29th record. Run 1, Event 30, LumiSection 1 on stream 2 at 21-Sep-2026 10:22:24.023 CEST
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:24 CEST Run: 1 Event: 29
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:24 CEST Run: 1 Event: 29
+Missing TP->GsfTrack association.
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:24 CEST Run: 1 Event: 29
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:24 CEST Run: 1 Event: 29
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:24 CEST Run: 1 Event: 32
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:24 CEST Run: 1 Event: 32
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:24 CEST Run: 1 Event: 32
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:24 CEST Run: 1 Event: 32
+Missing TP->GsfTrack association.
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:24 CEST Run: 1 Event: 9
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:24 CEST Run: 1 Event: 9
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:24 CEST Run: 1 Event: 33
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:24 CEST Run: 1 Event: 33
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOffline  21-Sep-2026 10:22:25 CEST Run: 1 Event: 30
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-e TrackToTrackComparisonHists:   TrackToTrackComparisonHists:hltEgammaGsfTracksVsOfflinePV  21-Sep-2026 10:22:25 CEST Run: 1 Event: 30
+monitoredTracksHandle with input tag hltEgammaGsfTracksL1Seeded not found, skipping event
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:25 CEST Run: 1 Event: 30
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:25 CEST Run: 1 Event: 30
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:25 CEST Run: 1 Event: 9
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:25 CEST Run: 1 Event: 9
+Missing TP->GsfTrack association.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:25 CEST Run: 1 Event: 33
+Missing GSF track collection.
+%MSG
+%MSG-w SimTrackstersProducer:  SimTrackstersProducer:hltTiclSimTracksters  21-Sep-2026 10:22:25 CEST Run: 1 Event: 33
+Missing TP->GsfTrack association.
+%MSG
+Begin processing the 30th record. Run 1, Event 35, LumiSection 1 on stream 3 at 21-Sep-2026 10:22:25.823 CEST
+Begin processing the 31st record. Run 1, Event 37, LumiSection 1 on stream 1 at 21-Sep-2026 10:22:25.823 CEST
+Begin processing the 32nd record. Run 1, Event 31, LumiSection 1 on stream 15 at 21-Sep-2026 10:22:25.824 CEST
+Begin processing the 33rd record. Run 1, Event 38, LumiSection 1 on stream 7 at 21-Sep-2026 10:22:25.824 CEST
+Begin processing the 34th record. Run 1, Event 40, LumiSection 1 on stream 12 at 21-Sep-2026 10:22:25.824 CEST
+Begin processing the 35th record. Run 1, Event 36, LumiSection 1 on stream 9 at 21-Sep-2026 10:22:25.824 CEST
+
+std::bad_alloc exception
+
+
+A fatal system signal has occurred: segmentation violation
+The following is the call stack containing the origin of the signal.
+
+Mon Sep 21 10:22:26 CEST 2026
+Thread 20 (Thread 0x7fafa25ff640 (LWP 1662125) "cmsRun"):
+#0  0x00007fafd2ada38f in wait4 () from /lib64/libc.so.6
+#1  0x00007fafc0a2d3e8 in edm::service::cmssw_stacktrace_fork() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#2  0x00007fafc0a2e832 in edm::service::InitRootHandlers::stacktraceHelperThread() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#3  0x00007fafd2ee65f4 in std::execute_native_thread_routine (__p=0x7fafc4a9d730) at ../../../../../libstdc++-v3/src/c++11/thread.cc:104
+#4  0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#5  0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 19 (Thread 0x7faf6aabe640 (LWP 1662199) "cmsRun"):
+#0  0x00007fafd2ad5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fafd2ada5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fafd2ada50e in sleep () from /lib64/libc.so.6
+#3  0x00007fafc0a2d27c in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fafd37e3882 in tcache_gc_small_heuristic_addr_get (tcache_slow=0x7faf6aaba0a0, tsd=<optimized out>, szind=24) at src/tcache.c:217
+#6  tcache_gc_small (tsd=<optimized out>, tcache_slow=0x7faf6aaba0a0, tcache=0x7faf6aab9e60, szind=24) at src/tcache.c:421
+#7  tcache_try_gc_bin (tsd=tsd@entry=0x7faf6aab9aa0, tcache_slow=tcache_slow@entry=0x7faf6aab9bc8, tcache=tcache@entry=0x7faf6aab9e60, szind=szind@entry=24) at src/tcache.c:506
+#8  0x00007fafd37e429a in tcache_gc_event (tsd=0x7faf6aab9aa0) at src/tcache.c:558
+#9  0x00007fafd37e76ce in je_te_event_trigger (tsd=tsd@entry=0x7faf6aab9aa0, ctx=ctx@entry=0x7faf6aab7fd0) at src/thread_event.c:380
+#10 0x00007fafd376831c in te_event_advance (tsd=0x7faf6aab9aa0, usize=448, is_alloc=false) at include/jemalloc/internal/thread_event.h:214
+#11 thread_dalloc_event (tsd=0x7faf6aab9aa0, usize=448) at include/jemalloc/internal/thread_event.h:220
+#12 isfree (tsd=<optimized out>, ptr=<optimized out>, usize=<optimized out>, tcache=<optimized out>, slow_path=<optimized out>) at src/jemalloc.c:2037
+#13 je_sdallocx_default (ptr=<optimized out>, size=<optimized out>, flags=<optimized out>) at src/jemalloc.c:2925
+#14 0x00007faf9d1264b5 in BasicMultiTrajectoryState::~BasicMultiTrajectoryState() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsGsfTools.so
+#15 0x00007faee2eb57bb in Trajectory::~Trajectory() [clone .lto_priv.0] () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoTrackerTrackProducer.so
+#16 0x00007faee2ebdc31 in GsfTrackProducerBase::putInEvt(edm::Event&, Propagator const*, MeasurementTracker const*, std::unique_ptr<edm::OwnVector<io_v1::TrackingRecHit, edm::ClonePolicy<io_v1::TrackingRecHit> >, std::default_delete<edm::OwnVector<io_v1::TrackingRecHit, edm::ClonePolicy<io_v1::TrackingRecHit> > > >&, std::unique_ptr<std::vector<reco::io_v1::GsfTrack, std::allocator<reco::io_v1::GsfTrack> >, std::default_delete<std::vector<reco::io_v1::GsfTrack, std::allocator<reco::io_v1::GsfTrack> > > >&, std::unique_ptr<std::vector<reco::io_v1::TrackExtra, std::allocator<reco::io_v1::TrackExtra> >, std::default_delete<std::vector<reco::io_v1::TrackExtra, std::allocator<reco::io_v1::TrackExtra> > > >&, std::unique_ptr<std::vector<reco::io_v1::GsfTrackExtra, std::allocator<reco::io_v1::GsfTrackExtra> >, std::default_delete<std::vector<reco::io_v1::GsfTrackExtra, std::allocator<reco::io_v1::GsfTrackExtra> > > >&, std::unique_ptr<std::vector<Trajectory, std::allocator<Trajectory> >, std::default_delete<std::vector<Trajectory, std::allocator<Trajectory> > > >&, std::vector<AlgoProductTraits<reco::io_v1::GsfTrack>::AlgoProduct, std::allocator<AlgoProductTraits<reco::io_v1::GsfTrack>::AlgoProduct> >&, TransientTrackingRecHitBuilder const*, reco::io_v1::BeamSpot const&, TrackerTopology const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoTrackerTrackProducer.so
+#17 0x00007faee2fa1103 in GsfTrackProducer::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoTrackerTrackProducerPlugins.so
+#18 0x00007fafd3c6e4d4 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#19 0x00007fafd3bcfd6c in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#20 0x00007fafd3bd86c9 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#21 0x00007fafd3d52e44 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreConcurrency.so
+#22 0x00007fafd3713ba0 in tbb::detail::r1::thread_dispatcher::process(rml::job&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#23 0x00007fafd370d848 in tbb::detail::r1::rml::private_worker::thread_routine(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#24 0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#25 0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 18 (Thread 0x7faf6a0bd640 (LWP 1662200) "cmsRun"):
+#0  0x00007fafd2ad5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fafd2ada5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fafd2ada50e in sleep () from /lib64/libc.so.6
+#3  0x00007fafc0a2d27c in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007faf991d7b89 in DetIdAssociator::getCrossedDetIds(std::set<DetId, std::less<DetId>, std::allocator<DetId> > const&, std::vector<Point3DBase<float, GlobalTag>, std::allocator<Point3DBase<float, GlobalTag> > > const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsTrackAssociator.so
+#6  0x00007faf991ea1b4 in TrackDetectorAssociator::fillEcal(edm::Event const&, TrackDetMatchInfo&, TrackAssociatorParameters const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsTrackAssociator.so
+#7  0x00007faf991f16fe in TrackDetectorAssociator::associate(edm::Event const&, edm::EventSetup const&, TrackAssociatorParameters const&, FreeTrajectoryState const*, FreeTrajectoryState const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsTrackAssociator.so
+#8  0x00007faf991e5c8c in TrackDetectorAssociator::associate(edm::Event const&, edm::EventSetup const&, FreeTrajectoryState const&, TrackAssociatorParameters const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsTrackAssociator.so
+#9  0x00007faec0d78050 in muonisolation::CaloExtractorByAssociator::deposits(edm::Event const&, edm::EventSetup const&, reco::io_v1::Track const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoMuonMuonIsolationPlugins.so
+#10 0x00007faec1390bbe in MuonIdProducer::fillMuonIsolation(edm::Event&, edm::EventSetup const&, reco::io_v1::Muon&, reco::io_v1::IsoDeposit&, reco::io_v1::IsoDeposit&, reco::io_v1::IsoDeposit&, reco::io_v1::IsoDeposit&, reco::io_v1::IsoDeposit&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoMuonMuonIdentificationPlugins.so
+#11 0x00007faec1389562 in MuonIdProducer::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoMuonMuonIdentificationPlugins.so
+#12 0x00007fafd3c6e4d4 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#13 0x00007fafd3bcfd6c in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#14 0x00007fafd3bd86c9 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#15 0x00007fafd3d52e44 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreConcurrency.so
+#16 0x00007fafd3713ba0 in tbb::detail::r1::thread_dispatcher::process(rml::job&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#17 0x00007fafd370d848 in tbb::detail::r1::rml::private_worker::thread_routine(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#18 0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#19 0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 17 (Thread 0x7faf68fff640 (LWP 1662208) "cmsRun"):
+#0  0x00007fafd2ad5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fafd2ada5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fafd2ada50e in sleep () from /lib64/libc.so.6
+#3  0x00007fafc0a2d27c in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fafa0269b6a in HGCalDDDConstants::getXY(int, double, double, bool) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libGeometryHGCalCommonData.so
+#6  0x00007fafa026ea50 in HGCalDDDConstants::locateCell(int, int, int, int, int, int, bool, bool, bool, bool, bool) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libGeometryHGCalCommonData.so
+#7  0x00007fafa4cc0b9e in HGCalGeometry::getPosition(DetId const&, bool, bool) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libGeometryHGCalGeometry.so
+#8  0x00007fafa4cc1277 in HGCalGeometry::getGeometry(DetId const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libGeometryHGCalGeometry.so
+#9  0x00007fae9e0ce6a6 in PFHGCalRecHitCreator<HGCSiliconDetId, (PFLayer::Layer)13, (DetId::Detector)9, 0u>::importRecHits(std::unique_ptr<std::vector<reco::io_v1::PFRecHit, std::allocator<reco::io_v1::PFRecHit> >, std::default_delete<std::vector<reco::io_v1::PFRecHit, std::allocator<reco::io_v1::PFRecHit> > > >&, std::unique_ptr<std::vector<reco::io_v1::PFRecHit, std::allocator<reco::io_v1::PFRecHit> >, std::default_delete<std::vector<reco::io_v1::PFRecHit, std::allocator<reco::io_v1::PFRecHit> > > >&, edm::Event const&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoParticleFlowPFClusterProducerPlugins.so
+#10 0x00007fae9e0b8e9a in PFRecHitProducer::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoParticleFlowPFClusterProducerPlugins.so
+#11 0x00007fafd3c6e4d4 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#12 0x00007fafd3bcfd6c in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#13 0x00007fafd3bd86c9 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#14 0x00007fafd3d52e44 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreConcurrency.so
+#15 0x00007fafd3713ba0 in tbb::detail::r1::thread_dispatcher::process(rml::job&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#16 0x00007fafd370d848 in tbb::detail::r1::rml::private_worker::thread_routine(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#17 0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#18 0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 16 (Thread 0x7faf681ff640 (LWP 1662209) "cmsRun"):
+#0  0x00007fafd2ad5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fafd2ada5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fafd2ada50e in sleep () from /lib64/libc.so.6
+#3  0x00007fafc0a2d27c in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007faf89de25a8 in Eigen::TensorEvaluator<Eigen::TensorAssignOp<Eigen::TensorMap<Eigen::Tensor<float, 2, 1, long>, 16, Eigen::MakePointer>, Eigen::TensorCwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, Eigen::TensorMap<Eigen::Tensor<float const, 2, 1, long>, 16, Eigen::MakePointer> const, Eigen::TensorBroadcastingOp<Eigen::IndexList<long, Eigen::type2index<1l> > const, Eigen::TensorReshapingOp<Eigen::IndexList<Eigen::type2index<1l>, long> const, Eigen::TensorMap<Eigen::Tensor<float const, 2, 1, long>, 16, Eigen::MakePointer> const> const> const> const> const, Eigen::ThreadPoolDevice>::evalBlock(Eigen::internal::TensorBlockDescriptor<2, long>&, Eigen::internal::TensorBlockScratchAllocator<Eigen::ThreadPoolDevice>&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_cc.so.2
+#6  0x00007faf89de2a31 in Eigen::internal::TensorExecutor<Eigen::TensorAssignOp<Eigen::TensorMap<Eigen::Tensor<float, 2, 1, long>, 16, Eigen::MakePointer>, Eigen::TensorCwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, Eigen::TensorMap<Eigen::Tensor<float const, 2, 1, long>, 16, Eigen::MakePointer> const, Eigen::TensorBroadcastingOp<Eigen::IndexList<long, Eigen::type2index<1l> > const, Eigen::TensorReshapingOp<Eigen::IndexList<Eigen::type2index<1l>, long> const, Eigen::TensorMap<Eigen::Tensor<float const, 2, 1, long>, 16, Eigen::MakePointer> const> const> const> const> const, Eigen::ThreadPoolDevice, true, (Eigen::internal::TiledEvaluation)1>::run(Eigen::TensorAssignOp<Eigen::TensorMap<Eigen::Tensor<float, 2, 1, long>, 16, Eigen::MakePointer>, Eigen::TensorCwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, Eigen::TensorMap<Eigen::Tensor<float const, 2, 1, long>, 16, Eigen::MakePointer> const, Eigen::TensorBroadcastingOp<Eigen::IndexList<long, Eigen::type2index<1l> > const, Eigen::TensorReshapingOp<Eigen::IndexList<Eigen::type2index<1l>, long> const, Eigen::TensorMap<Eigen::Tensor<float const, 2, 1, long>, 16, Eigen::MakePointer> const> const> const> const> const&, Eigen::ThreadPoolDevice const&)::{lambda(long, long)#1}::operator()(long, long) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_cc.so.2
+#7  0x00007faf820a62fb in Eigen::ThreadPoolDevice::parallelFor(long, Eigen::TensorOpCost const&, std::function<long (long)>, std::function<void (long, long)>) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_cc.so.2
+#8  0x00007faf89de202a in Eigen::internal::TensorExecutor<Eigen::TensorAssignOp<Eigen::TensorMap<Eigen::Tensor<float, 2, 1, long>, 16, Eigen::MakePointer>, Eigen::TensorCwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, Eigen::TensorMap<Eigen::Tensor<float const, 2, 1, long>, 16, Eigen::MakePointer> const, Eigen::TensorBroadcastingOp<Eigen::IndexList<long, Eigen::type2index<1l> > const, Eigen::TensorReshapingOp<Eigen::IndexList<Eigen::type2index<1l>, long> const, Eigen::TensorMap<Eigen::Tensor<float const, 2, 1, long>, 16, Eigen::MakePointer> const> const> const> const> const, Eigen::ThreadPoolDevice, true, (Eigen::internal::TiledEvaluation)1>::run(Eigen::TensorAssignOp<Eigen::TensorMap<Eigen::Tensor<float, 2, 1, long>, 16, Eigen::MakePointer>, Eigen::TensorCwiseBinaryOp<Eigen::internal::scalar_sum_op<float, float>, Eigen::TensorMap<Eigen::Tensor<float const, 2, 1, long>, 16, Eigen::MakePointer> const, Eigen::TensorBroadcastingOp<Eigen::IndexList<long, Eigen::type2index<1l> > const, Eigen::TensorReshapingOp<Eigen::IndexList<Eigen::type2index<1l>, long> const, Eigen::TensorMap<Eigen::Tensor<float const, 2, 1, long>, 16, Eigen::MakePointer> const> const> const> const> const&, Eigen::ThreadPoolDevice const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_cc.so.2
+#9  0x00007faf89dd9de5 in tensorflow::functor::BinaryFunctor<Eigen::ThreadPoolDevice, tensorflow::functor::add<float>, 2, false>::BCast(Eigen::ThreadPoolDevice const&, Eigen::TensorMap<Eigen::Tensor<float, 2, 1, long>, 16, Eigen::MakePointer>, Eigen::TensorMap<Eigen::Tensor<float const, 2, 1, long>, 16, Eigen::MakePointer>, Eigen::array<long, 2ul>, Eigen::TensorMap<Eigen::Tensor<float const, 2, 1, long>, 16, Eigen::MakePointer>, Eigen::array<long, 2ul>, bool*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_cc.so.2
+#10 0x00007faf89dd93d8 in tensorflow::BinaryOp<Eigen::ThreadPoolDevice, tensorflow::functor::add<float> >::Compute(tensorflow::OpKernelContext*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_cc.so.2
+#11 0x00007faf97691ca5 in tensorflow::ThreadPoolDevice::Compute(tensorflow::OpKernel*, tensorflow::OpKernelContext*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#12 0x00007faf978079c5 in tensorflow::(anonymous namespace)::ExecutorState<tensorflow::PropagatorState>::Process(tensorflow::PropagatorState::TaggedNode const&, long) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#13 0x00007faf984afa50 in tsl::thread::ThreadPool::Schedule(std::function<void ()>) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#14 0x00007faf8b0d3554 in std::_Function_handler<void (std::function<void ()>), tensorflow::DirectSession::RunInternal(long, tensorflow::RunOptions const&, tensorflow::CallFrameInterface*, tensorflow::DirectSession::ExecutorsAndKeys*, tensorflow::RunMetadata*, tsl::thread::ThreadPoolOptions const&)::$_2>::_M_invoke(std::_Any_data const&, std::function<void ()>&&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_cc.so.2
+#15 0x00007faf978068b7 in tensorflow::(anonymous namespace)::ExecutorState<tensorflow::PropagatorState>::ScheduleReady(absl::lts_20250814::InlinedVector<tensorflow::PropagatorState::TaggedNode, 8ul, std::allocator<tensorflow::PropagatorState::TaggedNode> >*, tensorflow::PropagatorState::TaggedNodeReadyQueue*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#16 0x00007faf978095bf in tensorflow::(anonymous namespace)::ExecutorState<tensorflow::PropagatorState>::NodeDone(absl::lts_20250814::Status const&, absl::lts_20250814::InlinedVector<tensorflow::PropagatorState::TaggedNode, 8ul, std::allocator<tensorflow::PropagatorState::TaggedNode> >*, tensorflow::NodeExecStatsInterface*, tensorflow::PropagatorState::TaggedNodeReadyQueue*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#17 0x00007faf97807c51 in tensorflow::(anonymous namespace)::ExecutorState<tensorflow::PropagatorState>::Process(tensorflow::PropagatorState::TaggedNode const&, long) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#18 0x00007faf984afa50 in tsl::thread::ThreadPool::Schedule(std::function<void ()>) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#19 0x00007faf8b0d3554 in std::_Function_handler<void (std::function<void ()>), tensorflow::DirectSession::RunInternal(long, tensorflow::RunOptions const&, tensorflow::CallFrameInterface*, tensorflow::DirectSession::ExecutorsAndKeys*, tensorflow::RunMetadata*, tsl::thread::ThreadPoolOptions const&)::$_2>::_M_invoke(std::_Any_data const&, std::function<void ()>&&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_cc.so.2
+#20 0x00007faf978062d7 in tensorflow::(anonymous namespace)::ExecutorState<tensorflow::PropagatorState>::ScheduleReady(absl::lts_20250814::InlinedVector<tensorflow::PropagatorState::TaggedNode, 8ul, std::allocator<tensorflow::PropagatorState::TaggedNode> >*, tensorflow::PropagatorState::TaggedNodeReadyQueue*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#21 0x00007faf977fafbf in tensorflow::(anonymous namespace)::ExecutorImpl::RunAsyncInternal(tensorflow::Executor::Args const&, std::function<void (absl::lts_20250814::Status const&)>) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#22 0x00007faf977fa1a6 in tensorflow::Executor::Run(tensorflow::Executor::Args const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#23 0x00007faf8b0c5323 in tensorflow::DirectSession::RunInternal(long, tensorflow::RunOptions const&, tensorflow::CallFrameInterface*, tensorflow::DirectSession::ExecutorsAndKeys*, tensorflow::RunMetadata*, tsl::thread::ThreadPoolOptions const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_cc.so.2
+#24 0x00007faf8b0c66a8 in tensorflow::DirectSession::Run(tensorflow::RunOptions const&, std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, tensorflow::Tensor>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, tensorflow::Tensor> > > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::vector<tensorflow::Tensor, std::allocator<tensorflow::Tensor> >*, tensorflow::RunMetadata*, tsl::thread::ThreadPoolOptions const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_cc.so.2
+#25 0x00007faf98ab5f14 in tensorflow::run(tensorflow::Session*, std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, tensorflow::Tensor>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, tensorflow::Tensor> > > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::vector<tensorflow::Tensor, std::allocator<tensorflow::Tensor> >*, tsl::thread::ThreadPoolOptions const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libPhysicsToolsTensorFlow.so
+#26 0x00007faf98ab5fcf in tensorflow::run(tensorflow::Session*, std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, tensorflow::Tensor>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, tensorflow::Tensor> > > const&, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, std::vector<tensorflow::Tensor, std::allocator<tensorflow::Tensor> >*, tsl::thread::ThreadPoolInterface*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libPhysicsToolsTensorFlow.so
+#27 0x00007faec0f920f7 in DeepMETProducer::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoMETMETPUSubtraction_plugins.so
+#28 0x00007fafd3c6e4d4 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#29 0x00007fafd3bcfd6c in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#30 0x00007fafd3bd86c9 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#31 0x00007fafd3d52e44 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreConcurrency.so
+#32 0x00007fafd3713ba0 in tbb::detail::r1::thread_dispatcher::process(rml::job&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#33 0x00007fafd370d848 in tbb::detail::r1::rml::private_worker::thread_routine(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#34 0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#35 0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 15 (Thread 0x7faf677fe640 (LWP 1662210) "cmsRun"):
+#0  0x00007fafd2ad5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fafd2ada5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fafd2ada50e in sleep () from /lib64/libc.so.6
+#3  0x00007fafc0a2d27c in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fafa4cbfd8b in HGCalGeometry::indexFor(DetId const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libGeometryHGCalGeometry.so
+#6  0x00007fafa4cbfe31 in HGCalGeometry::getPosition(DetId const&, bool, bool) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libGeometryHGCalGeometry.so
+#7  0x00007fafa4cc1534 in HGCalGeometry::getPosition(DetId const&, int) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libGeometryHGCalGeometry.so
+#8  0x00007fafa4cc1813 in HGCalGeometry::getPosition(DetId const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libGeometryHGCalGeometry.so
+#9  0x00007faf6cae8f6c in hgcal::RecHitTools::getPosition(DetId const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoLocalCaloHGCalRecAlgos.so
+#10 0x00007faece3c572a in HGCalIsoCalculator::setRecHits(edm::Handle<std::vector<io_v1::HGCRecHit, std::allocator<io_v1::HGCRecHit> > >, edm::Handle<std::vector<io_v1::HGCRecHit, std::allocator<io_v1::HGCRecHit> > >, edm::Handle<std::vector<io_v1::HGCRecHit, std::allocator<io_v1::HGCRecHit> > >) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoEgammaEgammaTools.so
+#11 0x00007faece3cb0c8 in HGCalEgammaIDHelper::eventInit(edm::Event const&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoEgammaEgammaTools.so
+#12 0x00007faec910ca1a in HGCalPhotonIDValueMapProducer::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoEgammaEgammaToolsPlugins.so
+#13 0x00007fafd3c6e4d4 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#14 0x00007fafd3bcfd6c in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#15 0x00007fafd3bd86c9 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#16 0x00007fafd3d52e44 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreConcurrency.so
+#17 0x00007fafd3713ba0 in tbb::detail::r1::thread_dispatcher::process(rml::job&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#18 0x00007fafd370d848 in tbb::detail::r1::rml::private_worker::thread_routine(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#19 0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#20 0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 14 (Thread 0x7faf669ff640 (LWP 1662211) "cmsRun"):
+#0  0x00007fafd2b0345f in poll () from /lib64/libc.so.6
+#1  0x00007fafc0a2ea5e in edm::service::InitRootHandlers::stacktraceFromThread() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#2  0x00007fafc0a2ec63 in sig_dostack_then_abort () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#3  <signal handler called>
+#4  0x00007fafd2b6bb4d in __memmove_evex_unaligned_erms () from /lib64/libc.so.6
+#5  0x00007faeaacab5e9 in std::vector<unsigned int, std::allocator<unsigned int> >::vector(std::vector<unsigned int, std::allocator<unsigned int> > const&) [clone .lto_priv.0] () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoHGCalTICLPlugins.so
+#6  0x00007faeaacad5f7 in std::vector<std::vector<unsigned int, std::allocator<unsigned int> >, std::allocator<std::vector<unsigned int, std::allocator<unsigned int> > > >::push_back(std::vector<unsigned int, std::allocator<unsigned int> > const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoHGCalTICLPlugins.so
+#7  0x00007faeaad4bb3b in TICLCandidateProducer::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoHGCalTICLPlugins.so
+#8  0x00007fafd3c6e4d4 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#9  0x00007fafd3bcfd6c in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#10 0x00007fafd3bd86c9 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#11 0x00007fafd3d52e44 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreConcurrency.so
+#12 0x00007fafd3713ba0 in tbb::detail::r1::thread_dispatcher::process(rml::job&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#13 0x00007fafd370d848 in tbb::detail::r1::rml::private_worker::thread_routine(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#14 0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#15 0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 13 (Thread 0x7faf659ff640 (LWP 1662212) "cmsRun"):
+#0  0x00007fafd2ad5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fafd2ada5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fafd2ada50e in sleep () from /lib64/libc.so.6
+#3  0x00007fafc0a2d27c in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fafd36fa7a3 in tbb::detail::r1::task_dispatcher::steal_or_get_critical(tbb::detail::r1::execution_data_ext&, tbb::detail::r1::arena&, unsigned int, tbb::detail::r1::FastRandom&, long, bool) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#6  0x00007fafd3714457 in tbb::detail::r1::thread_dispatcher::process(rml::job&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#7  0x00007fafd370d848 in tbb::detail::r1::rml::private_worker::thread_routine(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#8  0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#9  0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 12 (Thread 0x7faf641fe640 (LWP 1662213) "cmsRun"):
+#0  0x00007fafd2ad5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fafd2ada5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fafd2ada50e in sleep () from /lib64/libc.so.6
+#3  0x00007fafc0a2d27c in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fafd2d72397 in __ieee754_atan2_fma () from /lib64/libm.so.6
+#6  0x00007fafd2d12b05 in atan2f64 () from /lib64/libm.so.6
+#7  0x00007faf991a9675 in SteppingHelixPropagator::refToDest(SteppingHelixPropagator::DestType, SteppingHelixStateInfo const&, double const*, double&, double&, PropagationDirection&, double) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackPropagationSteppingHelixPropagator.so
+#8  0x00007faf991aba5d in SteppingHelixPropagator::refToMatVolume(SteppingHelixStateInfo const&, PropagationDirection, double&, double&, double) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackPropagationSteppingHelixPropagator.so
+#9  0x00007faf991b19eb in SteppingHelixPropagator::propagate(SteppingHelixStateInfo (&) [8], int&, SteppingHelixPropagator::DestType, double const*, double) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackPropagationSteppingHelixPropagator.so
+#10 0x00007faf991b3634 in SteppingHelixPropagator::propagate(SteppingHelixStateInfo const&, Plane const&, SteppingHelixStateInfo&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackPropagationSteppingHelixPropagator.so
+#11 0x00007faf991b738a in SteppingHelixPropagator::propagateWithPath(FreeTrajectoryState const&, Plane const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackPropagationSteppingHelixPropagator.so
+#12 0x00007faf991a64ce in Propagator::propagateWithPath(TrajectoryStateOnSurface const&, Plane const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackPropagationSteppingHelixPropagator.so
+#13 0x00007faf998d639d in ForwardDetLayer::compatible(TrajectoryStateOnSurface const&, Propagator const&, MeasurementEstimator const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsDetLayers.so
+#14 0x00007faf990e40cb in MuRingForwardLayer::compatibleDets(TrajectoryStateOnSurface const&, Propagator const&, MeasurementEstimator const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoMuonDetLayers.so
+#15 0x00007faf990e4928 in MuRingForwardDoubleLayer::groupedCompatibleDets(TrajectoryStateOnSurface const&, Propagator const&, MeasurementEstimator const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoMuonDetLayers.so
+#16 0x00007faedec8b322 in MuonDetLayerMeasurements::groupedMeasurements(DetLayer const*, TrajectoryStateOnSurface const&, Propagator const&, MeasurementEstimator const&, edm::Event const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoMuonMeasurementDet.so
+#17 0x00007faedec8d68e in MuonDetLayerMeasurements::groupedMeasurements(DetLayer const*, TrajectoryStateOnSurface const&, Propagator const&, MeasurementEstimator const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoMuonMeasurementDet.so
+#18 0x00007faec1a01731 in CosmicMuonTrajectoryBuilder::findBestMeasurements(DetLayer const*, TrajectoryStateOnSurface const&, Propagator const*, MeasurementEstimator const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoMuonCosmicMuonProducer.so
+#19 0x00007faec1a07029 in CosmicMuonTrajectoryBuilder::trajectories(io_v1::TrajectorySeed const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoMuonCosmicMuonProducer.so
+#20 0x00007faefda9a233 in MuonTrackFinder::reconstruct(edm::Handle<edm::View<io_v1::TrajectorySeed> > const&, edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoMuonTrackingTools.so
+#21 0x00007faec1a292a6 in CosmicMuonProducer::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoMuonCosmicMuonProducerPlugins.so
+#22 0x00007fafd3c6e4d4 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#23 0x00007fafd3bcfd6c in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#24 0x00007fafd3bd86c9 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#25 0x00007fafd3d52e44 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreConcurrency.so
+#26 0x00007fafd3713ba0 in tbb::detail::r1::thread_dispatcher::process(rml::job&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#27 0x00007fafd370d848 in tbb::detail::r1::rml::private_worker::thread_routine(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#28 0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#29 0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 11 (Thread 0x7faf64bff640 (LWP 1662214) "cmsRun"):
+#0  0x00007fafd2ad5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fafd2ada5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fafd2ada50e in sleep () from /lib64/libc.so.6
+#3  0x00007fafc0a2d27c in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fafbfeaa7e8 in int TStreamerInfoActions::ReadBasicType<int>(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#6  0x00007fafbfd2616e in TBufferFile::ReadClassBuffer(TClass const*, void*, TClass const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#7  0x00007fafbfe39292 in TStreamerInfoActions::ReadViaClassBuffer(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#8  0x00007fafbfd2616e in TBufferFile::ReadClassBuffer(TClass const*, void*, TClass const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#9  0x00007fafbfe39292 in TStreamerInfoActions::ReadViaClassBuffer(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#10 0x00007fafbff3ac11 in int TStreamerInfoActions::VectorLooper::LoopOverCollection<&TStreamerInfoActions::ReadViaClassBuffer>(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#11 0x00007fafbfd1c124 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#12 0x00007fafc004da0f in int TStreamerInfo::ReadBuffer<char**>(TBuffer&, char** const&, TStreamerInfo::TCompInfo* const*, int, int, int, int, int) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#13 0x00007fafbfe71a1c in TStreamerInfoActions::VectorLooper::GenericRead(TBuffer&, void*, void const*, TStreamerInfoActions::TLoopConfiguration const*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#14 0x00007fafbfd1c124 in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*, void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#15 0x00007fafbff35f8b in int TStreamerInfoActions::ReadSTL<&TStreamerInfoActions::ReadSTLMemberWiseSameClass, &TStreamerInfoActions::ReadSTLObjectWiseFastArray>(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#16 0x00007fafbfd2616e in TBufferFile::ReadClassBuffer(TClass const*, void*, TClass const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#17 0x00007fafbfe39292 in TStreamerInfoActions::ReadViaClassBuffer(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#18 0x00007fafbfd1d0ed in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#19 0x00007fafc0321c55 in TBranchElement::ReadLeavesMember(TBuffer&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libTree.so
+#20 0x00007fafc0319a81 in TBranch::GetEntry(long long, int) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libTree.so
+#21 0x00007fafc0330ac1 in TBranchElement::GetEntry(long long, int) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libTree.so
+#22 0x00007fafc0330a4c in TBranchElement::GetEntry(long long, int) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libTree.so
+#23 0x00007faf696921fe in edm::roottree::SparseReadCache::getEntryUsingCache(TBranch*, long long, TTreeCache*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginIOPoolInput.so
+#24 0x00007faf6965ccd1 in edm::RootDelayedReader::getProduct_(edm::BranchID const&, edm::EDProductGetter const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginIOPoolInput.so
+#25 0x00007fafd3b31b2e in edm::DelayedReader::getProduct(edm::BranchID const&, edm::EDProductGetter const*, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#26 0x00007fafd3bf0d3c in edm::DelayedReaderInputProductResolver::prefetchAsync_(edm::WaitingTaskHolder, edm::Principal const&, edm::ServiceToken const&, edm::SharedResourcesAcquirer*, edm::ModuleCallingContext const*) const::{lambda()#1}::operator()() const::{lambda()#1}::operator()() const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#27 0x00007fafd3bf0f17 in edm::DelayedReaderInputProductResolver::prefetchAsync_(edm::WaitingTaskHolder, edm::Principal const&, edm::ServiceToken const&, edm::SharedResourcesAcquirer*, edm::ModuleCallingContext const*) const::{lambda()#1}::operator()() const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#28 0x00007fafd3bf10f4 in edm::SerialTaskQueue::QueuedTask<edm::SerialTaskQueueChain::push<edm::DelayedReaderInputProductResolver::prefetchAsync_(edm::WaitingTaskHolder, edm::Principal const&, edm::ServiceToken const&, edm::SharedResourcesAcquirer*, edm::ModuleCallingContext const*) const::{lambda()#1}&>(tbb::detail::d2::task_group&, edm::DelayedReaderInputProductResolver::prefetchAsync_(edm::WaitingTaskHolder, edm::Principal const&, edm::ServiceToken const&, edm::SharedResourcesAcquirer*, edm::ModuleCallingContext const*) const::{lambda()#1}&)::{lambda()#1}>::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#29 0x00007fafd3d553f7 in tbb::detail::d2::function_task<edm::SerialTaskQueue::spawn(edm::SerialTaskQueue::TaskBase&)::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreConcurrency.so
+#30 0x00007fafd3713ba0 in tbb::detail::r1::thread_dispatcher::process(rml::job&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#31 0x00007fafd370d848 in tbb::detail::r1::rml::private_worker::thread_routine(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#32 0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#33 0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 10 (Thread 0x7faf633ff640 (LWP 1662215) "cmsRun"):
+#0  0x00007fafd2ad5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fafd2ada5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fafd2ada50e in sleep () from /lib64/libc.so.6
+#3  0x00007fafc0a2d27c in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007faee672b4c5 in HGCalRecHitValidation::fillOccupancyMap(std::map<int, int, std::less<int>, std::allocator<std::pair<int const, int> > >&, int) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginValidationHGCalValidationAuto.so
+#6  0x00007faee672f34f in HGCalRecHitValidation::analyze(edm::Event const&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginValidationHGCalValidationAuto.so
+#7  0x00007fafd3c6e4d4 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#8  0x00007fafd3bcfd6c in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#9  0x00007fafd3bd86c9 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#10 0x00007fafd3d52e44 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreConcurrency.so
+#11 0x00007fafd3713ba0 in tbb::detail::r1::thread_dispatcher::process(rml::job&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#12 0x00007fafd370d848 in tbb::detail::r1::rml::private_worker::thread_routine(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#13 0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#14 0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 9 (Thread 0x7faf623ff640 (LWP 1662216) "cmsRun"):
+#0  0x00007fafd2ad5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fafd2ada5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fafd2ada50e in sleep () from /lib64/libc.so.6
+#3  0x00007fafc0a2d27c in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fafbfdcc8df in TGenCollectionProxy::PushProxy(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#6  0x00007fafbff367d8 in int TStreamerInfoActions::WriteSTL<&TStreamerInfoActions::WriteSTLMemberWise, &TStreamerInfoActions::WriteSTLObjectWiseFastArray>(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#7  0x00007fafbfd2481e in TBufferFile::WriteClassBuffer(TClass const*, void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#8  0x00007fafbfe393b4 in TStreamerInfoActions::WriteViaClassBuffer(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#9  0x00007fafbfd2481e in TBufferFile::WriteClassBuffer(TClass const*, void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#10 0x00007fafbfe393b4 in TStreamerInfoActions::WriteViaClassBuffer(TBuffer&, void*, TStreamerInfoActions::TConfiguration const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#11 0x00007fafbfd1d0ed in TBufferFile::ApplySequence(TStreamerInfoActions::TActionSequence const&, void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libRIO.so
+#12 0x00007fafc031b00e in TBranch::FillImpl(ROOT::Internal::TBranchIMTHelper*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libTree.so
+#13 0x00007fafc0326440 in TBranchElement::FillImpl(ROOT::Internal::TBranchIMTHelper*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libTree.so
+#14 0x00007fafc0326142 in TBranchElement::FillImpl(ROOT::Internal::TBranchIMTHelper*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libTree.so
+#15 0x00007fafc039e176 in TTree::Fill() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libTree.so
+#16 0x00007faed49981a8 in tbb::detail::d1::task_arena_function<edm::RootOutputTree::fillTree()::{lambda()#1}, void>::operator()() const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libIOPoolOutput.so
+#17 0x00007fafd36fe061 in tbb::detail::r1::isolate_within_arena(tbb::detail::d1::delegate_base&, long) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#18 0x00007faed499899a in edm::RootOutputTree::fillTree() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libIOPoolOutput.so
+#19 0x00007faed4996ff3 in edm::RootOutputFile::fillBranches(edm::BranchType const&, edm::OccurrenceForOutput const&, unsigned int, std::vector<edm::StoredProductProvenance, std::allocator<edm::StoredProductProvenance> >*, edm::ProductProvenanceRetriever const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libIOPoolOutput.so
+#20 0x00007faed4997620 in edm::RootOutputFile::writeOne(edm::EventForOutput const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libIOPoolOutput.so
+#21 0x00007faed497c5a3 in edm::PoolOutputModule::write(edm::EventForOutput const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libIOPoolOutput.so
+#22 0x00007fafd3bd1d8b in edm::core::OutputModuleCore::doEvent_(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#23 0x00007fafd3c62de1 in edm::one::OutputModuleBase::doEvent(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#24 0x00007fafd3bcfd6c in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#25 0x00007fafd3bd3e73 in edm::SerialTaskQueue::QueuedTask<edm::SerialTaskQueueChain::push<edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute()::{lambda()#1}&>(tbb::detail::d2::task_group&, edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute()::{lambda()#1}&)::{lambda()#1}>::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#26 0x00007fafd3d553f7 in tbb::detail::d2::function_task<edm::SerialTaskQueue::spawn(edm::SerialTaskQueue::TaskBase&)::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreConcurrency.so
+#27 0x00007fafd3713ba0 in tbb::detail::r1::thread_dispatcher::process(rml::job&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#28 0x00007fafd370d848 in tbb::detail::r1::rml::private_worker::thread_routine(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#29 0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#30 0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 8 (Thread 0x7faf615ff640 (LWP 1662217) "cmsRun"):
+#0  0x00007fafd2ad5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fafd2ada5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fafd2ada50e in sleep () from /lib64/libc.so.6
+#3  0x00007fafc0a2d27c in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fafd21735be in ZSTD_RowFindBestMatch_noDict_5_4.constprop.0 () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libzstd.so.1
+#6  0x00007fafd21a0355 in ZSTD_compressBlock_lazy2_row () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libzstd.so.1
+#7  0x00007fafd2144275 in ZSTD_buildSeqStore () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libzstd.so.1
+#8  0x00007fafd2144332 in ZSTD_compressBlock_internal () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libzstd.so.1
+#9  0x00007fafd2145765 in ZSTD_compress_frameChunk () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libzstd.so.1
+#10 0x00007fafd2149768 in ZSTD_compressEnd_public () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libzstd.so.1
+#11 0x00007fafd214e280 in ZSTD_compressCCtx () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libzstd.so.1
+#12 0x00007fafd3584899 in R__zipZSTD () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libCore.so
+#13 0x00007fafc030b07c in TBasket::WriteBuffer() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libTree.so
+#14 0x00007fafc031b95f in std::_Function_handler<void (), ROOT::Internal::TBranchIMTHelper::Run<TBranch::WriteBasketImpl(TBasket*, int, ROOT::Internal::TBranchIMTHelper*)::{lambda()#1}>(TBranch::WriteBasketImpl(TBasket*, int, ROOT::Internal::TBranchIMTHelper*)::{lambda()#1} const&)::{lambda()#1}>::_M_invoke(std::_Any_data const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libTree.so
+#15 0x00007fafcc5ce5ab in tbb::detail::d2::function_task<std::function<void ()> >::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libImt.so
+#16 0x00007fafd3713ba0 in tbb::detail::r1::thread_dispatcher::process(rml::job&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#17 0x00007fafd370d848 in tbb::detail::r1::rml::private_worker::thread_routine(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#18 0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#19 0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 7 (Thread 0x7faf60bfe640 (LWP 1662218) "cmsRun"):
+#0  0x00007fafd2ad5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fafd2ada5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fafd2ada50e in sleep () from /lib64/libc.so.6
+#3  0x00007fafc0a2d27c in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007fafa0278814 in HGCalDDDConstants::waferPosition(int, int, bool) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libGeometryHGCalCommonData.so
+#6  0x00007fafa0278950 in HGCalDDDConstants::waferPositionNoRot(int, int, int, bool, bool) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libGeometryHGCalCommonData.so
+#7  0x00007fafa026ea8a in HGCalDDDConstants::locateCell(int, int, int, int, int, int, bool, bool, bool, bool, bool) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libGeometryHGCalCommonData.so
+#8  0x00007fafa4cc0b9e in HGCalGeometry::getPosition(DetId const&, bool, bool) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libGeometryHGCalGeometry.so
+#9  0x00007fafa4cc1534 in HGCalGeometry::getPosition(DetId const&, int) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libGeometryHGCalGeometry.so
+#10 0x00007fafa4cc1813 in HGCalGeometry::getPosition(DetId const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libGeometryHGCalGeometry.so
+#11 0x00007faf6cae8f6c in hgcal::RecHitTools::getPosition(DetId const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoLocalCaloHGCalRecAlgos.so
+#12 0x00007faece3c572a in HGCalIsoCalculator::setRecHits(edm::Handle<std::vector<io_v1::HGCRecHit, std::allocator<io_v1::HGCRecHit> > >, edm::Handle<std::vector<io_v1::HGCRecHit, std::allocator<io_v1::HGCRecHit> > >, edm::Handle<std::vector<io_v1::HGCRecHit, std::allocator<io_v1::HGCRecHit> > >) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoEgammaEgammaTools.so
+#13 0x00007faece3cb0c8 in HGCalEgammaIDHelper::eventInit(edm::Event const&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoEgammaEgammaTools.so
+#14 0x00007faec910ca1a in HGCalPhotonIDValueMapProducer::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoEgammaEgammaToolsPlugins.so
+#15 0x00007fafd3c6e4d4 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#16 0x00007fafd3bcfd6c in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#17 0x00007fafd3bd86c9 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#18 0x00007fafd3d52e44 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreConcurrency.so
+#19 0x00007fafd3713ba0 in tbb::detail::r1::thread_dispatcher::process(rml::job&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#20 0x00007fafd370d848 in tbb::detail::r1::rml::private_worker::thread_routine(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#21 0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#22 0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 6 (Thread 0x7faf601fd640 (LWP 1662219) "cmsRun"):
+#0  0x00007fafd2ad5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fafd2ada5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fafd2ada50e in sleep () from /lib64/libc.so.6
+#3  0x00007fafc0a2d27c in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  std::local_Rb_tree_decrement (__x=0x7facf482d210) at ../../../../../libstdc++-v3/src/c++98/tree.cc:113
+#6  std::local_Rb_tree_decrement (__x=0x7facf482d180) at ../../../../../libstdc++-v3/src/c++98/tree.cc:95
+#7  std::_Rb_tree_decrement (__x=0x7facf482d180) at ../../../../../libstdc++-v3/src/c++98/tree.cc:123
+#8  0x00007faf991d82af in std::pair<std::_Rb_tree_iterator<DetId>, bool> std::_Rb_tree<DetId, DetId, std::_Identity<DetId>, std::less<DetId>, std::allocator<DetId> >::_M_insert_unique<DetId>(DetId&&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsTrackAssociator.so
+#9  0x00007faf991d8628 in DetIdAssociator::fillSet(std::set<DetId, std::less<DetId>, std::allocator<DetId> >&, unsigned int, unsigned int) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsTrackAssociator.so
+#10 0x00007faf991d8946 in DetIdAssociator::getDetIdsCloseToAPoint(Point3DBase<float, GlobalTag> const&, unsigned int, unsigned int, unsigned int, unsigned int) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsTrackAssociator.so
+#11 0x00007faf991d4399 in DetIdAssociator::getDetIdsCloseToAPoint(Point3DBase<float, GlobalTag> const&, double, double, double, double) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsTrackAssociator.so
+#12 0x00007faf991d392e in DetIdAssociator::getDetIdsCloseToAPoint(Point3DBase<float, GlobalTag> const&, double) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsTrackAssociator.so
+#13 0x00007faf991e9fcf in TrackDetectorAssociator::fillEcal(edm::Event const&, TrackDetMatchInfo&, TrackAssociatorParameters const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsTrackAssociator.so
+#14 0x00007faf991f16fe in TrackDetectorAssociator::associate(edm::Event const&, edm::EventSetup const&, TrackAssociatorParameters const&, FreeTrajectoryState const*, FreeTrajectoryState const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsTrackAssociator.so
+#15 0x00007faf991e5c8c in TrackDetectorAssociator::associate(edm::Event const&, edm::EventSetup const&, FreeTrajectoryState const&, TrackAssociatorParameters const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsTrackAssociator.so
+#16 0x00007faec0d78050 in muonisolation::CaloExtractorByAssociator::deposits(edm::Event const&, edm::EventSetup const&, reco::io_v1::Track const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoMuonMuonIsolationPlugins.so
+#17 0x00007faec1390bbe in MuonIdProducer::fillMuonIsolation(edm::Event&, edm::EventSetup const&, reco::io_v1::Muon&, reco::io_v1::IsoDeposit&, reco::io_v1::IsoDeposit&, reco::io_v1::IsoDeposit&, reco::io_v1::IsoDeposit&, reco::io_v1::IsoDeposit&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoMuonMuonIdentificationPlugins.so
+#18 0x00007faec1389562 in MuonIdProducer::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoMuonMuonIdentificationPlugins.so
+#19 0x00007fafd3c6e4d4 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#20 0x00007fafd3bcfd6c in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#21 0x00007fafd3bd86c9 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#22 0x00007fafd3d52e44 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreConcurrency.so
+#23 0x00007fafd3713ba0 in tbb::detail::r1::thread_dispatcher::process(rml::job&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#24 0x00007fafd370d848 in tbb::detail::r1::rml::private_worker::thread_routine(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#25 0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#26 0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 5 (Thread 0x7faef23ff640 (LWP 1662509) "cmsRun"):
+#0  0x00007fafd2ad5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fafd2ada5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fafd2ada50e in sleep () from /lib64/libc.so.6
+#3  0x00007fafc0a2d27c in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007faf730cd714 in MaterialEffectsUpdator::updateStateInPlace(TrajectoryStateOnSurface&, PropagationDirection) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsMaterialEffects.so
+#6  0x00007faf730cfc44 in PropagatorWithMaterial::propagateWithPath(TrajectoryStateOnSurface const&, Plane const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsMaterialEffects.so
+#7  0x00007fafb50ead8f in SmartPropagator::propagateWithPath(TrajectoryStateOnSurface const&, Plane const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsGeomPropagators.so
+#8  0x00007fafb50e43eb in Propagator::propagateWithPath(TrajectoryStateOnSurface const&, Surface const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsGeomPropagators.so
+#9  0x00007faf71e188a9 in KFTrajectorySmoother::trajectory(Trajectory const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsTrackFitters.so
+#10 0x00007faf71e11468 in TrajectorySmoother::trajectories(Trajectory const&) const () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libTrackingToolsTrackFitters.so
+#11 0x00007faefdaa16d7 in MuonTrackLoader::loadTracks(std::vector<std::unique_ptr<Trajectory, std::default_delete<Trajectory> >, std::allocator<std::unique_ptr<Trajectory, std::default_delete<Trajectory> > > >&, edm::Event&, std::vector<bool, std::allocator<bool> >&, TrackerTopology const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoMuonTrackingTools.so
+#12 0x00007faefdaa4aaa in MuonTrackLoader::loadTracks(std::vector<std::unique_ptr<MuonCandidate, std::default_delete<MuonCandidate> >, std::allocator<std::unique_ptr<MuonCandidate, std::default_delete<MuonCandidate> > > >&, edm::Event&, TrackerTopology const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoMuonTrackingTools.so
+#13 0x00007faefda9a0e9 in MuonTrackFinder::reconstruct(std::vector<std::pair<Trajectory const*, edm::Ref<std::vector<reco::io_v1::Track, std::allocator<reco::io_v1::Track> >, reco::io_v1::Track, edm::refhelper::FindUsingAdvance<std::vector<reco::io_v1::Track, std::allocator<reco::io_v1::Track> >, reco::io_v1::Track> > >, std::allocator<std::pair<Trajectory const*, edm::Ref<std::vector<reco::io_v1::Track, std::allocator<reco::io_v1::Track> >, reco::io_v1::Track, edm::refhelper::FindUsingAdvance<std::vector<reco::io_v1::Track, std::allocator<reco::io_v1::Track> >, reco::io_v1::Track> > > > > const&, edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libRecoMuonTrackingTools.so
+#14 0x00007faec0dc4df0 in GlobalMuonProducer::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoMuonGlobalMuonProducerPlugins.so
+#15 0x00007fafd3c6e4d4 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#16 0x00007fafd3bcfd6c in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#17 0x00007fafd3bd86c9 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#18 0x00007fafd3d52e44 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreConcurrency.so
+#19 0x00007fafd3713ba0 in tbb::detail::r1::thread_dispatcher::process(rml::job&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#20 0x00007fafd370d848 in tbb::detail::r1::rml::private_worker::thread_routine(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#21 0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#22 0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 4 (Thread 0x7faecb5ff640 (LWP 1662636) "cmsRun"):
+#0  0x00007fafd2a8854a in __futex_abstimed_wait_common () from /lib64/libc.so.6
+#1  0x00007fafd2a8ab32 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libc.so.6
+#2  0x00007faf984b32f2 in Eigen::EventCount::CommitWait(Eigen::EventCount::Waiter*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#3  0x00007faf984b2916 in Eigen::ThreadPoolTempl<tsl::thread::EigenEnvironment>::WaitForWork(Eigen::EventCount::Waiter*, tsl::thread::EigenEnvironment::Task*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#4  0x00007faf984b1f6c in Eigen::ThreadPoolTempl<tsl::thread::EigenEnvironment>::WorkerLoop(int) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#5  0x00007faf984b1db1 in void std::__invoke_impl<void, tsl::thread::EigenEnvironment::CreateThread(std::function<void ()>)::{lambda()#1}&>(std::__invoke_other, tsl::thread::EigenEnvironment::CreateThread(std::function<void ()>)::{lambda()#1}&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#6  0x00007faf9849dbda in tsl::(anonymous namespace)::PThread::ThreadFn(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#7  0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#8  0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 3 (Thread 0x7faeca9ff640 (LWP 1662637) "tf_Compute"):
+#0  0x00007fafd2a8854a in __futex_abstimed_wait_common () from /lib64/libc.so.6
+#1  0x00007fafd2a8ab32 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libc.so.6
+#2  0x00007faf984b32f2 in Eigen::EventCount::CommitWait(Eigen::EventCount::Waiter*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#3  0x00007faf984b2916 in Eigen::ThreadPoolTempl<tsl::thread::EigenEnvironment>::WaitForWork(Eigen::EventCount::Waiter*, tsl::thread::EigenEnvironment::Task*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#4  0x00007faf984b1f6c in Eigen::ThreadPoolTempl<tsl::thread::EigenEnvironment>::WorkerLoop(int) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#5  0x00007faf984b1db1 in void std::__invoke_impl<void, tsl::thread::EigenEnvironment::CreateThread(std::function<void ()>)::{lambda()#1}&>(std::__invoke_other, tsl::thread::EigenEnvironment::CreateThread(std::function<void ()>)::{lambda()#1}&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#6  0x00007faf9849dbda in tsl::(anonymous namespace)::PThread::ThreadFn(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#7  0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#8  0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 2 (Thread 0x7faec99ff640 (LWP 1662638) "tf_graph_runner"):
+#0  0x00007fafd2a8854a in __futex_abstimed_wait_common () from /lib64/libc.so.6
+#1  0x00007fafd2a8ab32 in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libc.so.6
+#2  0x00007faf984b32f2 in Eigen::EventCount::CommitWait(Eigen::EventCount::Waiter*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#3  0x00007faf984b2916 in Eigen::ThreadPoolTempl<tsl::thread::EigenEnvironment>::WaitForWork(Eigen::EventCount::Waiter*, tsl::thread::EigenEnvironment::Task*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#4  0x00007faf984b1f6c in Eigen::ThreadPoolTempl<tsl::thread::EigenEnvironment>::WorkerLoop(int) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#5  0x00007faf984b1db1 in void std::__invoke_impl<void, tsl::thread::EigenEnvironment::CreateThread(std::function<void ()>)::{lambda()#1}&>(std::__invoke_other, tsl::thread::EigenEnvironment::CreateThread(std::function<void ()>)::{lambda()#1}&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#6  0x00007faf9849dbda in tsl::(anonymous namespace)::PThread::ThreadFn(void*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtensorflow_framework.so.2
+#7  0x00007fafd2a8b569 in start_thread () from /lib64/libc.so.6
+#8  0x00007fafd2b10760 in clone3 () from /lib64/libc.so.6
+Thread 1 (Thread 0x7fafd2c2e340 (LWP 1660679) "cmsRun"):
+#0  0x00007fafd2ad5b25 in clock_nanosleep@GLIBC_2.2.5 () from /lib64/libc.so.6
+#1  0x00007fafd2ada5d7 in nanosleep () from /lib64/libc.so.6
+#2  0x00007fafd2ada50e in sleep () from /lib64/libc.so.6
+#3  0x00007fafc0a2d27c in sig_pause_for_stacktrace () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginFWCoreServicesPlugins.so
+#4  <signal handler called>
+#5  0x00007faf64fba2dd in fastjet::MinHeap::update (this=this@entry=0x7ffefa4118e0, loc=loc@entry=454, new_value=0) at MinHeap.cc:87
+#6  0x00007faf64fda02b in fastjet::LazyTiling9::run (this=0x7ffefa411a00) at LazyTiling9.cc:731
+#7  0x00007faf64f93b37 in fastjet::ClusterSequence::_initialise_and_run_no_decant (this=0x7ffefa411d20) at ClusterSequence.cc:417
+#8  0x00007faf64f93d5e in fastjet::ClusterSequence::_initialise_and_run (this=<optimized out>, jet_def_in=..., writeout_combinations=<optimized out>) at ClusterSequence.cc:256
+#9  0x00007faf64fc7e66 in fastjet::ClusterSequenceActiveAreaExplicitGhosts::_initialise<fastjet::PseudoJet> (this=0x7ffefa411d20, pseudojets=..., jet_def_in=..., ghost_spec=<optimized out>, ghosts=0x0, ghost_area=0, writeout_combinations=@0x7ffefa411c6f: false) at ./../include/fastjet/ClusterSequenceActiveAreaExplicitGhosts.hh:224
+#10 fastjet::ClusterSequenceActiveAreaExplicitGhosts::ClusterSequenceActiveAreaExplicitGhosts<fastjet::PseudoJet> (this=0x7ffefa411d20, pseudojets=..., jet_def_in=..., ghost_spec=..., writeout_combinations=@0x7ffefa411c6f: false) at ./../include/fastjet/ClusterSequenceActiveAreaExplicitGhosts.hh:69
+#11 fastjet::ClusterSequenceActiveArea::_run_AA (this=0x7fae83306d80, ghost_spec=...) at ClusterSequenceActiveArea.cc:133
+#12 0x00007faf64fc83ab in fastjet::ClusterSequenceActiveArea::_initialise_and_run_AA (this=0x7fae83306d80, jet_def_in=..., ghost_spec=..., writeout_combinations=<optimized out>) at ClusterSequenceActiveArea.cc:61
+#13 0x00007faeed7e8266 in void fastjet::ClusterSequenceArea::initialize_and_run_cswa<fastjet::PseudoJet>(std::vector<fastjet::PseudoJet, std::allocator<fastjet::PseudoJet> > const&, fastjet::JetDefinition const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoJetsJetProducers_plugins.so
+#14 0x00007faeed7e8c48 in fastjet::ClusterSequenceArea::ClusterSequenceArea<fastjet::PseudoJet>(std::vector<fastjet::PseudoJet, std::allocator<fastjet::PseudoJet> > const&, fastjet::JetDefinition const&, fastjet::AreaDefinition const&) [clone .lto_priv.0] () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoJetsJetProducers_plugins.so
+#15 0x00007faeed808de0 in FastjetJetProducer::runAlgorithm(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoJetsJetProducers_plugins.so
+#16 0x00007faeed85331a in VirtualJetProducer::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoJetsJetProducers_plugins.so
+#17 0x00007faeed7fa705 in FastjetJetProducer::produce(edm::Event&, edm::EventSetup const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/pluginRecoJetsJetProducers_plugins.so
+#18 0x00007fafd3c6e4d4 in edm::stream::EDProducerAdaptorBase::doEvent(edm::EventTransitionInfo const&, edm::ModuleCallingContext const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#19 0x00007fafd3bcfd6c in std::__exception_ptr::exception_ptr edm::Worker::runModuleAfterAsyncPrefetch<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >(std::__exception_ptr::exception_ptr, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::TransitionInfoType const&, edm::StreamID, edm::ParentContext const&, edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1>::Context const*) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#20 0x00007fafd3bd86c9 in edm::Worker::RunModuleTask<edm::OccurrenceTraits<edm::EventPrincipal, (edm::TransitionActionType)1> >::execute() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#21 0x00007fafd3d52e44 in tbb::detail::d2::function_task<edm::WaitingTaskList::announce()::{lambda()#1}>::execute(tbb::detail::d1::execution_data&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreConcurrency.so
+#22 0x00007fafd371b591 in tbb::detail::d1::task* tbb::detail::r1::task_dispatcher::local_wait_for_all<false, tbb::detail::r1::external_waiter>(tbb::detail::d1::task*, tbb::detail::r1::external_waiter&) [clone .constprop.0] [clone .isra.0] () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#23 0x00007fafd370c355 in tbb::detail::r1::wait(tbb::detail::d1::wait_context&, tbb::detail::d1::task_group_context&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#24 0x00007fafd3b4e45f in edm::FinalWaitingTask::wait() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#25 0x00007fafd3b6456e in edm::EventProcessor::processRuns(edm::SourceStatus const&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#26 0x00007fafd3b5c76b in edm::EventProcessor::runToCompletion() () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/lib/el9_amd64_gcc14/libFWCoreFramework.so
+#27 0x00000000004087b4 in tbb::detail::d1::task_arena_function<main::{lambda()#1}::operator()() const::{lambda()#1}, void>::operator()() const ()
+#28 0x00007fafd36fd697 in tbb::detail::r1::task_arena_impl::execute(tbb::detail::d1::task_arena_base&, tbb::detail::d1::delegate_base&) () from /cvmfs/cms.cern.ch/el9_amd64_gcc14/cms/cmssw/CMSSW_20_1_0_pre3/external/el9_amd64_gcc14/lib/libtbb.so.12
+#29 0x000000000040a189 in main::{lambda()#1}::operator()() const ()
+#30 0x00000000004053e8 in main ()
+
+Current Modules:
+
+Module: TICLCandidateProducer:ticlCandidate (crashed)
+Module: GsfTrackProducer:electronGsfTracks
+Module: CosmicMuonProducer:cosmicMuons1Leg
+Module: HGCalPhotonIDValueMapProducer:hgcPhotonID
+Module: HGCalPhotonIDValueMapProducer:hgcPhotonID
+Module: MuonIdProducer:displacedMuons1stStep
+Module: MuonIdProducer:displacedMuons1stStep
+Module: DeepMETProducer:deepMETsResolutionTune
+Module: none
+Module: none
+Module: none
+Module: PoolOutputModule:FEVTDEBUGHLToutput
+Module: GlobalMuonProducer:displacedGlobalMuons
+Module: FastjetJetProducer:ak4PFJetsCHS
+Module: HGCalRecHitValidation:hgcalRecHitValidationEE
+Module: PFRecHitProducer:particleFlowRecHitHGC
+
+A fatal system signal has occurred: segmentation violation
