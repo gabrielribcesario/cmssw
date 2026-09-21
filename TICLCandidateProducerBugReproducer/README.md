@@ -11,6 +11,9 @@ git switch -c local-ticl-vector-bug-reproducer gabe/ticl-vector-bug-reproducer
 
 git cms-addpkg RecoHGCal/TICL \
                TICLCandidateProducerBugReproducer
+
+# Apply tmp fix
+git apply TICLCandidateProducerBugReproducer/ticl-oob.patch
 ```
 
 # TICLCandidateProducer.cc

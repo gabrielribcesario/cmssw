@@ -1,0 +1,41 @@
+diff --git a/RecoHGCal/TICL/plugins/GeneralInterpretationAlgo.cc b/RecoHGCal/TICL/plugins/GeneralInterpretationAlgo.cc
+index bf359985913..cf734450191 100644
+--- a/RecoHGCal/TICL/plugins/GeneralInterpretationAlgo.cc
++++ b/RecoHGCal/TICL/plugins/GeneralInterpretationAlgo.cc
+@@ -380,7 +380,6 @@ void GeneralInterpretationAlgo::makeCandidates(const Inputs &input,
+         auto tracksterId = trackstersInTrackIndices[iTrack][0];
+         resultCandidate[iTrack] = resultTracksters.size();
+         resultTracksters.push_back(input.tracksters[tracksterId]);
+-        linkedResultTracksters.push_back(trackstersInTrackIndices[iTrack]);
+       } else {
+         // in this case mergeTracksters() clears the pid probabilities and the regressed energy is not set
+         // TODO: fix probabilities when CNN will be splitted
+diff --git a/RecoHGCal/TICL/plugins/MuonInterpretationAlgo.cc b/RecoHGCal/TICL/plugins/MuonInterpretationAlgo.cc
+index 6bd2577be6a..51772f1b8ae 100644
+--- a/RecoHGCal/TICL/plugins/MuonInterpretationAlgo.cc
++++ b/RecoHGCal/TICL/plugins/MuonInterpretationAlgo.cc
+@@ -97,6 +97,8 @@ void MuonInterpretationAlgo::makeCandidates(const Inputs &input,
+       }
+       resultCandidate[iTrack] = static_cast<int>(resultTracksters.size());
+       resultTracksters.push_back(muonTrackster);
++      // Keep linkedResultTracksters index-parallel to resultTracksters
++      linkedResultTracksters.push_back(nearby);
+     } else {
+       resultCandidate[iTrack] = -1;  // muon with no HGCAL deposit: track-only candidate
+     }
+diff --git a/RecoHGCal/TICL/plugins/TICLCandidateProducer.cc b/RecoHGCal/TICL/plugins/TICLCandidateProducer.cc
+index 552d05eed7b..18308ad5221 100644
+--- a/RecoHGCal/TICL/plugins/TICLCandidateProducer.cc
++++ b/RecoHGCal/TICL/plugins/TICLCandidateProducer.cc
+@@ -426,6 +426,11 @@ void TICLCandidateProducer::produce(edm::Event &evt, const edm::EventSetup &es)
+     if (tracksterId >= 0) {
+       tracksterPtr = edm::Ptr<Trackster>(resultTracksters_h, tracksterId);
+       maskTracksters[tracksterId] = false;
++      // Keep the linkedTracksters product parallel to resultCandidates
++      linkedTracksters->push_back((*linkedResultTracksters)[tracksterId]);
++    } else {
++      // track-only muon: no HGCAL deposit to link
++      linkedTracksters->emplace_back();
+     }
+     TICLCandidate muonCandidate(trackPtr, tracksterPtr);
+     muonCandidate.setPdgId(13 * tk.charge());
