@@ -426,6 +426,11 @@ void TICLCandidateProducer::produce(edm::Event &evt, const edm::EventSetup &es) 
     if (tracksterId >= 0) {
       tracksterPtr = edm::Ptr<Trackster>(resultTracksters_h, tracksterId);
       maskTracksters[tracksterId] = false;
+      // Keep the linkedTracksters product parallel to resultCandidates
+      linkedTracksters->push_back((*linkedResultTracksters)[tracksterId]);
+    } else {
+      // track-only muon: no HGCAL deposit to link
+      linkedTracksters->emplace_back();
     }
     TICLCandidate muonCandidate(trackPtr, tracksterPtr);
     muonCandidate.setPdgId(13 * tk.charge());
