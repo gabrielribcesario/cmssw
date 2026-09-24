@@ -1,0 +1,101 @@
+diff --git a/RecoTracker/CkfPattern/plugins/GroupedCkfTrajectoryBuilder.cc b/RecoTracker/CkfPattern/plugins/GroupedCkfTrajectoryBuilder.cc
+index 1ff0e980e08..c0c7b424879 100644
+--- a/RecoTracker/CkfPattern/plugins/GroupedCkfTrajectoryBuilder.cc
++++ b/RecoTracker/CkfPattern/plugins/GroupedCkfTrajectoryBuilder.cc
+@@ -110,7 +110,22 @@ namespace {
+ 
+   thread_local GroupedCkfTrajectoryBuilder::TempTrajectoryContainer work_;
+ 
+-}
++  // After its PCA to the beamline a track moves away from it (x*px + y*py > 0)
++  bool movesTowardsBeamline(const TempTrajectory& segment) {
++    const auto& measurements = segment.measurements();
++    for (auto it = measurements.rbegin(); it != measurements.rend(); --it) {
++      const auto& tsos = it->updatedState().isValid() ? it->updatedState() : it->forwardPredictedState();
++      if (!tsos.isValid())
++        continue;
++      const auto pos = tsos.globalPosition();
++      const auto pt = tsos.globalMomentum();
++      // Candidate has been extended through the beamline
++      if (pos.x() * pt.x() + pos.y() * pt.y() < 0.f)
++        return true;
++    }
++    return false;
++  }
++}  // namespace
+ 
+ GroupedCkfTrajectoryBuilder::GroupedCkfTrajectoryBuilder(const edm::ParameterSet& conf, edm::ConsumesCollector& iC)
+     : BaseCkfTrajectoryBuilder(conf,
+@@ -138,6 +153,7 @@ GroupedCkfTrajectoryBuilder::GroupedCkfTrajectoryBuilder(const edm::ParameterSet
+   maxPt2ForLooperReconstruction = conf.getParameter<double>("maxPtForLooperReconstruction");
+   maxPt2ForLooperReconstruction *= maxPt2ForLooperReconstruction;
+   maxDPhiForLooperReconstruction = conf.getParameter<double>("maxDPhiForLooperReconstruction");
++  theRejectHitsBeforeClosestApproach = conf.getParameter<bool>("rejectHitsBeforeClosestApproach");
+ 
+   /* ======= B.M. to be ported layer ===========
+   bool setOK = thePropagator->setMaxDirectionChange(1.6);
+@@ -167,6 +183,8 @@ void GroupedCkfTrajectoryBuilder::fillPSetDescription(edm::ParameterSetDescripti
+   iDesc.add<int>("minNrOfHitsForRebuild", 5);
+   iDesc.add<double>("maxPtForLooperReconstruction", 0.);
+   iDesc.add<double>("maxDPhiForLooperReconstruction", 2.0);
++  iDesc.add<bool>("rejectHitsBeforeClosestApproach", false)
++      ->setComment("Reject hits the candidate would reach before its point of closest approach to the beamline");
+ 
+   edm::ParameterSetDescription psdTJ1;
+   psdTJ1.addNode(edm::PluginDescription<TrajectoryFilterFactory>("ComponentType", true));
+@@ -576,6 +594,8 @@ bool GroupedCkfTrajectoryBuilder::advanceOneLayer(const TrajectorySeed& seed,
+ #endif
+ 
+     auto&& segments = layerBuilder.segments(stateToUse);
++    if (theRejectHitsBeforeClosestApproach)
++      segments.erase(std::remove_if(segments.begin(), segments.end(), movesTowardsBeamline), segments.end());
+ 
+     LogDebug("CkfPattern") << "GCTB: number of segments = " << segments.size();
+ 
+diff --git a/RecoTracker/CkfPattern/plugins/GroupedCkfTrajectoryBuilder.h b/RecoTracker/CkfPattern/plugins/GroupedCkfTrajectoryBuilder.h
+index 81479cb5f56..88df6bef8e6 100644
+--- a/RecoTracker/CkfPattern/plugins/GroupedCkfTrajectoryBuilder.h
++++ b/RecoTracker/CkfPattern/plugins/GroupedCkfTrajectoryBuilder.h
+@@ -192,6 +192,9 @@ private:
+ 
+   float maxDPhiForLooperReconstruction;
+ 
++  bool theRejectHitsBeforeClosestApproach;
++  /**< Do not extend candidates through the beamline (x*px + y*py < 0 at the hit) */
++
+   //  mutable TempTrajectoryContainer work_; // Better here than alloc every time
+   enum work_MaxSize_Size_ {
+     work_MaxSize_ = 50
+diff --git a/RecoTracker/CkfPattern/python/GroupedCkfTrajectoryBuilder_cfi.py b/RecoTracker/CkfPattern/python/GroupedCkfTrajectoryBuilder_cfi.py
+index ea4c9e77919..873f16b265b 100644
+--- a/RecoTracker/CkfPattern/python/GroupedCkfTrajectoryBuilder_cfi.py
++++ b/RecoTracker/CkfPattern/python/GroupedCkfTrajectoryBuilder_cfi.py
+@@ -43,6 +43,8 @@ GroupedCkfTrajectoryBuilder = cms.PSet(
+     seedAs5DHit = cms.bool(False),
+     maxPtForLooperReconstruction = cms.double(0.),
+     maxDPhiForLooperReconstruction = cms.double(2.),
++    # Reject hits the candidate would reach before its PCA to the beamline
++    rejectHitsBeforeClosestApproach = cms.bool(False),
+ )
+ 
+ GroupedCkfTrajectoryBuilderIterativeDefault = GroupedCkfTrajectoryBuilder.clone()
+diff --git a/RecoTracker/IterativeTracking/python/MuonSeededStep_cff.py b/RecoTracker/IterativeTracking/python/MuonSeededStep_cff.py
+index 33ab172a8cb..6a45e0ab51c 100644
+--- a/RecoTracker/IterativeTracking/python/MuonSeededStep_cff.py
++++ b/RecoTracker/IterativeTracking/python/MuonSeededStep_cff.py
+@@ -76,6 +76,7 @@ muonSeededTrajectoryBuilderForInOut = RecoTracker.CkfPattern.GroupedCkfTrajector
+     minNrOfHitsForRebuild      = 2,
+     requireSeedHitsInRebuild   = True, 
+     keepOriginalIfRebuildFails = True, 
++    rejectHitsBeforeClosestApproach = True, # do not pick up the partner of a back-to-back pair
+ )
+ muonSeededTrajectoryBuilderForOutIn = RecoTracker.CkfPattern.GroupedCkfTrajectoryBuilder_cfi.GroupedCkfTrajectoryBuilder.clone(
+     foundHitBonus    = 1000.0,
+@@ -87,6 +88,7 @@ muonSeededTrajectoryBuilderForOutIn = RecoTracker.CkfPattern.GroupedCkfTrajector
+     minNrOfHitsForRebuild      = 5,
+     requireSeedHitsInRebuild   = True,
+     keepOriginalIfRebuildFails = False,
++    rejectHitsBeforeClosestApproach = True, # do not pick up the partner of a back-to-back pair
+ )
+ 
+ ###-------------  Fitter-Smoother -------------------
