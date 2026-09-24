@@ -1,0 +1,35 @@
+cmsDriver.py FourMuExtendedPt_1_200_pythia8_cfi \
+    -s GEN,SIM \
+    -n 1000 \
+    --conditions auto:phase2_realistic_T37_13TeV \
+    --beamspot DBrealisticHLLHC \
+    --datatier GEN-SIM \
+    --eventcontent FEVTDEBUG \
+    --geometry ExtendedRun4D112 \
+    --era Phase2C22I13M9 \
+    --relval 10000,100 \
+    --fileout file:step1.root \
+    --nThreads 16 > step1_FourMuExtendedPt1_200+Run4D112.log  2>&1
+
+cmsDriver.py step2 \
+    -s DIGI:pdigi_valid,L1TrackTrigger,L1,L1P2GT,DIGI2RAW,HLT:@relvalRun4 \
+    --conditions auto:phase2_realistic_T37 \
+    --datatier GEN-SIM-DIGI-RAW \
+    -n 1000 \
+    --eventcontent FEVTDEBUGHLT \
+    --geometry ExtendedRun4D112 \
+    --era Phase2C22I13M9 \
+    --filein  file:step1.root \
+    --fileout file:step2.root \
+    --nThreads 16 > step2_FourMuExtendedPt1_200+Run4D112.log  2>&1
+
+cmsDriver.py step3 \
+    --customise Validation/RecoTrack/customiseTrackingNtuple.customiseTrackingNtuple \
+    -s RAW2DIGI,RECO,RECOSIM,PAT,VALIDATION:@phase2Validation+@miniAODValidation,DQM:@phase2+@miniAODDQM \
+    --conditions auto:phase2_realistic_T37 \
+    -n 1000 \
+    --geometry ExtendedRun4D112 \
+    --era Phase2C22I13M9 \
+    --filein  file:step2.root \
+    --fileout file:step3.root \
+    --nThreads 16 > step3_FourMuExtendedPt1_200+Run4D112.log  2>&1
