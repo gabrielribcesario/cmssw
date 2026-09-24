@@ -1,0 +1,255 @@
+
+====================================================================================================
+
+30410.0_FourMuExtendedPt1_200+Run4D112_HLLHC/trackingNtuple.root: 1000 events
+
+  event 88: track from 2 muons
+    trk[2] muonSeededStepOutIn  q=-1 pt=   90.90 eta=-0.267 phi=-2.554 dz=+10.02 nValid=23 nPix= 0 nOT=23 matchedSim=[]
+    hits per sim: {2: 14, 3: 9}
+    crossing: OT-TB1@z=+16.3(sim2) -> OT-TB1@z=+3.1(sim3)
+    sim[2] pdg=-13 pt=   91.59 eta=+0.267 phi=+0.588 vz=+10.05 nSimHit=18 matched=[]
+    sim[3] pdg=+13 pt=   91.59 eta=-0.267 phi=-2.554 vz=+10.05 nSimHit=16 matched=[]
+    seed[65] muonSeededStepOutIn from sim[3]: OT-TB4@z=-6.9(sim3)
+    track hits along the trajectory:
+      OT-TB6@z=+37.7(sim2)
+      OT-TB6@z=+37.7(sim2)
+      OT-TB5@z=+32.6(sim2)
+      OT-TB5@z=+32.6(sim2)
+      OT-TB4@z=+28.0(sim2)
+      OT-TB4@z=+28.0(sim2)
+      OT-TB3@z=+24.1(sim2)
+      OT-TB3@z=+23.8(sim2)
+      OT-TB2@z=+19.5(sim2)
+      OT-TB2@z=+20.3(sim2)
+      OT-TB2@z=+20.1(sim2)
+      OT-TB2@z=+21.2(sim2)
+      OT-TB1@z=+17.0(sim2)
+      OT-TB1@z=+16.3(sim2)
+      OT-TB1@z=+3.1(sim3)
+      OT-TB2@z=+0.5(sim3)
+      OT-TB3@z=-3.4(sim3)
+      OT-TB4@z=-6.9(sim3)
+      OT-TB4@z=-6.9(sim3)
+      OT-TB5@z=-12.0(sim3)
+      OT-TB5@z=-12.0(sim3)
+      OT-TB6@z=-21.7(sim3)
+      OT-TB6@z=-21.7(sim3)
+
+  event 691: track from 2 muons
+    trk[2] muonSeededStepInOut  q=-1 pt=  136.87 eta=+2.575 phi=+0.805 dz= +1.79 nValid=34 nPix=24 nOT=10 matchedSim=[]
+    hits per sim: {2: 18, 3: 16}
+    crossing: TBPX1@z=-19.4(sim2) -> TFPX1@z=+24.2(sim3)
+    sim[2] pdg=-13 pt=  130.68 eta=-2.575 phi=-2.337 vz= +1.81 nSimHit=18 matched=[]
+    sim[3] pdg=+13 pt=  130.68 eta=+2.575 phi=+0.805 vz= +1.81 nSimHit=16 matched=[]
+    seed[72] muonSeededStepInOut from sim[3]: TFPX1@z=+24.2(sim3) TFPX1@z=+25.8(sim3) TFPX2@z=+32.7(sim3) TFPX3@z=+40.7(sim3) TFPX3@z=+41.1(sim3) TFPX3@z=+41.7(sim3) TFPX4@z=+52.1(sim3) TFPX5@z=+66.2(sim3) TFPX5@z=+67.7(sim3)
+    track hits along the trajectory:
+      OT-TEDD5@z=-264.4(sim2)
+      OT-TEDD5@z=-264.0(sim2)
+      OT-TEDD4@z=-224.1(sim2)
+      OT-TEDD4@z=-223.7(sim2)
+      OT-TEDD2@z=-152.9(sim2)
+      OT-TEDD2@z=-152.5(sim2)
+      TFPX6@z=-84.3(sim2)
+      TFPX6@z=-83.9(sim2)
+      TFPX5@z=-66.2(sim2)
+      TFPX4@z=-53.1(sim2)
+      TFPX4@z=-52.5(sim2)
+      TFPX3@z=-41.1(sim2)
+      TFPX3@z=-40.1(sim2)
+      TFPX2@z=-32.2(sim2)
+      TFPX2@z=-31.8(sim2)
+      TFPX2@z=-31.2(sim2)
+      TFPX1@z=-24.2(sim2)
+      TBPX1@z=-19.4(sim2)
+      TFPX1@z=+24.2(sim3)
+      TFPX1@z=+25.8(sim3)
+      TFPX2@z=+32.7(sim3)
+      TFPX3@z=+40.7(sim3)
+      TFPX3@z=+41.1(sim3)
+      TFPX3@z=+41.7(sim3)
+      TFPX4@z=+52.1(sim3)
+      TFPX5@z=+66.2(sim3)
+      TFPX5@z=+67.7(sim3)
+      TFPX6@z=+83.9(sim3)
+      TFPX6@z=+84.3(sim3)
+      TFPX6@z=+84.8(sim3)
+      OT-TEDD4@z=+222.2(sim3)
+      OT-TEDD4@z=+222.6(sim3)
+      OT-TEDD5@z=+262.5(sim3)
+      OT-TEDD5@z=+262.9(sim3)
+
+  event 837: track from 2 muons
+    trk[2] muonSeededStepInOut  q=-1 pt=  191.87 eta=-2.453 phi=+2.799 dz= -4.05 nValid=34 nPix=17 nOT=17 matchedSim=[]
+    hits per sim: {2: 17, 3: 17}
+    crossing: TBPX1@z=+14.7(sim2) -> TFPX1@z=-24.2(sim3)
+    sim[2] pdg=-13 pt=  192.71 eta=+2.453 phi=-0.342 vz= -4.03 nSimHit=17 matched=[]
+    sim[3] pdg=+13 pt=  192.71 eta=-2.453 phi=+2.799 vz= -4.03 nSimHit=19 matched=[]
+    seed[125] muonSeededStepInOut from sim[3]: TFPX1@z=-24.2(sim3) TFPX1@z=-25.8(sim3) TFPX2@z=-31.2(sim3) TFPX3@z=-41.1(sim3) TFPX4@z=-52.5(sim3) TFPX5@z=-67.7(sim3)
+    track hits along the trajectory:
+      OT-TEDD5@z=+264.4(sim2)
+      OT-TEDD5@z=+264.0(sim2)
+      OT-TEDD4@z=+221.0(sim2)
+      OT-TEDD4@z=+220.6(sim2)
+      OT-TEDD3@z=+187.9(sim2)
+      OT-TEDD3@z=+187.5(sim2)
+      OT-TEDD2@z=+154.4(sim2)
+      OT-TEDD2@z=+154.0(sim2)
+      TFPX6@z=+83.9(sim2)
+      TFPX5@z=+67.1(sim2)
+      TFPX5@z=+66.7(sim2)
+      TFPX5@z=+66.2(sim2)
+      TFPX4@z=+51.6(sim2)
+      TFPX3@z=+40.7(sim2)
+      TFPX2@z=+31.8(sim2)
+      TFPX1@z=+25.8(sim2)
+      TBPX1@z=+14.7(sim2)
+      TFPX1@z=-24.2(sim3)
+      TFPX1@z=-25.8(sim3)
+      TFPX2@z=-31.2(sim3)
+      TFPX3@z=-41.1(sim3)
+      TFPX4@z=-52.5(sim3)
+      TFPX4@z=-53.1(sim3)
+      TFPX5@z=-67.7(sim3)
+      TFPX6@z=-84.3(sim3)
+      OT-TEDD2@z=-152.5(sim3)
+      OT-TEDD2@z=-152.9(sim3)
+      OT-TEDD2@z=-154.0(sim3)
+      OT-TEDD2@z=-154.4(sim3)
+      OT-TEDD4@z=-219.1(sim3)
+      OT-TEDD4@z=-219.5(sim3)
+      OT-TEDD5@z=-262.9(sim3)
+      OT-TEDD5@z=-265.6(sim3)
+      OT-TEDD5@z=-266.0(sim3)
+
+  event 841: track from 2 muons
+    trk[2] muonSeededStepInOut  q=-1 pt=  102.64 eta=-2.582 phi=-2.296 dz= -1.49 nValid=26 nPix=18 nOT= 8 matchedSim=[]
+    hits per sim: {2: 13, 3: 13}
+    crossing: TBPX1@z=+20.0(sim2) -> TFPX1@z=-24.2(sim3)
+    sim[2] pdg=-13 pt=  102.45 eta=+2.582 phi=+0.846 vz= -1.45 nSimHit=14 matched=[]
+    sim[3] pdg=+13 pt=  102.45 eta=-2.582 phi=-2.296 vz= -1.45 nSimHit=13 matched=[]
+    seed[48] muonSeededStepInOut from sim[3]: TFPX1@z=-24.2(sim3) TFPX1@z=-25.8(sim3) TFPX2@z=-31.2(sim3) TFPX3@z=-40.1(sim3) TFPX3@z=-41.1(sim3) TFPX4@z=-52.5(sim3) TFPX5@z=-66.2(sim3)
+    track hits along the trajectory:
+      OT-TEDD5@z=+262.9(sim2)
+      OT-TEDD5@z=+262.5(sim2)
+      OT-TEDD4@z=+222.6(sim2)
+      OT-TEDD4@z=+222.2(sim2)
+      TFPX6@z=+83.9(sim2)
+      TFPX5@z=+67.7(sim2)
+      TFPX4@z=+52.1(sim2)
+      TFPX3@z=+41.7(sim2)
+      TFPX3@z=+40.7(sim2)
+      TFPX2@z=+32.7(sim2)
+      TFPX1@z=+25.8(sim2)
+      TFPX1@z=+24.2(sim2)
+      TBPX1@z=+20.0(sim2)
+      TFPX1@z=-24.2(sim3)
+      TFPX1@z=-25.8(sim3)
+      TFPX2@z=-31.2(sim3)
+      TFPX3@z=-40.1(sim3)
+      TFPX3@z=-41.1(sim3)
+      TFPX4@z=-52.5(sim3)
+      TFPX5@z=-66.2(sim3)
+      TFPX6@z=-83.3(sim3)
+      TFPX6@z=-84.3(sim3)
+      OT-TEDD4@z=-223.7(sim3)
+      OT-TEDD4@z=-224.1(sim3)
+      OT-TEDD5@z=-264.0(sim3)
+      OT-TEDD5@z=-264.4(sim3)
+
+  event 957: track from 2 muons
+    trk[2] muonSeededStepInOut  q=-1 pt=  106.96 eta=+2.543 phi=-0.120 dz= +2.19 nValid=29 nPix=17 nOT=12 matchedSim=[]
+    hits per sim: {2: 16, 3: 13}
+    crossing: TBPX1@z=-18.7(sim2) -> TFPX1@z=+24.2(sim3)
+    sim[2] pdg=-13 pt=  105.27 eta=-2.543 phi=+3.021 vz= +2.21 nSimHit=16 matched=[]
+    sim[3] pdg=+13 pt=  105.27 eta=+2.543 phi=-0.120 vz= +2.21 nSimHit=14 matched=[]
+    seed[101] muonSeededStepInOut from sim[3]: TFPX1@z=+24.2(sim3) TFPX2@z=+31.2(sim3) TFPX3@z=+40.1(sim3) TFPX3@z=+41.1(sim3) TFPX4@z=+52.5(sim3) TFPX5@z=+67.7(sim3)
+    track hits along the trajectory:
+      OT-TEDD5@z=-267.5(sim2)
+      OT-TEDD5@z=-267.1(sim2)
+      OT-TEDD4@z=-224.1(sim2)
+      OT-TEDD4@z=-223.7(sim2)
+      OT-TEDD2@z=-154.4(sim2)
+      OT-TEDD2@z=-154.0(sim2)
+      TFPX6@z=-83.9(sim2)
+      TFPX5@z=-66.2(sim2)
+      TFPX4@z=-52.1(sim2)
+      TFPX4@z=-51.6(sim2)
+      TFPX3@z=-41.7(sim2)
+      TFPX3@z=-40.7(sim2)
+      TFPX2@z=-32.7(sim2)
+      TFPX2@z=-31.8(sim2)
+      TFPX1@z=-25.8(sim2)
+      TBPX1@z=-18.7(sim2)
+      TFPX1@z=+24.2(sim3)
+      TFPX2@z=+31.2(sim3)
+      TFPX3@z=+40.1(sim3)
+      TFPX3@z=+41.1(sim3)
+      TFPX4@z=+52.5(sim3)
+      TFPX5@z=+67.7(sim3)
+      TFPX6@z=+84.3(sim3)
+      OT-TEDD2@z=+152.5(sim3)
+      OT-TEDD2@z=+152.9(sim3)
+      OT-TEDD4@z=+222.2(sim3)
+      OT-TEDD4@z=+222.6(sim3)
+      OT-TEDD5@z=+265.6(sim3)
+      OT-TEDD5@z=+266.0(sim3)
+
+  event 976: track from 2 muons
+    trk[2] muonSeededStepInOut  q=+1 pt=   55.86 eta=+2.466 phi=+0.981 dz= +3.57 nValid=41 nPix=23 nOT=18 matchedSim=[]
+    hits per sim: {3: 21, 2: 20}
+    crossing: TBPX1@z=-15.9(sim3) -> TFPX1@z=+24.2(sim2)
+    sim[3] pdg=+13 pt=   55.84 eta=-2.466 phi=-2.161 vz= +3.59 nSimHit=23 matched=[]
+    sim[2] pdg=-13 pt=   55.84 eta=+2.466 phi=+0.981 vz= +3.59 nSimHit=20 matched=[]
+    seed[79] muonSeededStepInOut from sim[2]: TFPX1@z=+24.2(sim2) TFPX1@z=+25.8(sim2) TFPX2@z=+31.2(sim2) TFPX3@z=+40.7(sim2) TFPX3@z=+41.1(sim2) TFPX4@z=+52.1(sim2) TFPX4@z=+53.1(sim2) TFPX5@z=+67.7(sim2)
+    track hits along the trajectory:
+      OT-TEDD5@z=-264.4(sim3)
+      OT-TEDD5@z=-264.0(sim3)
+      OT-TEDD5@z=-262.9(sim3)
+      OT-TEDD5@z=-262.5(sim3)
+      OT-TEDD4@z=-219.5(sim3)
+      OT-TEDD4@z=-219.1(sim3)
+      OT-TEDD2@z=-154.4(sim3)
+      OT-TEDD2@z=-154.0(sim3)
+      TFPX6@z=-84.3(sim3)
+      TFPX6@z=-83.9(sim3)
+      TFPX5@z=-67.1(sim3)
+      TFPX5@z=-66.7(sim3)
+      TFPX5@z=-66.2(sim3)
+      TFPX4@z=-53.1(sim3)
+      TFPX4@z=-51.6(sim3)
+      TFPX3@z=-41.1(sim3)
+      TFPX3@z=-40.7(sim3)
+      TFPX2@z=-32.2(sim3)
+      TFPX2@z=-31.8(sim3)
+      TFPX1@z=-25.8(sim3)
+      TBPX1@z=-15.9(sim3)
+      TFPX1@z=+24.2(sim2)
+      TFPX1@z=+25.8(sim2)
+      TFPX2@z=+31.2(sim2)
+      TFPX3@z=+40.7(sim2)
+      TFPX3@z=+41.1(sim2)
+      TFPX4@z=+52.1(sim2)
+      TFPX4@z=+53.1(sim2)
+      TFPX5@z=+67.7(sim2)
+      TFPX6@z=+83.9(sim2)
+      TFPX6@z=+84.3(sim2)
+      OT-TEDD2@z=+152.5(sim2)
+      OT-TEDD2@z=+152.9(sim2)
+      OT-TEDD4@z=+220.6(sim2)
+      OT-TEDD4@z=+221.0(sim2)
+      OT-TEDD4@z=+223.7(sim2)
+      OT-TEDD4@z=+224.1(sim2)
+      OT-TEDD5@z=+265.6(sim2)
+      OT-TEDD5@z=+266.0(sim2)
+      OT-TEDD5@z=+267.1(sim2)
+      OT-TEDD5@z=+267.5(sim2)
+
+  muons (|eta| <= 4.0): 4000, without a matched track: 51
+  tracks with >= 4 hits from two muons: 6
+
+====================================================================================================
+
+30410.0_FourMuExtendedPt1_200+Run4D112_NoSmear/trackingNtuple.root: 1000 events
+
+  muons (|eta| <= 4.0): 4002, without a matched track: 26
+  tracks with >= 4 hits from two muons: 0
