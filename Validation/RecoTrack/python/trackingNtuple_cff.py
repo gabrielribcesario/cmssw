@@ -114,3 +114,10 @@ trackingPhase2PU140.toModify(trackingNtuple, # FIXME
   stripDigiSimLink = cms.untracked.InputTag(''),
   phase2OTSimLink = cms.untracked.InputTag('simSiPixelDigis', "Tracker")
 )
+
+# Phase-2 offline tracking only runs these cluster masks
+_clusterMasks_trackingPhase2PU140 = ("highPtTripletStepClusters", "lowPtQuadStepClusters", "lowPtTripletStepClusters",
+                                     "detachedQuadStepClusters", "pixelPairStepClusters")
+trackingPhase2PU140.toModify(trackingNtuple,
+  clusterMasks = [m for m in trackingNtuple.clusterMasks if m.src.value() in _clusterMasks_trackingPhase2PU140]
+)
