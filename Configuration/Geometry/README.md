@@ -110,7 +110,7 @@ Tracker:
 * T37: OT (v8.0.6): increased (smallDelta +300 micron) inter-ladder radial spacing TB2S. IT (v7.4.2): TBPX as in T35 with 0.7+0.4+0.7 mm gap between Z+ and Z-
 * T38: OT (v8.0.6): increased (smallDelta +300 micron) inter-ladder radial spacing TB2S. IT (v7.4.4): TBPX as in T35 with 1.3+0.4+1.3 mm gap between Z+ and Z-
 * T39: Same as T35 but introducing BigPixels in InnerTracker (1x2 planar and 2x2 planar modules)
-* T40: Same as T39 with OT807_IT750 tkLayout XMLs (tracker, trackerStructureTopology, pixel, pixelStructureTopology, pixfwd, pixelsens, pixelProdCuts, trackerRecoMaterial replaced)
+* T40: Same as T39 with OT807_IT750 tkLayout XMLs (tracker, trackerStructureTopology, pixel, pixelStructureTopology, pixfwd, pixelsens, pixelProdCuts, trackerRecoMaterial replaced), BigPixels added manually to pixelStructureTopology as in T39
 
 Calorimeters:
 * C18: HGCal (v17 version of HGCal geometry created for a new flat file for silicon having 47 layers, ideas of cassettes, new orientation indices for full and partial wafers) + Phase2 HCAL and EB
