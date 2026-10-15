@@ -80,22 +80,15 @@ index ea4c9e77919..873f16b265b 100644
  
  GroupedCkfTrajectoryBuilderIterativeDefault = GroupedCkfTrajectoryBuilder.clone()
 diff --git a/RecoTracker/IterativeTracking/python/MuonSeededStep_cff.py b/RecoTracker/IterativeTracking/python/MuonSeededStep_cff.py
-index 33ab172a8cb..6a45e0ab51c 100644
+index 33ab172a8cb..d60544523d2 100644
 --- a/RecoTracker/IterativeTracking/python/MuonSeededStep_cff.py
 +++ b/RecoTracker/IterativeTracking/python/MuonSeededStep_cff.py
-@@ -76,6 +76,7 @@ muonSeededTrajectoryBuilderForInOut = RecoTracker.CkfPattern.GroupedCkfTrajector
-     minNrOfHitsForRebuild      = 2,
-     requireSeedHitsInRebuild   = True, 
-     keepOriginalIfRebuildFails = True, 
-+    rejectHitsBeforeClosestApproach = True, # do not pick up the partner of a back-to-back pair
- )
- muonSeededTrajectoryBuilderForOutIn = RecoTracker.CkfPattern.GroupedCkfTrajectoryBuilder_cfi.GroupedCkfTrajectoryBuilder.clone(
-     foundHitBonus    = 1000.0,
-@@ -87,6 +88,7 @@ muonSeededTrajectoryBuilderForOutIn = RecoTracker.CkfPattern.GroupedCkfTrajector
-     minNrOfHitsForRebuild      = 5,
+@@ -88,6 +88,8 @@ muonSeededTrajectoryBuilderForOutIn = RecoTracker.CkfPattern.GroupedCkfTrajector
      requireSeedHitsInRebuild   = True,
      keepOriginalIfRebuildFails = False,
-+    rejectHitsBeforeClosestApproach = True, # do not pick up the partner of a back-to-back pair
  )
++for _builder in [muonSeededTrajectoryBuilderForInOut, muonSeededTrajectoryBuilderForOutIn]:
++    trackingPhase2PU140.toModify(_builder, rejectHitsBeforeClosestApproach = True)
  
  ###-------------  Fitter-Smoother -------------------
+ import TrackingTools.TrackFitters.RungeKuttaFitters_cff
