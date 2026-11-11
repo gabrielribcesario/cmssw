@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <!--
 ============= XML GENERATION METADATA HEADER =============
-tkLayout revision: t41-export-3867-697cc7c1
+tkLayout revision: t41-export-3867-625ff2b2
 tkLayout developed by https://github.com/tkLayout/tkLayout/graphs/contributors .
 Gabriel (garibeir on cmxpc1.dyndns.cern.ch) responsible for cross-check of the automatically-generated description below.
-generation date: 2026-11-10.15:17:22
-note: see OT808_IT850_2026_11_10.cfg for full config files
+generation date: 2026-11-11.13:25:27
+note: see OT808_IT850_2026_11_11.cfg for full config files
 =========== END XML GENERATION METADATA HEADER ===========
 -->
 <DDDefinition xmlns="http://www.cern.ch/cms/DDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cern.ch/cms/DDL ../../../DetectorDescription/Schema/DDLSchema.xsd">
@@ -266,325 +266,334 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR274Z2775" density="1.87431*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.00636221">
+<CompositeMaterial name="servicecompositeR274Z2775" density="1.92207*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.00683229">
 <rMaterial name="tracker:tkLayout_Acrylate"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.312978">
+<MaterialFraction fraction="0.309329">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.022785">
+<MaterialFraction fraction="0.0222188">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0806153">
+<MaterialFraction fraction="0.0786121">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0595437">
+<MaterialFraction fraction="0.0594999">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0027117">
+<MaterialFraction fraction="0.00264431">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R1_4chipmodules"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00284728">
+<MaterialFraction fraction="0.00277653">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R2_4chipmodules"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00244053">
+<MaterialFraction fraction="0.00237988">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R3"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00298286">
+<MaterialFraction fraction="0.00290874">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R4"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00325403">
+<MaterialFraction fraction="0.00317318">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R5"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00545332">
+<MaterialFraction fraction="0.00585625">
 <rMaterial name="tracker:tkLayout_Glass"/>
 </MaterialFraction>
-<MaterialFraction fraction="1.22394e-06">
+<MaterialFraction fraction="1.19353e-06">
 <rMaterial name="tracker:tkLayout_Kapton"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.361685">
+<MaterialFraction fraction="0.370816">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.13634">
+<MaterialFraction fraction="0.132952">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR278Z2784" density="1.85388*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.00636221">
+<CompositeMaterial name="servicecompositeR278Z2784" density="1.90112*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.00683229">
 <rMaterial name="tracker:tkLayout_Acrylate"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.312978">
+<MaterialFraction fraction="0.309329">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.022785">
+<MaterialFraction fraction="0.0222188">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0806153">
+<MaterialFraction fraction="0.0786121">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0595437">
+<MaterialFraction fraction="0.0594999">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0027117">
+<MaterialFraction fraction="0.00264431">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R1_4chipmodules"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00284728">
+<MaterialFraction fraction="0.00277653">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R2_4chipmodules"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00244053">
+<MaterialFraction fraction="0.00237988">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R3"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00298286">
+<MaterialFraction fraction="0.00290874">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R4"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00325403">
+<MaterialFraction fraction="0.00317318">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TEPX_R5"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00545332">
+<MaterialFraction fraction="0.00585625">
 <rMaterial name="tracker:tkLayout_Glass"/>
 </MaterialFraction>
-<MaterialFraction fraction="1.22394e-06">
+<MaterialFraction fraction="1.19353e-06">
 <rMaterial name="tracker:tkLayout_Kapton"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.361685">
+<MaterialFraction fraction="0.370816">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.13634">
+<MaterialFraction fraction="0.132952">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR180Z1536" density="1.82599*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.00753167">
+<CompositeMaterial name="servicecompositeR180Z1536" density="1.89876*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.00821183">
 <rMaterial name="tracker:tkLayout_Acrylate"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.301633">
+<MaterialFraction fraction="0.29644">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0232557">
+<MaterialFraction fraction="0.0223645">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.078099">
+<MaterialFraction fraction="0.075106">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0597675">
+<MaterialFraction fraction="0.0596915">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00645571">
+<MaterialFraction fraction="0.00703871">
 <rMaterial name="tracker:tkLayout_Glass"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.391305">
+<MaterialFraction fraction="0.404252">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.131952">
+<MaterialFraction fraction="0.126895">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR252Z1605" density="1.25804*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.00753167">
+<CompositeMaterial name="servicecompositeR252Z1605" density="1.30817*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.00821183">
 <rMaterial name="tracker:tkLayout_Acrylate"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.301633">
+<MaterialFraction fraction="0.29644">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0232557">
+<MaterialFraction fraction="0.0223645">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.078099">
+<MaterialFraction fraction="0.075106">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0597675">
+<MaterialFraction fraction="0.0596915">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00645571">
+<MaterialFraction fraction="0.00703871">
 <rMaterial name="tracker:tkLayout_Glass"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.391305">
+<MaterialFraction fraction="0.404252">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.131952">
+<MaterialFraction fraction="0.126895">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR232Z1605" density="1.36804*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.00753167">
+<CompositeMaterial name="servicecompositeR232Z1605" density="1.42256*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.00821183">
 <rMaterial name="tracker:tkLayout_Acrylate"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.301633">
+<MaterialFraction fraction="0.29644">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0232557">
+<MaterialFraction fraction="0.0223645">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.078099">
+<MaterialFraction fraction="0.075106">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0597675">
+<MaterialFraction fraction="0.0596915">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00645571">
+<MaterialFraction fraction="0.00703871">
 <rMaterial name="tracker:tkLayout_Glass"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.391305">
+<MaterialFraction fraction="0.404252">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.131952">
+<MaterialFraction fraction="0.126895">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR213Z1605" density="1.48766*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.00753167">
+<CompositeMaterial name="servicecompositeR213Z1605" density="1.54694*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.00821183">
 <rMaterial name="tracker:tkLayout_Acrylate"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.301633">
+<MaterialFraction fraction="0.29644">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0232557">
+<MaterialFraction fraction="0.0223645">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.078099">
+<MaterialFraction fraction="0.075106">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0597675">
+<MaterialFraction fraction="0.0596915">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00645571">
+<MaterialFraction fraction="0.00703871">
 <rMaterial name="tracker:tkLayout_Glass"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.391305">
+<MaterialFraction fraction="0.404252">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.131952">
+<MaterialFraction fraction="0.126895">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR196Z1605" density="1.61774*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.00753167">
+<CompositeMaterial name="servicecompositeR196Z1605" density="1.6822*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.00821183">
 <rMaterial name="tracker:tkLayout_Acrylate"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.301633">
+<MaterialFraction fraction="0.29644">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0232557">
+<MaterialFraction fraction="0.0223645">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.078099">
+<MaterialFraction fraction="0.075106">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0597675">
+<MaterialFraction fraction="0.0596915">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00645571">
+<MaterialFraction fraction="0.00703871">
 <rMaterial name="tracker:tkLayout_Glass"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.391305">
+<MaterialFraction fraction="0.404252">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.131952">
+<MaterialFraction fraction="0.126895">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR180Z1605" density="1.75919*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.00753167">
+<CompositeMaterial name="servicecompositeR180Z1605" density="1.8293*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.00821183">
 <rMaterial name="tracker:tkLayout_Acrylate"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.301633">
+<MaterialFraction fraction="0.29644">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0232557">
+<MaterialFraction fraction="0.0223645">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.078099">
+<MaterialFraction fraction="0.075106">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0597675">
+<MaterialFraction fraction="0.0596915">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00645571">
+<MaterialFraction fraction="0.00703871">
 <rMaterial name="tracker:tkLayout_Glass"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.391305">
+<MaterialFraction fraction="0.404252">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.131952">
+<MaterialFraction fraction="0.126895">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR274Z2188" density="1.20264*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.00753167">
+<CompositeMaterial name="servicecompositeR274Z2188" density="1.25057*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.00821183">
 <rMaterial name="tracker:tkLayout_Acrylate"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.301633">
+<MaterialFraction fraction="0.29644">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0232557">
+<MaterialFraction fraction="0.0223645">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.078099">
+<MaterialFraction fraction="0.075106">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0597675">
+<MaterialFraction fraction="0.0596915">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00645571">
+<MaterialFraction fraction="0.00703871">
 <rMaterial name="tracker:tkLayout_Glass"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.391305">
+<MaterialFraction fraction="0.404252">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.131952">
+<MaterialFraction fraction="0.126895">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR180Z572" density="0.50517*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.233048">
+<CompositeMaterial name="servicecompositeR180Z572" density="0.562038*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.209468">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0334278">
+<MaterialFraction fraction="0.0300456">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.108898">
+<MaterialFraction fraction="0.0978796">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.043528">
+<MaterialFraction fraction="0.0391238">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0689781">
+<MaterialFraction fraction="0.0949153">
+<rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L1_v202602"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0619989">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0574817">
+<MaterialFraction fraction="0.0516657">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L3"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0536496">
+<MaterialFraction fraction="0.0482213">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L4"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0154845">
+<MaterialFraction fraction="0.0201831">
 <rMaterial name="tracker:tkLayout_Kapton"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.20194">
+<MaterialFraction fraction="0.181508">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.183564">
+<MaterialFraction fraction="0.164991">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR36Z209" density="0.153152*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.244505">
+<CompositeMaterial name="servicecompositeR36Z209" density="0.351765*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.106453">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0550135">
+<MaterialFraction fraction="0.0239519">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.125488">
+<MaterialFraction fraction="0.0546354">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0531438">
+<MaterialFraction fraction="0.0231379">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.310425">
+<MaterialFraction fraction="0.529655">
+<rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L1_v202602"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0349625">
+<rMaterial name="tracker:tkLayout_Kapton"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.135153">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.211425">
+<MaterialFraction fraction="0.0920505">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
@@ -608,38 +617,90 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <rMaterial name="tracker:tkLayout_StainlessSteel_fake1000factor"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR180Z990" density="0.53201*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.00307349">
+<CompositeMaterial name="servicecompositeR180Z944" density="0.577936*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.0031829">
 <rMaterial name="tracker:tkLayout_Acrylate"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.241488">
+<MaterialFraction fraction="0.224622">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0317414">
+<MaterialFraction fraction="0.0292191">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.103404">
+<MaterialFraction fraction="0.095187">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0483572">
+<MaterialFraction fraction="0.0453227">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0545818">
+<MaterialFraction fraction="0.0602933">
+<rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L2"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0502444">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L3"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0509431">
+<MaterialFraction fraction="0.0468948">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L4"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00263442">
+<MaterialFraction fraction="0.0027282">
 <rMaterial name="tracker:tkLayout_Glass"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00907228">
+<MaterialFraction fraction="0.0135349">
 <rMaterial name="tracker:tkLayout_Kapton"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.280401">
+<MaterialFraction fraction="0.268319">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.174303">
+<MaterialFraction fraction="0.160452">
+<rMaterial name="tracker:tkLayout_StainlessSteel"/>
+</MaterialFraction>
+</CompositeMaterial>
+<CompositeMaterial name="servicecompositeR182Z921" density="4.07939*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.650302">
+<rMaterial name="tracker:tkLayout_2S-SEH-mix"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.127291">
+<rMaterial name="tracker:tkLayout_CFRP"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.212522">
+<rMaterial name="tracker:tkLayout_Cu"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.00988559">
+<rMaterial name="tracker:tkLayout_Epoxy"/>
+</MaterialFraction>
+</CompositeMaterial>
+<CompositeMaterial name="servicecompositeR180Z990" density="0.604776*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.00574534">
+<rMaterial name="tracker:tkLayout_Acrylate"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.232421">
+<rMaterial name="tracker:tkLayout_Al"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0279223">
+<rMaterial name="tracker:tkLayout_Al_HV"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0909627">
+<rMaterial name="tracker:tkLayout_CO2"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0494912">
+<rMaterial name="tracker:tkLayout_Cu"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0480146">
+<rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L3"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0448136">
+<rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L4"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.00492458">
+<rMaterial name="tracker:tkLayout_Glass"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.00798071">
+<rMaterial name="tracker:tkLayout_Kapton"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.334393">
+<rMaterial name="tracker:tkLayout_PE"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.153331">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
@@ -657,35 +718,35 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <rMaterial name="tracker:tkLayout_Epoxy"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR180Z1036" density="0.554376*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.0054074">
+<CompositeMaterial name="servicecompositeR180Z1036" density="0.627142*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.00771316">
 <rMaterial name="tracker:tkLayout_Acrylate"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.247897">
+<MaterialFraction fraction="0.23841">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0304608">
+<MaterialFraction fraction="0.0269265">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0992324">
+<MaterialFraction fraction="0.0877186">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0520243">
+<MaterialFraction fraction="0.0526924">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0488878">
+<MaterialFraction fraction="0.0432154">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L4"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00463491">
+<MaterialFraction fraction="0.00661128">
 <rMaterial name="tracker:tkLayout_Glass"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00420302">
+<MaterialFraction fraction="0.00371535">
 <rMaterial name="tracker:tkLayout_Kapton"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.339981">
+<MaterialFraction fraction="0.385135">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.167271">
+<MaterialFraction fraction="0.147863">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
@@ -703,29 +764,29 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <rMaterial name="tracker:tkLayout_Epoxy"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR180Z1264" density="0.562674*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.00702281">
+<CompositeMaterial name="servicecompositeR180Z1264" density="0.63544*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.00911348">
 <rMaterial name="tracker:tkLayout_Acrylate"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.255381">
+<MaterialFraction fraction="0.24516">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0300116">
+<MaterialFraction fraction="0.0265749">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0977689">
+<MaterialFraction fraction="0.0865731">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0551317">
+<MaterialFraction fraction="0.0554352">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.00601955">
+<MaterialFraction fraction="0.00781155">
 <rMaterial name="tracker:tkLayout_Glass"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.38386">
+<MaterialFraction fraction="0.4234">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.164804">
+<MaterialFraction fraction="0.145932">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
@@ -743,29 +804,162 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <rMaterial name="tracker:tkLayout_Epoxy"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR67Z209" density="0.345402*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.189884">
+<CompositeMaterial name="servicecompositeR36Z44" density="0.194041*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.264962">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0427239">
+<MaterialFraction fraction="0.0596165">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0974552">
-<rMaterial name="tracker:tkLayout_CO2"/>
+<MaterialFraction fraction="0.000135988">
+<rMaterial name="tracker:tkLayout_CO2_fake1000factor"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0412719">
+<MaterialFraction fraction="0.0575903">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.205708">
-<rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L2"/>
+<MaterialFraction fraction="0.263663">
+<rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L1_v202602"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0176853">
+<MaterialFraction fraction="0.0174044">
 <rMaterial name="tracker:tkLayout_Kapton"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.241078">
+<MaterialFraction fraction="0.336398">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.164194">
+<MaterialFraction fraction="0.000229114">
+<rMaterial name="tracker:tkLayout_StainlessSteel_fake1000factor"/>
+</MaterialFraction>
+</CompositeMaterial>
+<CompositeMaterial name="servicecompositeR36Z89" density="0.248579*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.206829">
+<rMaterial name="tracker:tkLayout_Al"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0465366">
+<rMaterial name="tracker:tkLayout_Al_HV"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.000106152">
+<rMaterial name="tracker:tkLayout_CO2_fake1000factor"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0449549">
+<rMaterial name="tracker:tkLayout_Cu"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.411631">
+<rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L1_v202602"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0271717">
+<rMaterial name="tracker:tkLayout_Kapton"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.262592">
+<rMaterial name="tracker:tkLayout_PE"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.000178846">
+<rMaterial name="tracker:tkLayout_StainlessSteel_fake1000factor"/>
+</MaterialFraction>
+</CompositeMaterial>
+<CompositeMaterial name="servicecompositeR36Z133" density="0.303118*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.169615">
+<rMaterial name="tracker:tkLayout_Al"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0381635">
+<rMaterial name="tracker:tkLayout_Al_HV"/>
+</MaterialFraction>
+<MaterialFraction fraction="8.70526e-05">
+<rMaterial name="tracker:tkLayout_CO2_fake1000factor"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0368664">
+<rMaterial name="tracker:tkLayout_Cu"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.506352">
+<rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L1_v202602"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0334242">
+<rMaterial name="tracker:tkLayout_Kapton"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.215345">
+<rMaterial name="tracker:tkLayout_PE"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.000146667">
+<rMaterial name="tracker:tkLayout_StainlessSteel_fake1000factor"/>
+</MaterialFraction>
+</CompositeMaterial>
+<CompositeMaterial name="servicecompositeR36Z177" density="0.357657*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.143751">
+<rMaterial name="tracker:tkLayout_Al"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.032344">
+<rMaterial name="tracker:tkLayout_Al_HV"/>
+</MaterialFraction>
+<MaterialFraction fraction="7.37781e-05">
+<rMaterial name="tracker:tkLayout_CO2_fake1000factor"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0312447">
+<rMaterial name="tracker:tkLayout_Cu"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.572185">
+<rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L1_v202602"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0377699">
+<rMaterial name="tracker:tkLayout_Kapton"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.182507">
+<rMaterial name="tracker:tkLayout_PE"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.000124302">
+<rMaterial name="tracker:tkLayout_StainlessSteel_fake1000factor"/>
+</MaterialFraction>
+</CompositeMaterial>
+<CompositeMaterial name="servicecompositeR36Z203" density="0.412195*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.124731">
+<rMaterial name="tracker:tkLayout_Al"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0280644">
+<rMaterial name="tracker:tkLayout_Al_HV"/>
+</MaterialFraction>
+<MaterialFraction fraction="6.40163e-05">
+<rMaterial name="tracker:tkLayout_CO2_fake1000factor"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0271106">
+<rMaterial name="tracker:tkLayout_Cu"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.620597">
+<rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L1_v202602"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0409655">
+<rMaterial name="tracker:tkLayout_Kapton"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.158359">
+<rMaterial name="tracker:tkLayout_PE"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.000107856">
+<rMaterial name="tracker:tkLayout_StainlessSteel_fake1000factor"/>
+</MaterialFraction>
+</CompositeMaterial>
+<CompositeMaterial name="servicecompositeR67Z209" density="0.461357*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.14216">
+<rMaterial name="tracker:tkLayout_Al"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0319859">
+<rMaterial name="tracker:tkLayout_Al_HV"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0729613">
+<rMaterial name="tracker:tkLayout_CO2"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0308988">
+<rMaterial name="tracker:tkLayout_Cu"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.235771">
+<rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L1_v202602"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.154006">
+<rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L2"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0288036">
+<rMaterial name="tracker:tkLayout_Kapton"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.180487">
+<rMaterial name="tracker:tkLayout_PE"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.122926">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
@@ -919,32 +1113,35 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <rMaterial name="tracker:tkLayout_StainlessSteel_fake1000factor"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR111Z209" density="0.43653*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.21416">
+<CompositeMaterial name="servicecompositeR111Z209" density="0.514923*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.181556">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0355514">
+<MaterialFraction fraction="0.0301389">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.104247">
+<MaterialFraction fraction="0.0883766">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0418118">
+<MaterialFraction fraction="0.0354463">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.11004">
+<MaterialFraction fraction="0.142815">
+<rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L1_v202602"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0932872">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0916999">
+<MaterialFraction fraction="0.0777393">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L3"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0173441">
+<MaterialFraction fraction="0.0241308">
 <rMaterial name="tracker:tkLayout_Kapton"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.209458">
+<MaterialFraction fraction="0.177569">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.175688">
+<MaterialFraction fraction="0.148941">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
@@ -1098,35 +1295,38 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <rMaterial name="tracker:tkLayout_StainlessSteel_fake1000factor"/>
 </MaterialFraction>
 </CompositeMaterial>
-<CompositeMaterial name="servicecompositeR152Z209" density="0.550872*g/cm3" method="mixture by weight">
-<MaterialFraction fraction="0.233048">
+<CompositeMaterial name="servicecompositeR152Z209" density="0.612884*g/cm3" method="mixture by weight">
+<MaterialFraction fraction="0.209468">
 <rMaterial name="tracker:tkLayout_Al"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0334278">
+<MaterialFraction fraction="0.0300456">
 <rMaterial name="tracker:tkLayout_Al_HV"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.108898">
+<MaterialFraction fraction="0.0978796">
 <rMaterial name="tracker:tkLayout_CO2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.043528">
+<MaterialFraction fraction="0.0391238">
 <rMaterial name="tracker:tkLayout_Cu"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0689781">
+<MaterialFraction fraction="0.0949153">
+<rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L1_v202602"/>
+</MaterialFraction>
+<MaterialFraction fraction="0.0619989">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L2"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0574817">
+<MaterialFraction fraction="0.0516657">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L3"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0536496">
+<MaterialFraction fraction="0.0482213">
 <rMaterial name="tracker:tkLayout_Cu_Elinks_TBPX_L4"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.0154845">
+<MaterialFraction fraction="0.0201831">
 <rMaterial name="tracker:tkLayout_Kapton"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.20194">
+<MaterialFraction fraction="0.181508">
 <rMaterial name="tracker:tkLayout_PE"/>
 </MaterialFraction>
-<MaterialFraction fraction="0.183564">
+<MaterialFraction fraction="0.164991">
 <rMaterial name="tracker:tkLayout_StainlessSteel"/>
 </MaterialFraction>
 </CompositeMaterial>
@@ -3342,18 +3542,18 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <Rotation name="EMod_Phi990_Yaw-90_ZPlus" thetaX="90*deg" phiX="180*deg" thetaY="90*deg" phiY="270*deg" thetaZ="0*deg" phiZ="0*deg"/>
 <Rotation name="INNERTRACKERRODTOFLIPPEDMODULE" thetaX="90*deg" phiX="90*deg" thetaY="180*deg" phiY="0*deg" thetaZ="90*deg" phiZ="180*deg"/>
 <Rotation name="INNERTRACKERRODTOMODULE" thetaX="90*deg" phiX="270*deg" thetaY="180*deg" phiY="0*deg" thetaZ="90*deg" phiZ="0*deg"/>
-<Rotation name="ITLayer1_LadderPhi1200" thetaX="90*deg" phiX="120*deg" thetaY="90*deg" phiY="210*deg" thetaZ="0*deg" phiZ="0*deg"/>
-<Rotation name="ITLayer1_LadderPhi1500" thetaX="90*deg" phiX="150*deg" thetaY="90*deg" phiY="240*deg" thetaZ="0*deg" phiZ="0*deg"/>
-<Rotation name="ITLayer1_LadderPhi1800" thetaX="90*deg" phiX="180*deg" thetaY="90*deg" phiY="270*deg" thetaZ="0*deg" phiZ="0*deg"/>
-<Rotation name="ITLayer1_LadderPhi2100" thetaX="90*deg" phiX="210*deg" thetaY="90*deg" phiY="300*deg" thetaZ="0*deg" phiZ="0*deg"/>
-<Rotation name="ITLayer1_LadderPhi2400" thetaX="90*deg" phiX="240*deg" thetaY="90*deg" phiY="330*deg" thetaZ="0*deg" phiZ="0*deg"/>
-<Rotation name="ITLayer1_LadderPhi2700" thetaX="90*deg" phiX="270*deg" thetaY="90*deg" phiY="0*deg" thetaZ="0*deg" phiZ="0*deg"/>
-<Rotation name="ITLayer1_LadderPhi300" thetaX="90*deg" phiX="30*deg" thetaY="90*deg" phiY="120*deg" thetaZ="0*deg" phiZ="0*deg"/>
-<Rotation name="ITLayer1_LadderPhi3000" thetaX="90*deg" phiX="300*deg" thetaY="90*deg" phiY="30*deg" thetaZ="0*deg" phiZ="0*deg"/>
-<Rotation name="ITLayer1_LadderPhi3300" thetaX="90*deg" phiX="330*deg" thetaY="90*deg" phiY="60*deg" thetaZ="0*deg" phiZ="0*deg"/>
-<Rotation name="ITLayer1_LadderPhi3600" thetaX="90*deg" phiX="360*deg" thetaY="90*deg" phiY="90*deg" thetaZ="0*deg" phiZ="0*deg"/>
-<Rotation name="ITLayer1_LadderPhi600" thetaX="90*deg" phiX="60*deg" thetaY="90*deg" phiY="150*deg" thetaZ="0*deg" phiZ="0*deg"/>
-<Rotation name="ITLayer1_LadderPhi900" thetaX="90*deg" phiX="90*deg" thetaY="90*deg" phiY="180*deg" thetaZ="0*deg" phiZ="0*deg"/>
+<Rotation name="ITLayer1_LadderPhi1299" thetaX="90*deg" phiX="129.946*deg" thetaY="90*deg" phiY="219.946*deg" thetaZ="0*deg" phiZ="0*deg"/>
+<Rotation name="ITLayer1_LadderPhi1599" thetaX="90*deg" phiX="159.946*deg" thetaY="90*deg" phiY="249.946*deg" thetaZ="0*deg" phiZ="0*deg"/>
+<Rotation name="ITLayer1_LadderPhi1899" thetaX="90*deg" phiX="189.946*deg" thetaY="90*deg" phiY="279.946*deg" thetaZ="0*deg" phiZ="0*deg"/>
+<Rotation name="ITLayer1_LadderPhi2199" thetaX="90*deg" phiX="219.946*deg" thetaY="90*deg" phiY="309.946*deg" thetaZ="0*deg" phiZ="0*deg"/>
+<Rotation name="ITLayer1_LadderPhi2499" thetaX="90*deg" phiX="249.946*deg" thetaY="90*deg" phiY="339.946*deg" thetaZ="0*deg" phiZ="0*deg"/>
+<Rotation name="ITLayer1_LadderPhi2799" thetaX="90*deg" phiX="279.946*deg" thetaY="90*deg" phiY="9.94648*deg" thetaZ="0*deg" phiZ="0*deg"/>
+<Rotation name="ITLayer1_LadderPhi3099" thetaX="90*deg" phiX="309.946*deg" thetaY="90*deg" phiY="39.9465*deg" thetaZ="0*deg" phiZ="0*deg"/>
+<Rotation name="ITLayer1_LadderPhi3399" thetaX="90*deg" phiX="339.946*deg" thetaY="90*deg" phiY="69.9465*deg" thetaZ="0*deg" phiZ="0*deg"/>
+<Rotation name="ITLayer1_LadderPhi399" thetaX="90*deg" phiX="39.9465*deg" thetaY="90*deg" phiY="129.946*deg" thetaZ="0*deg" phiZ="0*deg"/>
+<Rotation name="ITLayer1_LadderPhi699" thetaX="90*deg" phiX="69.9465*deg" thetaY="90*deg" phiY="159.946*deg" thetaZ="0*deg" phiZ="0*deg"/>
+<Rotation name="ITLayer1_LadderPhi99" thetaX="90*deg" phiX="9.94648*deg" thetaY="90*deg" phiY="99.9465*deg" thetaZ="0*deg" phiZ="0*deg"/>
+<Rotation name="ITLayer1_LadderPhi999" thetaX="90*deg" phiX="99.9465*deg" thetaY="90*deg" phiY="189.946*deg" thetaZ="0*deg" phiZ="0*deg"/>
 <Rotation name="ITLayer2_LadderPhi1050" thetaX="90*deg" phiX="105*deg" thetaY="90*deg" phiY="195*deg" thetaZ="0*deg" phiZ="0*deg"/>
 <Rotation name="ITLayer2_LadderPhi1200" thetaX="90*deg" phiX="120*deg" thetaY="90*deg" phiY="210*deg" thetaZ="0*deg" phiZ="0*deg"/>
 <Rotation name="ITLayer2_LadderPhi1350" thetaX="90*deg" phiX="135*deg" thetaY="90*deg" phiY="225*deg" thetaZ="0*deg" phiZ="0*deg"/>
@@ -8635,7 +8835,11 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 </LogicalPart>
 <LogicalPart name="serviceR180Z944" category="unspecified">
 <rSolid name="pixel:serviceR180Z944"/>
-<rMaterial name="pixel:servicecompositeR180Z572"/>
+<rMaterial name="pixel:servicecompositeR180Z944"/>
+</LogicalPart>
+<LogicalPart name="serviceR182Z921" category="unspecified">
+<rSolid name="pixel:serviceR182Z921"/>
+<rMaterial name="pixel:servicecompositeR182Z921"/>
 </LogicalPart>
 <LogicalPart name="serviceR180Z990" category="unspecified">
 <rSolid name="pixel:serviceR180Z990"/>
@@ -8663,23 +8867,23 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 </LogicalPart>
 <LogicalPart name="serviceR36Z44" category="unspecified">
 <rSolid name="pixel:serviceR36Z44"/>
-<rMaterial name="pixel:servicecompositeR36Z11"/>
+<rMaterial name="pixel:servicecompositeR36Z44"/>
 </LogicalPart>
 <LogicalPart name="serviceR36Z89" category="unspecified">
 <rSolid name="pixel:serviceR36Z89"/>
-<rMaterial name="pixel:servicecompositeR36Z11"/>
+<rMaterial name="pixel:servicecompositeR36Z89"/>
 </LogicalPart>
 <LogicalPart name="serviceR36Z133" category="unspecified">
 <rSolid name="pixel:serviceR36Z133"/>
-<rMaterial name="pixel:servicecompositeR36Z11"/>
+<rMaterial name="pixel:servicecompositeR36Z133"/>
 </LogicalPart>
 <LogicalPart name="serviceR36Z177" category="unspecified">
 <rSolid name="pixel:serviceR36Z177"/>
-<rMaterial name="pixel:servicecompositeR36Z11"/>
+<rMaterial name="pixel:servicecompositeR36Z177"/>
 </LogicalPart>
 <LogicalPart name="serviceR36Z203" category="unspecified">
 <rSolid name="pixel:serviceR36Z203"/>
-<rMaterial name="pixel:servicecompositeR36Z11"/>
+<rMaterial name="pixel:servicecompositeR36Z203"/>
 </LogicalPart>
 <LogicalPart name="serviceR67Z209" category="unspecified">
 <rSolid name="pixel:serviceR67Z209"/>
@@ -10701,6 +10905,7 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <Tubs name="serviceR36Z209" rMin="36.89*mm" rMax="67.155*mm" dz="1*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR36Z11" rMin="36.89*mm" rMax="38.89*mm" dz="11.1625*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR180Z944" rMin="180.692*mm" rMax="182.692*mm" dz="22.95*mm" startPhi="0*deg" deltaPhi="360*deg"/>
+<Tubs name="serviceR182Z921" rMin="182.792*mm" rMax="184.792*mm" dz="21.5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR180Z990" rMin="180.692*mm" rMax="182.692*mm" dz="22.95*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR182Z967" rMin="182.792*mm" rMax="184.792*mm" dz="21.5*mm" startPhi="0*deg" deltaPhi="360*deg"/>
 <Tubs name="serviceR180Z1036" rMin="180.692*mm" rMax="182.692*mm" dz="22.95*mm" startPhi="0*deg" deltaPhi="360*deg"/>
@@ -16943,6 +17148,11 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 </PosPart>
 <PosPart copyNumber="1">
 <rParent name="pixfwd:Phase2PixelEndcap"/>
+<rChild name="pixel:serviceR182Z921"/>
+<Translation x="0*mm" y="0*mm" z="630.5*mm"/>
+</PosPart>
+<PosPart copyNumber="1">
+<rParent name="pixfwd:Phase2PixelEndcap"/>
 <rChild name="pixel:serviceR180Z990"/>
 <Translation x="0*mm" y="0*mm" z="699.45*mm"/>
 </PosPart>
@@ -18103,7 +18313,7 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <Vector name="XPositions" type="numeric" nEntries="1">1.83697e-15 </Vector>
 <Vector name="YPositions" type="numeric" nEntries="1">30 </Vector>
 <Vector name="ZPositions" type="numeric" nEntries="1">0 </Vector>
-<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi900</Vector>
+<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi699</Vector>
 </Algorithm>
 <Algorithm name="track:DDTrackerXYZPosAlgo">
 <rParent name="pixel:ITLayer1"/>
@@ -18113,7 +18323,7 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <Vector name="XPositions" type="numeric" nEntries="1">-15 </Vector>
 <Vector name="YPositions" type="numeric" nEntries="1">25.9808 </Vector>
 <Vector name="ZPositions" type="numeric" nEntries="1">0 </Vector>
-<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi1200</Vector>
+<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi999</Vector>
 </Algorithm>
 <Algorithm name="track:DDTrackerXYZPosAlgo">
 <rParent name="pixel:ITLayer1"/>
@@ -18123,7 +18333,7 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <Vector name="XPositions" type="numeric" nEntries="1">-25.9808 </Vector>
 <Vector name="YPositions" type="numeric" nEntries="1">15 </Vector>
 <Vector name="ZPositions" type="numeric" nEntries="1">0 </Vector>
-<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi1500</Vector>
+<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi1299</Vector>
 </Algorithm>
 <Algorithm name="track:DDTrackerXYZPosAlgo">
 <rParent name="pixel:ITLayer1"/>
@@ -18133,7 +18343,7 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <Vector name="XPositions" type="numeric" nEntries="1">-30 </Vector>
 <Vector name="YPositions" type="numeric" nEntries="1">3.67394e-15 </Vector>
 <Vector name="ZPositions" type="numeric" nEntries="1">0 </Vector>
-<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi1800</Vector>
+<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi1599</Vector>
 </Algorithm>
 <Algorithm name="track:DDTrackerXYZPosAlgo">
 <rParent name="pixel:ITLayer1"/>
@@ -18143,7 +18353,7 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <Vector name="XPositions" type="numeric" nEntries="1">-25.9808 </Vector>
 <Vector name="YPositions" type="numeric" nEntries="1">-15 </Vector>
 <Vector name="ZPositions" type="numeric" nEntries="1">0 </Vector>
-<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi2100</Vector>
+<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi1899</Vector>
 </Algorithm>
 <Algorithm name="track:DDTrackerXYZPosAlgo">
 <rParent name="pixel:ITLayer1"/>
@@ -18153,7 +18363,7 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <Vector name="XPositions" type="numeric" nEntries="1">-15 </Vector>
 <Vector name="YPositions" type="numeric" nEntries="1">-25.9808 </Vector>
 <Vector name="ZPositions" type="numeric" nEntries="1">0 </Vector>
-<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi2400</Vector>
+<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi2199</Vector>
 </Algorithm>
 <Algorithm name="track:DDTrackerXYZPosAlgo">
 <rParent name="pixel:ITLayer1"/>
@@ -18163,7 +18373,7 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <Vector name="XPositions" type="numeric" nEntries="1">-4.82437e-15 </Vector>
 <Vector name="YPositions" type="numeric" nEntries="1">-30 </Vector>
 <Vector name="ZPositions" type="numeric" nEntries="1">0 </Vector>
-<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi2700</Vector>
+<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi2499</Vector>
 </Algorithm>
 <Algorithm name="track:DDTrackerXYZPosAlgo">
 <rParent name="pixel:ITLayer1"/>
@@ -18173,7 +18383,7 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <Vector name="XPositions" type="numeric" nEntries="1">15 </Vector>
 <Vector name="YPositions" type="numeric" nEntries="1">-25.9808 </Vector>
 <Vector name="ZPositions" type="numeric" nEntries="1">0 </Vector>
-<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi3000</Vector>
+<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi2799</Vector>
 </Algorithm>
 <Algorithm name="track:DDTrackerXYZPosAlgo">
 <rParent name="pixel:ITLayer1"/>
@@ -18183,7 +18393,7 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <Vector name="XPositions" type="numeric" nEntries="1">25.9808 </Vector>
 <Vector name="YPositions" type="numeric" nEntries="1">-15 </Vector>
 <Vector name="ZPositions" type="numeric" nEntries="1">0 </Vector>
-<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi3300</Vector>
+<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi3099</Vector>
 </Algorithm>
 <Algorithm name="track:DDTrackerXYZPosAlgo">
 <rParent name="pixel:ITLayer1"/>
@@ -18193,7 +18403,7 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <Vector name="XPositions" type="numeric" nEntries="1">30 </Vector>
 <Vector name="YPositions" type="numeric" nEntries="1">-2.08722e-14 </Vector>
 <Vector name="ZPositions" type="numeric" nEntries="1">0 </Vector>
-<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi3600</Vector>
+<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi3399</Vector>
 </Algorithm>
 <Algorithm name="track:DDTrackerXYZPosAlgo">
 <rParent name="pixel:ITLayer1"/>
@@ -18203,7 +18413,7 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <Vector name="XPositions" type="numeric" nEntries="1">25.9808 </Vector>
 <Vector name="YPositions" type="numeric" nEntries="1">15 </Vector>
 <Vector name="ZPositions" type="numeric" nEntries="1">0 </Vector>
-<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi300</Vector>
+<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi99</Vector>
 </Algorithm>
 <Algorithm name="track:DDTrackerXYZPosAlgo">
 <rParent name="pixel:ITLayer1"/>
@@ -18213,7 +18423,7 @@ note: see OT808_IT850_2026_11_10.cfg for full config files
 <Vector name="XPositions" type="numeric" nEntries="1">15 </Vector>
 <Vector name="YPositions" type="numeric" nEntries="1">25.9808 </Vector>
 <Vector name="ZPositions" type="numeric" nEntries="1">0 </Vector>
-<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi600</Vector>
+<Vector name="Rotations" type="string" nEntries="1">pixel:ITLayer1_LadderPhi399</Vector>
 </Algorithm>
 <Algorithm name="track:DDTrackerXYZPosAlgo">
 <rParent name="pixel:ITLayer2"/>
